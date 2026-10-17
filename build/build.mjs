@@ -1,6 +1,8 @@
 // Static build: renders every route into dist/ with the original URLs,
 // copies assets and vendor libraries, and writes sitemap + search index.
 //   node build/build.mjs
+//   node build/build.mjs --base=/firestone-site   -> dist-pages/, a static demo served under a sub-path
+//                                                  (GitHub Pages): no admin, forms fall back to WhatsApp
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -10,7 +12,10 @@ import { LABEL, MENU, blogModel, BLOG_MODELS } from './catalog.mjs';
 import { mdToBlocks, readMinutes } from '../public/js/md.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const DIST = path.join(ROOT, 'dist');
+// "firestone-site" or "/firestone-site" -> "/firestone-site" (no slash needed, which keeps Git Bash from rewriting it as a path)
+const BASE_RAW = (process.env.BASE_PATH || (process.argv.find((a) => a.startsWith('--base=')) || '').slice(7)).replace(/^\/+|\/+$/g, '');
+const BASE = BASE_RAW ? '/' + BASE_RAW : '';
+const DIST = path.join(ROOT, BASE ? 'dist-pages' : 'dist');
 const rel = (...p) => path.join(ROOT, ...p);
 const plain = (s = '') => s.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
 
@@ -159,9 +164,45 @@ export function build() {
   fs.writeFileSync(path.join(OUT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${routes.map((r) => `  <url><loc>${SITE_URL}${r.route === '/' ? '' : r.route}</loc><lastmod>${today}</lastmod><priority>${r.priority}</priority></url>`).join('\n')}\n</urlset>\n`);
   fs.writeFileSync(path.join(OUT, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /admin\nDisallow: /api/\n\nSitemap: ${SITE_URL}/sitemap.xml\n`);
   fs.writeFileSync(path.join(OUT, 'site.webmanifest'), JSON.stringify({ name: 'Firestone Fire & Security Systems', short_name: 'Firestone', start_url: '/', display: 'standalone', background_color: '#F6F6F6', theme_color: '#2B9D47', icons: [{ src: '/img/brand/icon-512.png', sizes: '512x512', type: 'image/png' }, { src: '/img/brand/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }] }, null, 1));
+  if (BASE) rebase(OUT, BASE);
   swapInto(OUT);
-  console.log(`Built ${routes.length} pages into dist/ in ${Date.now() - t0} ms`);
+  console.log(`Built ${routes.length} pages into ${path.basename(DIST)}/${BASE ? ` (under ${BASE}/)` : ''} in ${Date.now() - t0} ms`);
   return routes.length;
+}
+
+// ---- static demo under a sub-path: prefix every root-relative URL, drop the server-only admin
+function rebase(OUT, base) {
+  const files = (d) => fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => (e.isDirectory() ? files(path.join(d, e.name)) : [path.join(d, e.name)]));
+  fs.rmSync(path.join(OUT, 'admin'), { recursive: true, force: true });
+  const ownJs = path.join(OUT, 'js') + path.sep;
+  // a page URL: the base plus a path with no file extension and no trailing slash, then an optional ?query/#hash
+  const pageLink = new RegExp(`((?:href="|"u":")${base.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}/[^"#?.]*[^"#?./])([#?][^"]*)?(?=")`, 'g');
+  for (const f of files(OUT)) {
+    const name = path.relative(OUT, f).split(path.sep).join('/');
+    let s;
+    if (f.endsWith('.html')) {
+      s = fs.readFileSync(f, 'utf8')
+        // attributes: href="/x", src="/x"… (not protocol-relative "//")
+        .replace(/((?:href|src|action|poster|srcset|content|data-[\w-]+)=")\/(?!\/)/g, `$1${base}/`)
+        // JSON inside the page (import map, embedded settings)
+        .replace(/"\/(vendor|img|media)\//g, `"${base}/$1/`)
+        // static hosts serve pages as folders: link to "page/" directly instead of bouncing off a redirect
+        .replace(pageLink, '$1/$2');
+    } else if (f.startsWith(ownJs) && f.endsWith('.js')) {
+      s = fs.readFileSync(f, 'utf8')
+        // no server here: read the settings file straight away instead of trying /api/settings first
+        .replace(`['/api/settings', '/data/settings.json']`, `['/data/settings.json']`)
+        .replace(/(['"`])\/(api\/|data\/|vendor\/|search-index\.json)/g, `$1${base}/$2`);
+    } else if (name === 'search-index.json') {
+      s = fs.readFileSync(f, 'utf8').replace(/"u":"\//g, `"u":"${base}/`).replace(pageLink, '$1/$2');
+    } else if (name === 'data/settings.json') {
+      s = fs.readFileSync(f, 'utf8').replace(/"\/(img|media)\//g, `"${base}/$1/`);
+    } else if (name === 'site.webmanifest') {
+      s = fs.readFileSync(f, 'utf8').replace(/"(start_url|src)": "\//g, `"$1": "${base}/`);
+    } else continue;
+    fs.writeFileSync(f, s);
+  }
+  fs.writeFileSync(path.join(OUT, '.nojekyll'), '');
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) build();

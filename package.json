@@ -5,7 +5,9 @@
   "scripts": {
     "build": "node build/build.mjs",
     "start": "node server.mjs",
-    "dev": "node server.mjs --watch"
+    "dev": "node server.mjs --watch",
+    "build:pages": "node build/build.mjs --base=firestone-site",
+    "preview:pages": "node tools/serve-pages.mjs"
   },
   "author": "",
   "license": "ISC",

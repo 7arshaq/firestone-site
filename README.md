@@ -1,5 +1,7 @@
 # Firestone — website redesign
 
+**Live demo: https://7arshaq.github.io/firestone-site/**
+
 A full redesign of [firestonefs.com](https://www.firestonefs.com/), the site of Firestone Fire & Security
 Systems, a Civil Defence Grade A fire and safety company in the UAE.
 
@@ -94,6 +96,13 @@ Any host that runs Node 18+ works (a VPS, Render, Railway, Fly.io and so on):
 
 The `dist/` folder also works on plain static hosting, but forms then fall back to WhatsApp and the
 admin panel is unavailable.
+
+### GitHub Pages demo
+
+The live demo is a static build published by `.github/workflows/pages.yml` on every push to `main`.
+`npm run build:pages` builds it into `dist-pages/` under the `/firestone-site/` sub-path, leaving out
+the admin; forms open WhatsApp instead. To check it locally, run `npm run preview:pages` and open
+http://localhost:4000/firestone-site/.
 
 > The office map pins were placed from street addresses and are approximate. To set one exactly, paste
 > that office's Google Maps link into the admin.
