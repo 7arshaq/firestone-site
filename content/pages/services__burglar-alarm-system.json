@@ -1,0 +1,95 @@
+{
+ "route": "/services/burglar-alarm-system",
+ "kind": "service",
+ "metaTitle": "Burglar Alarm System UAE| installation and maintenance",
+ "metaDescription": "burglar alarm and intrusion detection systems installation and maintenance in the UAE, with motion sensors, door contacts and 24/7 monitoring support.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Burglar Alarm System"
+  },
+  {
+   "t": "h",
+   "text": "Round-the-clock intrusion detection for your property"
+  },
+  {
+   "t": "p",
+   "text": "A building's perimeter and doors can only physically stop an intruder for so long — what actually determines whether a break-in is caught in time is whether anything detects it the moment it happens. A burglar alarm system, also known as an intrusion detection system, monitors doors, windows, and open areas for unauthorized entry and triggers an alert the instant a breach is detected, rather than relying on someone noticing after the fact.We supply and install burglar alarm systems across Abu Dhabi, Dubai, Sharjah, and Al Ain, specifying sensor types and coverage to match each property's actual entry points and risk areas, not a generic sensor count applied regardless of layout."
+  },
+  {
+   "t": "link",
+   "href": "#",
+   "text": "Call Now"
+  },
+  {
+   "t": "h",
+   "text": "Sensor Types We Install"
+  },
+  {
+   "t": "p",
+   "text": "A burglar alarm system is only as good as its coverage, and that coverage comes down to the mix of sensors placed at the right points around a property. We install door contacts, PIR motion detectors, and glass break sensors as standard, combining them based on each property's actual entry points and layout rather than a single sensor type applied everywhere regardless of what it's actually covering."
+  },
+  {
+   "t": "h",
+   "text": "Door Contacts"
+  },
+  {
+   "t": "p",
+   "text": "Door contacts detect when a door is opened, using a simple magnetic sensor split between the door and frame — one of the most common and reliable intrusion detection components, since almost every break-in involves opening a door or window at some point."
+  },
+  {
+   "t": "h",
+   "text": "PIR Motion Detectors"
+  },
+  {
+   "t": "p",
+   "text": "PIR (passive infrared) motion detectors sense movement within a room or area, triggering an alert if someone moves through a space that should be empty — commonly used to cover open areas like hallways, warehouses, or offices where door contacts alone wouldn't detect entry through a window or another access point."
+  },
+  {
+   "t": "h",
+   "text": "System Design & Zone Configuration"
+  },
+  {
+   "t": "p",
+   "text": "We design intrusion detection coverage around each property's actual entry points and layout, splitting the system into zones so a triggered alarm identifies which area was breached rather than just sounding a single generic alert. Zone-based configuration also allows partial arming — securing a warehouse floor overnight while leaving an occupied office zone disarmed, for example — so the system fits how a property is actually used rather than an all-or-nothing setup."
+  },
+  {
+   "t": "h",
+   "text": "Monitoring & Alerts"
+  },
+  {
+   "t": "p",
+   "text": "A burglar alarm system that only sounds a local siren relies on someone being close enough to hear it and respond — we configure systems to send alerts directly to a property owner, facility manager, or a monitoring service, so a triggered alarm gets a response even outside business hours. For properties across Abu Dhabi, Dubai, Sharjah, and Al Ain looking for an alarm system near them with genuine local support, our technicians are positioned to respond directly rather than routing everything through a call centre."
+  },
+  {
+   "t": "h",
+   "text": "Installation & Maintenance"
+  },
+  {
+   "t": "p",
+   "text": "Installation covers sensor placement, wiring or wireless configuration, control panel setup, and testing every zone before handover, confirming the system triggers correctly and alerts reach the right person. We also provide ongoing maintenance, checking sensor function, battery levels on wireless devices, and control panel connectivity, since an intrusion detection system that's silently stopped working offers no protection at all until it's actually needed."
+  },
+  {
+   "t": "faq",
+   "items": [
+    {
+     "q": "What's the difference between a burglar alarm and an intrusion detection system?",
+     "a": "They describe the same category of system — \"burglar alarm\" is the more commonly used everyday term, while \"intrusion detection system\" is the more technical phrasing used in security specifications and commercial projects."
+    },
+    {
+     "q": "What sensors are included in a typical burglar alarm system?",
+     "a": "Most systems combine door contacts at entry points, PIR motion detectors covering open areas, and glass break sensors on ground-floor or accessible windows, configured together to cover a property's actual entry points."
+    },
+    {
+     "q": "Can a burglar alarm system alert me directly if it's triggered?",
+     "a": "Yes, we configure systems to send alerts to a property owner or facility manager's phone, in addition to or instead of a local siren, so a triggered alarm gets a response even when nobody's on-site."
+    },
+    {
+     "q": "Does Firestone provide burglar alarm installation across the UAE?",
+     "a": "Yes, we install intrusion detection and burglar alarm systems across Abu Dhabi, Dubai, Sharjah, and Al Ain, for residential, commercial, and industrial properties."
+    }
+   ]
+  }
+ ],
+ "title": "Burglar Alarm System"
+}

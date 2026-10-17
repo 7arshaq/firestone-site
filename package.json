@@ -1,0 +1,19 @@
+{
+  "name": "firestone-site",
+  "version": "1.0.0",
+  "description": "Firestone Fire & Security Systems website",
+  "scripts": {
+    "build": "node build/build.mjs",
+    "start": "node server.mjs",
+    "dev": "node server.mjs --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "lenis": "^1.1.13",
+    "maplibre-gl": "^4.7.1",
+    "three": "^0.169.0"
+  },
+  "private": true
+}

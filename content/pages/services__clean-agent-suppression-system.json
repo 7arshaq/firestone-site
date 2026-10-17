@@ -1,0 +1,74 @@
+{
+ "route": "/services/clean-agent-suppression-system",
+ "kind": "service",
+ "metaTitle": "Clean Agent Fire Suppression System UAE | FM200 & Novec",
+ "metaDescription": "clean agent suppression system Installation and maintenance in the UAE, including FM200 and Novec, for data centres and server rooms.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Clean Agent System"
+  },
+  {
+   "t": "link",
+   "href": "tel:+971506761638",
+   "text": "call now"
+  },
+  {
+   "t": "p",
+   "text": "Clean agent is the general term for a category of fire suppression gases that extinguish a fire fast, leave no residue, and won't damage the electronics, documents, or equipment they're protecting — which is exactly why they're the standard choice for spaces where water or foam simply isn't an option. FM200 and Novec 1230 are the two clean agents we install most often across the UAE, and while they work on the same basic principle, the right choice between them comes down to project specifics.The reason \"clean\" is in the name isn't marketing — it's a genuine technical distinction from older suppression methods. Water damages electronics on contact, foam leaves a residue that has to be manually cleaned off every surface it touched, and CO2 displaces the oxygen in a room entirely, meaning the space has to be evacuated first. A clean agent does none of that: it discharges as a gas, suppresses the fire by absorbing heat, and evaporates afterward without leaving anything behind to clean up or anything for staff to avoid.We supply, install, and maintain clean agent fire suppression systems across Abu Dhabi, Dubai, Sharjah, and Al Ain, sizing every system to the room it's protecting and specifying the correct agent for the project's requirements — whether that's FM200, Novec 1230, or another recognized clean agent. That specification isn't a formality; the agent quantity, cylinder sizing, and nozzle placement all get calculated against the actual room volume and any leakage paths, since an undersized or incorrectly configured system won't hold suppression concentration long enough to actually put a fire out."
+  },
+  {
+   "t": "h",
+   "text": "Design, Installation & Maintenance"
+  },
+  {
+   "t": "p",
+   "text": "Every clean agent system starts with calculating the protected room's volume and identifying leakage paths, since the agent has to reach and hold a specific concentration to actually suppress a fire. Get this step wrong — undersize the room calculation, miss a leakage path around a cable penetration or false ceiling — and the system either won't reach suppression concentration or wastes agent capacity the room never needed. This is the part of a clean agent project that separates a system that works on paper from one that actually performs when it's triggered."
+  },
+  {
+   "t": "p",
+   "text": "From there, we handle cylinder sizing, piping, nozzle placement, detection, and control panel installation, followed by full commissioning before handover. Nozzle placement in particular has to account for the room's actual layout — server racks, equipment cabinets, and structural elements all affect how evenly the agent distributes, so a generic nozzle layout doesn't automatically work across different rooms even if the cylinder and agent quantity are correct. We commission every system by testing that it will actually discharge, reach concentration, and hold it for the required duration, not just that the components are physically connected."
+  },
+  {
+   "t": "p",
+   "text": "Once installed, we provide ongoing maintenance, refilling, and testing to keep the system ready to discharge correctly whenever it's needed. That includes cylinder pressure checks, detection device testing, and control panel function checks on a scheduled basis — and if the system ever discharges, whether from a real fire or an accidental trigger, refilling isn't optional before the room is protected again. If you're evaluating a supplier for clean agent installation, this is worth asking directly: whether design, installation, and ongoing maintenance are handled as one service or three separate handoffs, since gaps between those stages are where systems most often end up under-protecting the space they were installed for."
+  },
+  {
+   "t": "h",
+   "text": "How Clean Agent Suppression Works"
+  },
+  {
+   "t": "p",
+   "text": "A clean agent system detects a fire, discharges a pressurized gas into the sealed room, and extinguishes the fire within seconds by absorbing heat and disrupting the chemical reaction that sustains combustion. Because the agent is a gas, not a liquid or foam, it reaches every corner of the protected space almost instantly and evaporates cleanly afterward, without soaking equipment, leaving corrosive residue, or requiring extensive cleanup once the fire's out."
+  },
+  {
+   "t": "h",
+   "text": "FM200 vs Novec 1230"
+  },
+  {
+   "t": "p",
+   "text": "FM200 and Novec 1230 are the two most commonly specified clean agents in the UAE, and both do the same fundamental job well. FM200 has a longer track record in the market and generally comes in at a lower cost, while Novec 1230 has a significantly shorter atmospheric lifetime, which makes it the preferred option where environmental criteria are written into a project's specification. Neither is universally \"better\" — the choice usually comes down to budget, project spec, and any environmental requirements attached to the building's fire strategy."
+  },
+  {
+   "t": "h",
+   "text": "Where Clean Agent Systems Are Used"
+  },
+  {
+   "t": "p",
+   "text": "Clean agent suppression is specified almost anywhere the contents of a room are more valuable, or more sensitive, than what a standard sprinkler could risk damaging: data centres and server rooms, telecom facilities, electrical and switch gear rooms, museums and archives, and control rooms. If a space has to stay operational or protected without water damage as an acceptable side effect of putting out a fire, clean agent is almost always the answer."
+  },
+  {
+   "t": "h",
+   "text": "NFPA 2001 & Compliance"
+  },
+  {
+   "t": "p",
+   "text": "Clean agent fire suppression systems are typically designed and installed to meet NFPA 2001, the standard specifically covering clean agent extinguishing systems, alongside UAE civil defence requirements for design, installation, and documentation. We manage compliance as part of every clean agent project, from system design through commissioning and certification, so the installed system is fully approved and audit-ready."
+  },
+  {
+   "t": "p",
+   "text": "Everything you need to know about clean agent systems"
+  }
+ ],
+ "title": "Clean Agent System"
+}

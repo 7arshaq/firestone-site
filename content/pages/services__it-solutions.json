@@ -1,0 +1,90 @@
+{
+ "route": "/services/it-solutions",
+ "kind": "service",
+ "metaTitle": "IT Solutions Companies in Dubai | Support & Networks",
+ "metaDescription": "Firestone provides IT solutions in the UAE, including network setup, infrastructure support and ongoing IT services for businesses.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "IT Solutions"
+  },
+  {
+   "t": "p",
+   "text": "A business's IT infrastructure isn't something most companies want to manage in-house past a certain size — network setup, ongoing support, and keeping systems running reliably take dedicated attention most teams don't have time for alongside their actual work. We provide IT solutions across Abu Dhabi, Dubai, Sharjah, and Al Ain, handling network setup, infrastructure, and ongoing support so businesses get reliable connectivity without needing an internal IT department to manage it.As one of the IT solutions companies in Dubai working alongside structured cabling and ELV system installation, we're positioned to handle a business's IT needs as part of its broader infrastructure, not as a disconnected service from a separate provider."
+  },
+  {
+   "t": "link",
+   "href": "#",
+   "text": "Call Now"
+  },
+  {
+   "t": "h",
+   "text": "Network Setup & Infrastructure"
+  },
+  {
+   "t": "p",
+   "text": "We design and set up network infrastructure for offices, commercial buildings, and facilities, configuring switches, routers, and wireless access points to actually match how a business uses its space rather than a generic setup applied regardless of layout or staff count. This includes wired and wireless network configuration, working from the structured cabling backbone through to the equipment and settings that determine how reliably a network actually performs day to day."
+  },
+  {
+   "t": "h",
+   "text": "Network Solutions"
+  },
+  {
+   "t": "p",
+   "text": "A structured cabling backbone is only as useful as what actually runs on it, and that's where network setup comes in — configuring switches, routers, and the logical network structure that determines how devices, systems, and staff actually connect and communicate across a building. We design network solutions to match a building's structured cabling layout, so the physical infrastructure and the network configuration running on it work as one coordinated system rather than being planned separately.This includes segmenting networks where needed — keeping security systems like CCTV and access control on their own network segment separate from general office traffic, for example — so a fault or slowdown in one area doesn't affect systems that need to stay reliable regardless of what else is happening on the network. For buildings with multiple tenants, floors, or departments, we design network solutions that scale cleanly as more connections get added, rather than requiring a redesign every time the building's usage grows."
+  },
+  {
+   "t": "h",
+   "text": "WiFi & Wireless Solutions"
+  },
+  {
+   "t": "p",
+   "text": "Wireless coverage that works fine in one corner of an office and drops out in another is a placement and configuration problem, not usually a hardware problem — we assess a space's layout and interference sources before positioning access points, rather than mounting equipment wherever's convenient and hoping coverage holds up. For businesses with growing staff or changing office layouts, we configure wireless networks to scale without needing a full reconfiguration every time something changes."
+  },
+  {
+   "t": "h",
+   "text": "IT Support"
+  },
+  {
+   "t": "p",
+   "text": "Ongoing IT support means a business has someone to call when a network issue, device problem, or connectivity fault comes up, rather than trying to troubleshoot it internally or waiting on a provider with no context on the existing setup. We provide ongoing support for the networks and infrastructure we install, so issues get resolved by someone who already understands the specific setup rather than starting from scratch every time."
+  },
+  {
+   "t": "h",
+   "text": "IT Solutions Integrated With ELV & Security"
+  },
+  {
+   "t": "p",
+   "text": "Because we also design structured cabling, CCTV, access control, and other ELV and security systems, our IT solutions are specified to work with that same infrastructure rather than as a separate layer bolted on afterward. A network that's designed alongside the security systems running on it avoids the compatibility and coordination issues that come from treating IT and security as unrelated projects handled by different contractors."
+  },
+  {
+   "t": "h",
+   "text": "IT Infrastructure for New Offices & Fit-Outs"
+  },
+  {
+   "t": "p",
+   "text": "Setting up IT infrastructure for a new office or fit-out means coordinating network cabling, equipment placement, and configuration around a space that doesn't have any existing systems to work around — which is actually the easier scenario compared to retrofitting an occupied space, provided it's planned properly from the start. We work alongside structured cabling installation during fit-out projects, so a new office has working, tested network infrastructure in place before staff move in, rather than scrambling to get connectivity sorted after the fact."
+  },
+  {
+   "t": "h",
+   "text": "Scaling IT Infrastructure as a Business Grows"
+  },
+  {
+   "t": "p",
+   "text": "Network infrastructure sized for ten staff doesn't necessarily hold up cleanly at fifty, and businesses that scale quickly often end up with a network that's been patched and extended past what it was originally designed for. We design infrastructure with growth in mind from the start where possible, and can assess an existing network to identify what needs upgrading as a business's headcount or connectivity demands increase."
+  },
+  {
+   "t": "h",
+   "text": "Ongoing IT Maintenance"
+  },
+  {
+   "t": "p",
+   "text": "Network equipment needs firmware updates, configuration reviews, and periodic checks to keep performing reliably, and a lot of slow or unreliable connectivity issues trace back to equipment that's simply never been revisited since initial setup. We provide scheduled IT maintenance for the networks and infrastructure we install, catching configuration drift and equipment issues before they show up as a business-disrupting outage."
+  },
+  {
+   "t": "p",
+   "text": "Everything you need to know about IT solutions"
+  }
+ ],
+ "title": "IT Solutions"
+}

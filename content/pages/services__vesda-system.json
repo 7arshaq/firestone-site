@@ -1,0 +1,90 @@
+{
+ "route": "/services/vesda-system",
+ "kind": "service",
+ "metaTitle": "VESDA System UAE | Aspirating Smoke Detection | Firestone",
+ "metaDescription": "VESDA aspirating smoke detection system supply, installation and maintenance across the UAE. Civil defence approved contractor for early fire detection.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "VESDA System Supply, Installation & Maintenance in the UAE"
+  },
+  {
+   "t": "img",
+   "alt": "Two black electronic control panels mounted on a wall with connected white pipes and a round sensor above."
+  },
+  {
+   "t": "p",
+   "text": "A VESDA system detects smoke at a far earlier stage than standard point-type detectors, drawing air continuously from the protected space through a network of sampling pipes to a highly sensitive laser detection chamber. Firestone Fire and Security Systems supplies, installs, and maintains VESDA systems across data centres, server rooms, and critical facilities in the UAE, integrated with addressable fire alarm systems."
+  },
+  {
+   "t": "p",
+   "text": "<strong>02 444 1638</strong>"
+  },
+  {
+   "t": "h",
+   "text": "How a VESDA System Works"
+  },
+  {
+   "t": "p",
+   "text": "VESDA stands for Very Early Smoke Detection Apparatus, and it works by continuously drawing air samples from the protected area through a network of small-bore sampling pipes into a central detection unit. Inside the unit, a laser-based chamber analyses the air for smoke particles at concentrations far below what a standard point-type smoke detector can register. Because the system samples air actively rather than waiting for smoke to drift to a fixed detector, it can identify a developing fire condition at the earliest possible stage, often before visible smoke or damage occurs."
+  },
+  {
+   "t": "h",
+   "text": "Why VESDA Is Used for Early Detection"
+  },
+  {
+   "t": "p",
+   "text": "Standard smoke detectors respond once smoke has built up enough to reach and trigger the sensor. In environments where even a small delay could mean significant data loss, equipment damage, or business disruption, that response time isn't fast enough. A VESDA system's continuous air sampling and laser sensitivity mean it can flag an overheating component or a smouldering fault long before it develops into an open fire, giving facility teams time to investigate and respond before an automatic suppression system needs to activate."
+  },
+  {
+   "t": "h",
+   "text": "Our services"
+  },
+  {
+   "t": "h",
+   "text": "VESDA System Installation"
+  },
+  {
+   "t": "p",
+   "text": "Installation covers designing the sampling pipe network to reach every part of the protected space, positioning the detection unit, and integrating the system with the building's addressable fire alarm panel. Pipe network design is calculated against the room's airflow, ceiling height, and layout to make sure air samples reach the detection unit within the required response time."
+  },
+  {
+   "t": "h",
+   "text": "VESDA System Maintenance"
+  },
+  {
+   "t": "p",
+   "text": "Routine maintenance includes checking airflow through the sampling pipe network, cleaning or replacing filters, testing detection sensitivity, and confirming the system's alert and alarm thresholds remain correctly configured. Because VESDA systems are typically protecting high-value or business-critical spaces, maintenance visits are usually scheduled more frequently than for standard smoke detection."
+  },
+  {
+   "t": "p",
+   "text": "As a Category A civil defence-approved contractor, Firestone supplies and installs VESDA systems in line with ADCD, DCD, and SCD requirements depending on the emirate, integrated correctly with the building's addressable fire alarm panel and overall detection strategy."
+  },
+  {
+   "t": "h",
+   "text": "VESDA System — FAQ"
+  },
+  {
+   "t": "faq",
+   "items": [
+    {
+     "q": "What is a VESDA system?",
+     "a": "VESDA, or Very Early Smoke Detection Apparatus, is an aspirating smoke detection system that continuously draws air samples through a network of sampling pipes to a highly sensitive laser detection chamber, identifying smoke at concentrations far below what standard point-type detectors can register."
+    },
+    {
+     "q": "Where is a VESDA system typically installed?",
+     "a": "VESDA systems are typically installed in data centres, server rooms, telecom exchanges, control rooms, and other high-value or business-critical spaces where early warning is essential to prevent significant loss."
+    },
+    {
+     "q": "How is VESDA different from a standard smoke detector?",
+     "a": "A standard smoke detector waits for smoke to reach it before responding, while a VESDA system actively samples air from the protected space, allowing it to detect a developing fire condition much earlier, often before visible smoke appears."
+    },
+    {
+     "q": "Can a VESDA system connect to an addressable fire alarm system?",
+     "a": "Yes, VESDA systems are typically integrated with addressable fire alarm panels, allowing precise identification of the protected zone where a developing condition has been detected."
+    }
+   ]
+  }
+ ],
+ "title": "VESDA System Supply, Installation & Maintenance in the UAE"
+}

@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Firestone Admin</title>
+<link rel="icon" href="/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Geist+Mono:wght@400;500;600&family=Geist:wght@300..700&display=swap">
+<link rel="stylesheet" href="/css/site.css">
+<link rel="stylesheet" href="/vendor/maplibre-gl.css">
+<link rel="stylesheet" href="/admin/admin.css">
+<script src="/vendor/maplibre-gl.js" defer></script>
+<script type="module" src="/admin/admin.js"></script>
+</head>
+<body class="admin">
+
+<section class="login" id="login" hidden>
+  <form class="login__card" id="login-form">
+    <img src="/img/brand/logo-full.png" alt="Firestone" width="120">
+    <h1 class="h3">Site admin</h1>
+    <p class="muted">Edit office locations, contact details and social links, and read form submissions.</p>
+    <div class="field"><label for="pw">Password</label><input class="input" id="pw" type="password" autocomplete="current-password" required></div>
+    <button class="btn btn--lg" type="submit"><span class="sq"></span>Sign in</button>
+    <p class="form__status" id="login-status" role="status"></p>
+  </form>
+</section>
+
+<div class="app" id="app" hidden>
+  <header class="bar">
+    <a class="bar__brand" href="/admin/"><img src="/img/brand/logo-mark.png" alt="" width="28"><b>Firestone</b><span class="mono muted">Admin</span></a>
+    <nav class="tabs" role="tablist">
+      <button role="tab" aria-selected="true" data-tab="offices">Offices &amp; map</button>
+      <button role="tab" aria-selected="false" data-tab="contact">Contact &amp; social</button>
+      <button role="tab" aria-selected="false" data-tab="articles">Articles</button>
+      <button role="tab" aria-selected="false" data-tab="photos">About photos</button>
+      <button role="tab" aria-selected="false" data-tab="inbox">Inbox <span class="count" id="inbox-count"></span></button>
+      <button role="tab" aria-selected="false" data-tab="settings">Settings</button>
+    </nav>
+    <div class="bar__acts">
+      <span class="dirty mono" id="dirty" hidden>Unsaved changes</span>
+      <button class="btn btn--green" id="save" type="button"><span class="sq"></span>Save &amp; publish</button>
+      <a class="btn btn--ghost" href="/" target="_blank" rel="noopener">View site</a>
+      <button class="btn btn--ghost" id="logout" type="button">Sign out</button>
+    </div>
+  </header>
+
+  <div class="notice" id="must-change" hidden>You’re still using the one-time admin password. <button class="link-btn" data-goto="settings">Change it in Settings →</button></div>
+
+  <!-- OFFICES -->
+  <section class="panel on" data-panel="offices">
+    <div class="offices">
+      <aside class="offices__list">
+        <div class="offices__head"><span class="mono">Offices</span><button class="btn btn--ghost btn--icon" id="add-office" type="button">+ Add office</button></div>
+        <ol id="office-list"></ol>
+      </aside>
+      <div class="offices__edit">
+        <form id="office-form" class="form" autocomplete="off">
+          <div class="field"><label for="o-city">City / name <em>*</em></label><input class="input" id="o-city" name="city" required></div>
+          <div class="field"><label for="o-label">Label</label><input class="input" id="o-label" name="label" placeholder="Head office, Branch…"></div>
+          <div class="field full"><label for="o-address">Address</label><input class="input" id="o-address" name="address"></div>
+          <div class="field"><label for="o-phones">Phone numbers <span class="muted">(one per line)</span></label><textarea id="o-phones" name="phones" rows="3"></textarea></div>
+          <div class="field"><label for="o-email">Email</label><input class="input" id="o-email" name="email" type="email"></div>
+          <div class="field"><label for="o-lat">Latitude <em>*</em></label><input class="input" id="o-lat" name="lat" inputmode="decimal" required></div>
+          <div class="field"><label for="o-lng">Longitude <em>*</em></label><input class="input" id="o-lng" name="lng" inputmode="decimal" required></div>
+          <div class="field full">
+            <label for="o-gmaps">Set the pin from a Google Maps link</label>
+            <div class="inline"><input class="input" id="o-gmaps" placeholder="Paste a Google Maps link (or “24.36, 54.49”)"><button class="btn btn--ghost btn--icon" type="button" id="apply-gmaps">Apply</button></div>
+            <span class="hint">In Google Maps: find the office → Share → Copy link. Short links (maps.app.goo.gl) work too.</span>
+          </div>
+          <div class="field full">
+            <label for="o-search">Or search an address</label>
+            <div class="inline"><input class="input" id="o-search" placeholder="e.g. Al Fahim Building, Musaffah"><button class="btn btn--ghost btn--icon" type="button" id="do-search">Search</button></div>
+            <ul class="results" id="results"></ul>
+          </div>
+          <div class="full office-acts">
+            <span class="hint">Tip: drag the green pin, or click anywhere on the map to move this office.</span>
+            <span style="display:flex;gap:6px"><button class="btn btn--ghost btn--icon" type="button" id="up">↑</button><button class="btn btn--ghost btn--icon" type="button" id="down">↓</button><button class="btn btn--ghost btn--icon danger" type="button" id="remove">Remove office</button></span>
+          </div>
+        </form>
+      </div>
+      <div class="offices__map"><div id="map" class="map"></div><div class="map-ui"><button type="button" id="fit">All offices</button></div></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="panel" data-panel="contact">
+    <form id="contact-form" class="cols">
+      <fieldset><legend class="h3">Main contact</legend>
+        <div class="form">
+          <div class="field"><label>Primary phone (header, 24/7 line)</label><input class="input" name="company.primaryPhone"></div>
+          <div class="field"><label>WhatsApp number (digits, with country code)</label><input class="input" name="company.whatsapp" placeholder="971506761638"></div>
+          <div class="field"><label>Main email</label><input class="input" name="company.email" type="email"></div>
+          <div class="field"><label>Quote line</label><input class="input" name="company.quotePhone"></div>
+          <div class="field full"><label>Company name</label><input class="input" name="company.name"></div>
+        </div>
+      </fieldset>
+      <fieldset><legend class="h3">Social media</legend>
+        <div class="form">
+          <div class="field full"><label>Facebook</label><div class="inline"><input class="input" name="social.facebook" placeholder="https://"><a class="btn btn--ghost btn--icon" data-test="social.facebook" target="_blank" rel="noopener">Test</a></div></div>
+          <div class="field full"><label>Instagram</label><div class="inline"><input class="input" name="social.instagram" placeholder="https://"><a class="btn btn--ghost btn--icon" data-test="social.instagram" target="_blank" rel="noopener">Test</a></div></div>
+          <div class="field full"><label>LinkedIn</label><div class="inline"><input class="input" name="social.linkedin" placeholder="https://"><a class="btn btn--ghost btn--icon" data-test="social.linkedin" target="_blank" rel="noopener">Test</a></div></div>
+          <span class="hint full">Leave a field empty to hide that icon. Links must start with https://</span>
+        </div>
+      </fieldset>
+      <fieldset><legend class="h3">Google reviews</legend>
+        <div class="form">
+          <div class="field full"><label>Review link</label><input class="input" name="company.googleReviewUrl" placeholder="https://g.page/…"></div>
+          <div class="field"><label>Rating (0–5)</label><input class="input" name="company.rating" inputmode="decimal"></div>
+          <div class="field"><label>Review count</label><input class="input" name="company.reviewCount" placeholder="51+"></div>
+        </div>
+      </fieldset>
+    </form>
+  </section>
+
+  <!-- ARTICLES -->
+  <section class="panel" data-panel="articles">
+    <div class="art">
+      <aside class="art__list">
+        <div class="offices__head"><span class="mono">Articles</span><button class="btn btn--ghost btn--icon" id="new-post" type="button">+ New article</button></div>
+        <div style="padding:8px"><input class="input" id="post-search" placeholder="Search articles" aria-label="Search articles"></div>
+        <ol id="post-list"></ol>
+      </aside>
+      <div class="art__edit">
+        <form id="post-form" class="form" autocomplete="off">
+          <div class="field full"><label for="p-title">Title <em>*</em></label><input class="input" id="p-title" name="title" required placeholder="e.g. What a fire alarm AMC actually covers"></div>
+          <div class="field full"><label for="p-slug">Web address</label><div class="inline"><span class="slug-pre">/blog/</span><input class="input" id="p-slug" name="slug" placeholder="generated from the title"></div></div>
+          <div class="field"><label for="p-cat">Category</label><input class="input" id="p-cat" name="category" list="cats" placeholder="Fire Safety"><datalist id="cats"></datalist></div>
+          <div class="field"><label for="p-author">Author</label><input class="input" id="p-author" name="author" placeholder="Firestone editorial team"></div>
+          <div class="field"><label for="p-date">Date</label><input class="input" id="p-date" name="date" type="date"></div>
+          <div class="field"><label for="p-read">Read time</label><input class="input" id="p-read" name="read" placeholder="auto"></div>
+          <div class="field full"><label for="p-excerpt">Summary <span class="muted">(shown on cards and in Google)</span></label><textarea id="p-excerpt" name="excerpt" rows="2" maxlength="400"></textarea></div>
+          <div class="field full">
+            <label>Cover image <span class="muted">(optional — without one, the article gets a matching 3D drawing or a lettered cover)</span></label>
+            <div class="cover-pick"><div class="cover-prev" id="cover-prev"><span class="muted">No cover</span></div><div style="display:grid;gap:6px"><label class="btn btn--ghost btn--icon" style="position:relative">Upload image<input type="file" id="cover-file" accept="image/png,image/jpeg,image/webp" style="position:absolute;inset:0;opacity:0"></label><button class="btn btn--ghost btn--icon" type="button" id="cover-clear">Remove</button></div></div>
+          </div>
+          <div class="field full">
+            <label for="p-body">Article</label>
+            <div class="mdbar" role="toolbar" aria-label="Formatting">
+              <button type="button" data-md="h">Heading</button><button type="button" data-md="b"><b>B</b></button><button type="button" data-md="i"><i>I</i></button><button type="button" data-md="link">Link</button><button type="button" data-md="ul">List</button><button type="button" data-md="quote">Quote</button><button type="button" data-md="faq">FAQ</button>
+              <label class="mdbar__img">Image<input type="file" id="body-img" accept="image/png,image/jpeg,image/webp"></label>
+            </div>
+            <textarea id="p-body" name="body" rows="18" placeholder="Write here. ## for a heading, - for a list, **bold**, [link text](https://…)"></textarea>
+          </div>
+          <div class="full office-acts">
+            <label class="choice"><input type="checkbox" id="p-pub" checked><span>Published</span></label>
+            <span style="display:flex;gap:6px;flex-wrap:wrap"><a class="btn btn--ghost btn--icon" id="p-view" target="_blank" rel="noopener">View on site</a><button class="btn btn--ghost btn--icon danger" type="button" id="p-del">Delete</button><button class="btn btn--green" type="submit"><span class="sq"></span>Publish article</button></span>
+          </div>
+          <p class="form__status full" id="p-status" role="status"></p>
+        </form>
+      </div>
+      <div class="art__preview"><span class="mono muted">Live preview</span><h1 class="h2" id="pv-title" style="margin:10px 0 16px"></h1><div class="doc__body article" id="post-preview"></div></div>
+    </div>
+  </section>
+
+  <!-- ABOUT PHOTOS -->
+  <section class="panel" data-panel="photos">
+    <div class="inbox__head">
+      <div><h2 class="h3" style="margin:0">About page photo collage</h2><p class="muted" style="margin:6px 0 0;max-width:70ch">Photos show in the site’s green duotone and switch to full colour on hover. Captions are optional — leave them empty for a clean collage. Changes go live when you press <b>Save &amp; publish</b>.</p></div>
+      <label class="btn btn--green" style="position:relative"><span class="sq"></span>Add photos<input type="file" id="photo-files" accept="image/png,image/jpeg,image/webp" multiple style="position:absolute;inset:0;opacity:0"></label>
+    </div>
+    <p class="form__status" id="photo-status" role="status"></p>
+    <ol class="photos" id="photo-list"></ol>
+  </section>
+
+  <!-- INBOX -->
+  <section class="panel" data-panel="inbox">
+    <div class="inbox__head">
+      <div class="filters" id="inbox-filters">
+        <button class="filter" data-f="all" aria-pressed="true">All</button>
+        <button class="filter" data-f="new" aria-pressed="false">New</button>
+        <button class="filter" data-f="quote" aria-pressed="false">Quotes</button>
+        <button class="filter" data-f="contact" aria-pressed="false">Messages</button>
+        <button class="filter" data-f="career" aria-pressed="false">Applications</button>
+      </div>
+      <span style="display:flex;gap:8px"><button class="btn btn--ghost btn--icon" id="refresh" type="button">Refresh</button><button class="btn btn--ghost btn--icon" id="csv" type="button">Export CSV</button></span>
+    </div>
+    <div id="inbox"></div>
+  </section>
+
+  <!-- SETTINGS -->
+  <section class="panel" data-panel="settings">
+    <form id="settings-form" class="cols">
+      <fieldset><legend class="h3">Form delivery</legend>
+        <p class="muted">Every quote, message and job application is saved in the Inbox. To also receive them by email or in another tool, paste a webhook URL (for example from Zapier, Make or Google Apps Script).</p>
+        <div class="form">
+          <div class="field full"><label>Webhook URL</label><input class="input" name="forms.webhookUrl" placeholder="https://hooks.zapier.com/…"></div>
+          <div class="field full"><label>Notification email (for your webhook to use)</label><input class="input" name="forms.notifyEmail" type="email"></div>
+        </div>
+      </fieldset>
+      <fieldset><legend class="h3">Analytics</legend>
+        <div class="form"><div class="field full"><label>Google Tag Manager ID</label><input class="input" name="analytics.gtm" placeholder="GTM-XXXXXXX"></div></div>
+      </fieldset>
+    </form>
+    <form id="pw-form" class="cols" style="margin-top:16px">
+      <fieldset><legend class="h3">Change password</legend>
+        <div class="form">
+          <div class="field"><label for="pw-cur">Current password</label><input class="input" id="pw-cur" type="password" autocomplete="current-password" required></div>
+          <div class="field"><label for="pw-new">New password <span class="muted">(10+ characters)</span></label><input class="input" id="pw-new" type="password" autocomplete="new-password" minlength="10" required></div>
+          <div class="full" style="display:flex;gap:12px;align-items:center"><button class="btn" type="submit"><span class="sq"></span>Update password</button><p class="form__status" id="pw-status" role="status"></p></div>
+        </div>
+      </fieldset>
+    </form>
+  </section>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

@@ -1,0 +1,566 @@
+{
+ "route": "/blog",
+ "kind": "page",
+ "metaTitle": "Fire Safety Blog: Guides and Insights for UAE Buildings",
+ "metaDescription": "Practical fire safety guides from Firestone, a civil defence approved contractor in the UAE. Read on AMC, compliance, fire alarms, ELV and more.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Insights & Ideas"
+  },
+  {
+   "t": "img",
+   "alt": "image"
+  },
+  {
+   "t": "p",
+   "text": "Fire Safety"
+  },
+  {
+   "t": "h",
+   "text": "Fire Safety Maintenance: Why Regular Inspection and Testing Matter"
+  },
+  {
+   "t": "p",
+   "text": "Why a working safety system still needs regular testing and maintenance."
+  },
+  {
+   "t": "img",
+   "alt": "image of author"
+  },
+  {
+   "t": "p",
+   "text": "Minha"
+  },
+  {
+   "t": "p",
+   "text": "8-10-2026"
+  },
+  {
+   "t": "p",
+   "text": "•"
+  },
+  {
+   "t": "p",
+   "text": "5 minutes"
+  },
+  {
+   "t": "img",
+   "alt": "image"
+  },
+  {
+   "t": "p",
+   "text": "Fire & Safety"
+  },
+  {
+   "t": "h",
+   "text": "How Integrated Gas, Security and Safety Systems Are Changing Modern Buildings"
+  },
+  {
+   "t": "p",
+   "text": "Modern buildings need more than individual safety systems. Discover how integrated fire, security, gas detection, CCTV, access control and preventive maintenance create a more connected approach to building safety."
+  },
+  {
+   "t": "img",
+   "alt": "image of author"
+  },
+  {
+   "t": "p",
+   "text": "Minha"
+  },
+  {
+   "t": "p",
+   "text": "1-10-2026"
+  },
+  {
+   "t": "p",
+   "text": "•"
+  },
+  {
+   "t": "p",
+   "text": "9 minutes"
+  },
+  {
+   "t": "img",
+   "alt": "image"
+  },
+  {
+   "t": "p",
+   "text": "Fire Safety Compliance"
+  },
+  {
+   "t": "h",
+   "text": "The Non-Negotiables: What to Demand From a Fire Safety Contractor in the UAE"
+  },
+  {
+   "t": "p",
+   "text": "Choosing a fire safety contractor isn't a procurement decision — it's a risk decision. Here are 5 non-negotiables every UAE facility manager must demand before signing a contract."
+  },
+  {
+   "t": "img",
+   "alt": "image of author"
+  },
+  {
+   "t": "p",
+   "text": "Minha MP"
+  },
+  {
+   "t": "p",
+   "text": "23-9-2026"
+  },
+  {
+   "t": "p",
+   "text": "•"
+  },
+  {
+   "t": "p",
+   "text": "5 minutes"
+  },
+  {
+   "t": "img",
+   "alt": "image"
+  },
+  {
+   "t": "p",
+   "text": "Fire Safety Maintenance"
+  },
+  {
+   "t": "h",
+   "text": "Maintenance Isn't Optional"
+  },
+  {
+   "t": "p",
+   "text": "Most fire safety failures aren't caused by bad equipment — they're caused by maintenance gaps nobody noticed. Here's what routine inspections actually catch, and why AMC contracts matter."
+  },
+  {
+   "t": "img",
+   "alt": "image of author"
+  },
+  {
+   "t": "p",
+   "text": "Minha MP"
+  },
+  {
+   "t": "p",
+   "text": "18-9-2026"
+  },
+  {
+   "t": "p",
+   "text": "•"
+  },
+  {
+   "t": "p",
+   "text": "4 min read"
+  },
+  {
+   "t": "img",
+   "alt": "image"
+  },
+  {
+   "t": "p",
+   "text": "Fire Safety"
+  },
+  {
+   "t": "h",
+   "text": "Warehouse Fire Risk Assessment: A Strategic Approach to Fire Safety and Business Continuity"
+  },
+  {
+   "t": "p",
+   "text": "A comprehensive approach to identifying, evaluating, and managing fire risks in warehouse facilities to protect people, assets, and business operations."
+  },
+  {
+   "t": "img",
+   "alt": "image of author"
+  },
+  {
+   "t": "p",
+   "text": "Minha"
+  },
+  {
+   "t": "p",
+   "text": "10-9-2026"
+  },
+  {
+   "t": "p",
+   "text": "•"
+  },
+  {
+   "t": "p",
+   "text": "5 minutes"
+  },
+  {
+   "t": "img",
+   "alt": "image"
+  },
+  {
+   "t": "p",
+   "text": "Business Continuity"
+  },
+  {
+   "t": "h",
+   "text": "Fire Protection Is a Business Continuity Strategy: Protecting Operations Beyond Compliance"
+  },
+  {
+   "t": "p",
+   "text": "Discover how strategic fire protection strengthens business continuity, minimizes operational downtime, protects revenue, and enhances organizational resilience beyond regulatory compliance."
+  },
+  {
+   "t": "img",
+   "alt": "image of author"
+  },
+  {
+   "t": "p",
+   "text": "Minha"
+  },
+  {
+   "t": "p",
+   "text": "06/8/2026"
+  },
+  {
+   "t": "p",
+   "text": "•"
+  },
+  {
+   "t": "p",
+   "text": "5 min"
+  },
+  {
+   "t": "img",
+   "alt": "image"
+  },
+  {
+   "t": "p",
+   "text": "Fire Safety Compliance"
+  },
+  {
+   "t": "h",
+   "text": "Is Your Building's Fire Safety Ready for UAE Summer?"
+  },
+  {
+   "t": "p",
+   "text": "As UAE temperatures peak, electrical load and fire risk rise together. Learn what facility managers need to know about summer fire safety compliance."
+  },
+  {
+   "t": "img",
+   "alt": "image of author"
+  },
+  {
+   "t": "p",
+   "text": "Firetone Editorial Team"
+  },
+  {
+   "t": "p",
+   "text": "July 31, 2026"
+  },
+  {
+   "t": "p",
+   "text": "•"
+  },
+  {
+   "t": "p",
+   "text": "6 min read"
+  },
+  {
+   "t": "img",
+   "alt": "image"
+  },
+  {
+   "t": "p",
+   "text": "Civil Defence & Compliance"
+  },
+  {
+   "t": "h",
+   "text": "Beyond the Checklist: A Tiered Approach to Fire Safety Compliance Across Your UAE Property Portfolio"
+  },
+  {
+   "t": "p",
+   "text": "Managing fire safety compliance across a large property portfolio isn't about a single checklist—it's about knowing which buildings need what, and when. Here's a practical framework for prioritizing compliance at scale."
+  },
+  {
+   "t": "img",
+   "alt": "image of author"
+  },
+  {
+   "t": "p",
+   "text": "Firestone Editorial Team"
+  },
+  {
+   "t": "p",
+   "text": "7/22/2026"
+  },
+  {
+   "t": "p",
+   "text": "•"
+  },
+  {
+   "t": "p",
+   "text": "5 min read"
+  },
+  {
+   "t": "img",
+   "alt": "image"
+  },
+  {
+   "t": "p",
+   "text": "Security systems"
+  },
+  {
+   "t": "h",
+   "text": "ELV Systems: Building Smarter, Safer, and More Connected Environments"
+  },
+  {
+   "t": "p",
+   "text": "In the fast-paced world of modern buildings, safety and operational efficiency are paramount. At FireStone Fire and Security System LLC, we specialize in cutting-edge Extra-Low Voltage (ELV) systems designed to transform your property into a smart and secure environment."
+  },
+  {
+   "t": "img",
+   "alt": "image of author"
+  },
+  {
+   "t": "img",
+   "alt": "image"
+  },
+  {
+   "t": "p",
+   "text": "Ventilation Systems"
+  },
+  {
+   "t": "h",
+   "text": "Smoke Management & Ventilation Systems: Creating Safer, Smarter Buildings in the UAE"
+  },
+  {
+   "t": "p",
+   "text": "Smoke Management Systems and Ventilation Solutions are not just regulatory checkboxes-they are vital tools for protecting lives, property, and business continuity."
+  },
+  {
+   "t": "img",
+   "alt": "image of author"
+  },
+  {
+   "t": "p",
+   "text": "Mohanad Alosman"
+  },
+  {
+   "t": "p",
+   "text": "10/06/2025"
+  },
+  {
+   "t": "p",
+   "text": "10 minute read"
+  },
+  {
+   "t": "img",
+   "alt": "image"
+  },
+  {
+   "t": "p",
+   "text": "Fire And Safety"
+  },
+  {
+   "t": "h",
+   "text": "The Most Common Causes of Fire"
+  },
+  {
+   "t": "p",
+   "text": "There are a number of causes that may lead to the evolution and spreading of a fire. But with proper measures taken we could reduce the impact."
+  },
+  {
+   "t": "img",
+   "alt": "image of author"
+  },
+  {
+   "t": "p",
+   "text": "04/02/2025"
+  },
+  {
+   "t": "p",
+   "text": "5-minute read"
+  },
+  {
+   "t": "img",
+   "alt": "image"
+  },
+  {
+   "t": "p",
+   "text": "Fire and Safety"
+  },
+  {
+   "t": "h",
+   "text": "The vital security measure is fire safety!"
+  },
+  {
+   "t": "p",
+   "text": "Fire is nothing new. We've all been growing up listening to or obsessing over stories and pieces of news related to fire hazards."
+  },
+  {
+   "t": "img",
+   "alt": "image of author"
+  },
+  {
+   "t": "p",
+   "text": "Muhammad Mubashir"
+  },
+  {
+   "t": "p",
+   "text": "19/11/2023"
+  },
+  {
+   "t": "p",
+   "text": "•"
+  },
+  {
+   "t": "p",
+   "text": "5-minute read"
+  },
+  {
+   "t": "img",
+   "alt": "image"
+  },
+  {
+   "t": "p",
+   "text": "Fire Alarm"
+  },
+  {
+   "t": "h",
+   "text": "Why is the fire alarm system important?"
+  },
+  {
+   "t": "p",
+   "text": "They conceive fire as something that can be put out using a couple of buckets of water and every time they were faced by a fire all of these false beliefs and half measures were proven to be complete failures."
+  },
+  {
+   "t": "img",
+   "alt": "image of author"
+  },
+  {
+   "t": "p",
+   "text": "17/05/2023"
+  },
+  {
+   "t": "img",
+   "alt": "image"
+  },
+  {
+   "t": "p",
+   "text": "Safety"
+  },
+  {
+   "t": "h",
+   "text": "Fire Safety Solutions"
+  },
+  {
+   "t": "p",
+   "text": "In a fast paced world, there should always be arrangements done for fire and safety solutions. People may not be able to concentrate on their work and feel comfortable in such vulnerable environments."
+  },
+  {
+   "t": "img",
+   "alt": "image of author"
+  },
+  {
+   "t": "p",
+   "text": "Muhammad Mubashir"
+  },
+  {
+   "t": "p",
+   "text": "01/02/2023"
+  },
+  {
+   "t": "p",
+   "text": "•"
+  },
+  {
+   "t": "p",
+   "text": "5-minute read"
+  },
+  {
+   "t": "img",
+   "alt": "image"
+  },
+  {
+   "t": "p",
+   "text": "Fire And Safety"
+  },
+  {
+   "t": "h",
+   "text": "The Importance Of Fire Extinguisher Maintenance"
+  },
+  {
+   "t": "p",
+   "text": "A fire extinguisher is an essential tool for maintaining safety in all premises, however if it is not in a good condition it could become useless."
+  },
+  {
+   "t": "img",
+   "alt": "image of author"
+  },
+  {
+   "t": "ticker",
+   "items": [
+    "SANJU SAJAN VARGHESE"
+   ]
+  },
+  {
+   "t": "p",
+   "text": "12/10/2022"
+  },
+  {
+   "t": "p",
+   "text": "•"
+  },
+  {
+   "t": "p",
+   "text": "5-minute read"
+  },
+  {
+   "t": "h",
+   "text": "Explore Our Specialized Services"
+  },
+  {
+   "t": "card",
+   "href": "/services/fire-and-safety",
+   "title": "Fire protection services",
+   "text": "Design, supply and installation of<a href=\"/services/fire-alarm\">fire alarm systems</a>,smoke detection, fire fighting systems, sprinkler systems and FM200 gas suppression in Abu Dhabi and UAE. ADCD approved fire safety company — from AutoCAD shop drawing to testing, commissioning, <a href=\"/services/annual-maintenance-contract-abu-dhabi\">Annual Maintenance Contract.</a>",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/gas-system",
+   "title": "Gas System",
+   "text": "FM200 gas suppression, LPG and central gas system design, supply, installation and Annual Maintenance Contract (AMC) in Abu Dhabi. DOE approved <a href=\"/services/gas-system\">gas safety systems</a> — fully compliant with UAE civil defence regulations.",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/security-and-elv-systems",
+   "title": "Security and ELV system",
+   "text": "Supply and installation of CCTV cameras, access control systems, gate barrier systems and audio-video intercom in Abu Dhabi. SIRA and MCC approved — including ADMCC approved CCTV Annual Maintenance Contract (AMC) for full compliance.",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/fire-sealant-and-fire-stopping",
+   "title": "Fire Sealant and Fire Stopping",
+   "text": "Supply and installation of firestop sealants, firestop sprays and intumescent coating systems across Abu Dhabi and UAE. FCIA certified passive fire protection contractor — DOE approved fire penetration sealing for walls, floors and building joints by UAE's trusted fire safety company.",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/smoke-management-systems",
+   "title": "Smoke Management System",
+   "text": "DOE approved smoke management, smoke ventilation and exhaust system design, supply and installation in Abu Dhabi. Compliant with UAE civil defence and air ventilation regulations — covering commercial, industrial and residential buildings.",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/civil-defense-compliance",
+   "title": "Civil Defence Compliance",
+   "text": "Full Civil Defence compliance service — from ADCD fitness certificate<a href=\"/services/istifa-certificate-uae\">,</a><a href=\"/services/istifa-certificate-uae\">Istifa certificate</a>, DCD certificate,SCD certificate renewal to civil defence inspections, documentation and approvals. We manage your fire AMC, AutoCAD shop drawings and evacuation plan submissions — ensuring your facility passes every ADCD inspection in Abu Dhabi.",
+   "alt": ""
+  },
+  {
+   "t": "link",
+   "href": "/services",
+   "text": "View all services"
+  }
+ ],
+ "title": "Insights & Ideas"
+}

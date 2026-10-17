@@ -1,0 +1,99 @@
+{
+ "route": "/services/fire-extinguisher",
+ "kind": "service",
+ "metaTitle": "Fire Extinguisher Refilling & Servicing in UAE | Firestone",
+ "metaDescription": "Fire extinguisher refilling, inspection and maintenance across Abu Dhabi, Dubai, Sharjah and Al Ain, in line with civil defence requirements.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Fire Extinguisher Refilling & Servicing"
+  },
+  {
+   "t": "img",
+   "alt": "Person refilling a red dry powder fire extinguisher at a fire extinguisher refilling machine."
+  },
+  {
+   "t": "p",
+   "text": "Firestone Fire and Security Systems provides complete fire extinguisher servicing across the UAE, covering refilling, inspection, maintenance, and installation. Fire extinguishers lose pressure over time, and their internal components can degrade even without use, which is why regular servicing is required under UAE civil defence regulations. Our technicians work across Abu Dhabi, Dubai, Sharjah, and Al Ain, servicing all extinguisher types — including CO2, dry powder, foam, and water-based units — in line with civil defence and NFPA standards, so your equipment stays functional and compliant year-round."
+  },
+  {
+   "t": "link",
+   "href": "#",
+   "text": "Button Text"
+  },
+  {
+   "t": "h",
+   "text": "Fire Extinguisher Refilling"
+  },
+  {
+   "t": "p",
+   "text": "We refill fire extinguishers on-site or at our dedicated facility, using the correct extinguishing agent and pressure specification for each unit type. Refilling is typically required after an extinguisher has been discharged, after it fails a routine inspection, or as part of a scheduled maintenance cycle. Each refilled unit is pressure-tested, resealed, and tagged with the service date, so building owners and facility managers have a clear compliance record for civil defence audits."
+  },
+  {
+   "t": "h",
+   "text": "Fire Extinguisher Inspection"
+  },
+  {
+   "t": "p",
+   "text": "Our technicians carry out routine inspections to check pressure gauge readings, seal integrity, hose condition, pin security, and the overall physical condition of each extinguisher, including corrosion or damage to the cylinder. Inspections are typically carried out monthly by on-site staff and formally by our technicians on a scheduled basis, in line with civil defence requirements. Identifying issues early through regular inspection reduces the risk of an extinguisher failing when it's actually needed, and keeps a documented compliance trail for your building."
+  },
+  {
+   "t": "h",
+   "text": "Fire Extinguisher Maintenance"
+  },
+  {
+   "t": "p",
+   "text": "Scheduled maintenance goes beyond a visual check, covering cleaning, weighing to confirm the extinguishing agent level, internal component servicing, and full record-keeping for compliance purposes. Depending on the extinguisher type, maintenance may also include discharge testing and hydrostatic testing at set intervals to confirm the cylinder can safely hold pressure. This level of servicing keeps extinguishers functioning correctly between refills, extends the working life of each unit, and supports your building's overall fire safety compliance record."
+  },
+  {
+   "t": "h",
+   "text": "Fire Extinguisher Installation"
+  },
+  {
+   "t": "p",
+   "text": "We install new fire extinguishers for new-build projects, fit-outs, and buildings that need to bring their fire safety provisions up to code, as well as replace units that fail inspection or reach the end of their service life. Extinguisher type, capacity, and placement are matched to the fire risk profile of each area — for example, kitchens, server rooms, and parking areas require different extinguisher types under civil defence guidelines. Our team can assess your premises and recommend the correct number, type, and placement of extinguishers to meet compliance requirements."
+  },
+  {
+   "t": "h",
+   "text": "Extinguisher Types We Service"
+  },
+  {
+   "t": "p",
+   "text": "We service all major fire extinguisher types used across UAE buildings, including CO2, dry powder (ABC and BC), foam, water, and wet chemical extinguishers. Each type has different servicing requirements — for example, CO2 cylinders require periodic weighing rather than pressure gauge checks, while dry powder units need the agent checked for caking or moisture ingress. Our technicians are trained across all extinguisher categories, so a single service visit can cover mixed extinguisher types on one site."
+  },
+  {
+   "t": "h",
+   "text": "Service Frequency & Civil Defence Compliance"
+  },
+  {
+   "t": "p",
+   "text": "UAE civil defence authorities require fire extinguishers to be inspected and serviced at set intervals, with additional requirements such as hydrostatic testing at longer intervals depending on the cylinder type. We work to a service schedule aligned with these requirements and issue service tags and reports after each visit, giving building owners and facility managers a clear compliance record for civil defence inspections and insurance audits."
+  },
+  {
+   "t": "h",
+   "text": "Why Choose Firestone"
+  },
+  {
+   "t": "p",
+   "text": "Firestone Fire and Security Systems has operated as a Category A civil defence-approved contractor in the UAE since 2007, with approvals from Abu Dhabi Civil Defence, Dubai Civil Defence, Sharjah Civil Defence, and SIRA. We maintain a dedicated warehouse stocked with a full range of fire extinguisher types and servicing equipment, allowing us to support fast turnaround on refilling, inspection, maintenance, and installation requests across Abu Dhabi, Dubai, Sharjah, and Al Ain."
+  },
+  {
+   "t": "faq",
+   "items": [
+    {
+     "q": "How often should fire extinguishers be serviced?",
+     "a": "&minus; Fire extinguishers should be visually checked monthly on-site and formally inspected and serviced by a certified technician at least once a year, with refilling carried out after any discharge or failed inspection."
+    },
+    {
+     "q": "Can you service extinguishers from other suppliers?",
+     "a": "&plus; Yes, we inspect, maintain, refill, and replace fire extinguishers regardless of the original supplier, as long as the unit is safe to service."
+    },
+    {
+     "q": "Do you provide a compliance certificate after servicing?",
+     "a": "&plus; Yes, each serviced extinguisher is tagged with the service date, and we provide a service report that can be used for civil defence compliance and insurance purposes."
+    }
+   ]
+  }
+ ],
+ "title": "Fire Extinguisher Refilling & Servicing"
+}

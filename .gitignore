@@ -1,0 +1,19 @@
+# dependencies and build output
+node_modules/
+dist/
+dist-next-*/
+dist-old-*/
+
+# runtime data: admin login, form submissions, CV uploads, admin-uploaded images
+data/admin.json
+data/submissions.json
+data/uploads/
+data/media/
+*.tmp
+
+# local environment and OS clutter
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db

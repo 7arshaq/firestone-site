@@ -1,0 +1,158 @@
+{
+ "route": "/services/fire-hydrant-system",
+ "kind": "service",
+ "metaTitle": "Fire Hydrant System UAE | Civil Defence Approved | Firestone",
+ "metaDescription": "Fire hydrant system installation, testing and maintenance across the UAE. Civil defence approved contractor serving Abu Dhabi, Dubai, Sharjah and Al Ain.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Fire hydrant system"
+  },
+  {
+   "t": "p",
+   "text": "A fire hydrant system supplies pressurized water to fire hoses and hose reels positioned around a building or site, giving firefighting teams direct access to water during an emergency. Firestone Fire and Security Systems designs, installs, and maintains fire hydrant systems for commercial, industrial, and residential properties across the UAE, in full compliance with civil defence requirements."
+  },
+  {
+   "t": "link",
+   "href": "#",
+   "text": "Get a quote"
+  },
+  {
+   "t": "h",
+   "text": "Why you need a fire hydrant system"
+  },
+  {
+   "t": "p",
+   "text": "A fire hydrant system gives firefighting teams an immediate, on-site water source instead of relying on tankers or the nearest public hydrant, which can add critical minutes to a response during a fire. For larger properties, that time difference often determines whether a fire stays contained or spreads before help arrives.Beyond emergency response, a fire hydrant system is frequently a civil defence approval requirement rather than an optional upgrade. Buildings above a certain footprint, height, or occupancy are assessed during the design and licensing stage, and a missing or non-compliant hydrant system can hold up a building's completion certificate, Istifa, or ongoing occupancy approval.A properly designed system also protects the value of the property itself. Insurers and facility managers factor fire protection infrastructure into risk assessments, and a documented, tested hydrant system can support better terms and demonstrate that the building meets its ongoing safety obligations, not just its initial approval."
+  },
+  {
+   "t": "h",
+   "text": "Our fire hydrant services"
+  },
+  {
+   "t": "p",
+   "text": "Firestone provides end-to-end fire hydrant system support, from initial design through to ongoing compliance."
+  },
+  {
+   "t": "p",
+   "text": "Design and installation"
+  },
+  {
+   "t": "p",
+   "text": "Site assessment, hydraulic calculations, and full installation of hydrant networks, pumps, and outlets tailored to the building."
+  },
+  {
+   "t": "p",
+   "text": "Maintenance and testing"
+  },
+  {
+   "t": "p",
+   "text": "Scheduled inspection, flow and pressure testing, and valve checks carried out under a structured AMC."
+  },
+  {
+   "t": "p",
+   "text": "Repair and upgrades"
+  },
+  {
+   "t": "p",
+   "text": "Diagnosis and repair of faulty valves, pumps, or pipework, along with system upgrades to meet updated fire flow requirements."
+  },
+  {
+   "t": "p",
+   "text": "Compliance documentation"
+  },
+  {
+   "t": "p",
+   "text": "Test reports, maintenance records, and civil defence-ready documentation to support Istifa certification and inspections."
+  },
+  {
+   "t": "p",
+   "text": "Coverage across the UAE"
+  },
+  {
+   "t": "p",
+   "text": "Service delivery in Abu Dhabi, Dubai, Sharjah, and Al Ain, under ADCD, DCD, and SCD requirements."
+  },
+  {
+   "t": "h",
+   "text": "Choose the right system for you building"
+  },
+  {
+   "t": "p",
+   "text": "Warehouses and industrial facilities"
+  },
+  {
+   "t": "p",
+   "text": "Large open footprints usually need an external hydrant ring main with multiple outlets spaced around the perimeter, giving firefighters access from any side of the building."
+  },
+  {
+   "t": "p",
+   "text": "<strong>Labor accommodation and residential compounds</strong>"
+  },
+  {
+   "t": "p",
+   "text": "Multi-building sites benefit from a shared hydrant network connecting several blocks to a single water source, reducing the number of separate systems required across the compound."
+  },
+  {
+   "t": "p",
+   "text": "<strong>High-rise and mid-rise buildings</strong>"
+  },
+  {
+   "t": "p",
+   "text": "Taller buildings are usually required to pair an external hydrant system with an internal wet riser, since ground-level hydrants alone cannot serve upper floors effectively."
+  },
+  {
+   "t": "p",
+   "text": "<strong>Construction sites</strong>"
+  },
+  {
+   "t": "p",
+   "text": "Temporary hydrant systems are often required during the build phase itself, ahead of the permanent fire protection installation, to meet civil defence site safety requirements."
+  },
+  {
+   "t": "p",
+   "text": "<strong>Mixed-use and commercial plots</strong>"
+  },
+  {
+   "t": "p",
+   "text": "Sites with several buildings or varied occupancy types typically need a hydrant layout designed around the highest-risk building on the plot, with spacing and flow rates calculated to cover the whole site."
+  },
+  {
+   "t": "p",
+   "text": "A site survey is the only reliable way to confirm which configuration applies, since civil defence authorities assess spacing, flow rate, and pump sizing against the specific building rather than a fixed template."
+  },
+  {
+   "t": "h",
+   "text": "service areas"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "<strong>Abu Dhab</strong><strong>i: </strong>Fire hydrant installation, testing, and maintenance for properties across Abu Dhabi under ADCD requirements.",
+    "<strong>Duba</strong>i<strong>: </strong>Design, installation, and upkeep of fire hydrant systems for Dubai properties, compliant with DCD regulations.",
+    "<strong>Sharjah</strong><strong>: </strong>Fire hydrant system services for Sharjah sites, meeting SCD standards.",
+    "<strong>Al Ain</strong><strong>: </strong>Installation and maintenance support for fire hydrant systems across Al Ain."
+   ],
+   "rich": true
+  },
+  {
+   "t": "h",
+   "text": "What Happens During a Civil Defence Inspection"
+  },
+  {
+   "t": "p",
+   "text": "A civil defence inspection reviews whether a fire hydrant system remains fully functional and compliant since its last approval. Inspectors typically check:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "Hydrant outlets are accessible and unobstructed",
+    "Valves operate smoothly",
+    "Pressure and flow meet the levels set during design",
+    "Pipework shows no signs of corrosion or leakage",
+    "Maintenance records and previous test reports are reviewed"
+   ]
+  }
+ ],
+ "title": "Fire hydrant system"
+}

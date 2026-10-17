@@ -1,0 +1,143 @@
+{
+ "route": "/services/gas-system",
+ "kind": "service",
+ "metaTitle": "Gas Systems UAE | Supply, Installation & Compliance",
+ "metaDescription": "Firestone designs, supplies and installs gas systems in the UAE: LPG, central gas, leak detection and maintenance, compliant with civil defence and DOE.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Gas System Installation Abu Dhabi"
+  },
+  {
+   "t": "p",
+   "text": "Certified gas system design, supply, and installation services — including compliance certification in Abu Dhabi"
+  },
+  {
+   "t": "link",
+   "href": "tel:+971506761638",
+   "text": "Call Now"
+  },
+  {
+   "t": "p",
+   "text": "Firestone Fire and Security Systems is a leading <strong>gas installation company</strong> providing end-to-end <strong>gas system installation</strong> and design solutions across the UAE, covering the safe distribution, monitoring, and control of gas for commercial, industrial, and residential properties. As a Civil Defence approved <strong>gas installer</strong>, we handle <strong>gas system compliance certificate</strong> and <strong>gas installation certificate</strong> documentation alongside design, supply, installation, and ongoing maintenance — across Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah, and Fujairah, with every project delivered in full compliance with UAE regulations. Searching for <strong>gas installation services near me</strong>? We're already active across every emirate listed above."
+  },
+  {
+   "t": "p",
+   "text": "our services"
+  },
+  {
+   "t": "h",
+   "text": "End-to-End Project Delivery"
+  },
+  {
+   "t": "card",
+   "href": "/services/lpg-gas-systems",
+   "title": "LPG Gas Systems",
+   "text": "We design, supply, and install LPG systems for residential, commercial, and industrial properties, including cylinder manifolds, bulk storage, and distribution pipework, tested and commissioned to international standards.",
+   "alt": "Blue LPG gas cylinders with pressure gauges and regulator valves for gas system installation"
+  },
+  {
+   "t": "card",
+   "href": "/services/central-gas-system",
+   "title": "Central Gas Systems",
+   "text": "Our central gas systems provide a unified, building-wide gas distribution network, removing the need for individual cylinder management at each point of use. We deliver full turnkey projects for hospitals, hotels, and residential towers.",
+   "alt": "Electrician installing wiring in a central gas distribution control panel"
+  },
+  {
+   "t": "card",
+   "href": "/services/gas-leakage-detection-system",
+   "title": "Gas Leak Detection Systems",
+   "text": "We install fixed gas detection systems that provide continuous, real-time monitoring, triggering alarms and automatic shut-off before a leak becomes a hazard.",
+   "alt": "Pressure gauge mounted on a black gas pipeline with yellow safety banding inside an industrial facility"
+  },
+  {
+   "t": "card",
+   "href": "/services/gas-maintenance",
+   "title": "Gas Systems Annual Maintenance Contract (AMC)",
+   "text": "Our Annual Maintenance Contracts keep gas infrastructure operating safely year-round, with scheduled inspections, testing, and priority emergency response. Learn More &gt;",
+   "alt": "Businessman and site engineer shaking hands with rolled blueprint documents, sealing a project agreement on a construction site"
+  },
+  {
+   "t": "img",
+   "alt": "Digital compliance interface with hexagonal icons for legal, audit, and regulatory approval symbols"
+  },
+  {
+   "t": "p",
+   "text": "DOE Compliance"
+  },
+  {
+   "t": "p",
+   "text": "Firestone helps clients achieve and maintain DOE compliance for gas system design, installation, and operation across the UAE, including preparation of your gas system compliance certificate. Our team conducts compliance audits, prepares the required documentation, and manages the DOE approval process from initial submission through final certification, so gas system projects progress without delays or penalties."
+  },
+  {
+   "t": "img",
+   "alt": "Businessman in a suit reviewing compliance documents while seated"
+  },
+  {
+   "t": "p",
+   "text": "ADCD Compliance for Gas Systems"
+  },
+  {
+   "t": "p",
+   "text": "ADCD compliance is mandatory for any gas system installation or modification in Abu Dhabi, and Firestone manages this process end to end on behalf of our clients, including your gas installation certificate. We prepare and submit technical drawings, material submittals, and risk assessments in the format required by Abu Dhabi Civil Defence, drawing on established relationships with inspection bodies to keep approvals moving and your facility certified and operational."
+  },
+  {
+   "t": "h",
+   "text": "Areas we cover"
+  },
+  {
+   "t": "p",
+   "text": "We deliver <strong>gas system installation</strong> projects across Abu Dhabi,Al Ain, serving hospitals, hotels, residential towers, commercial properties, and industrial facilities. Looking for a <strong>gas company in Abu Dhabi</strong> or <strong>gas installation in Dubai</strong>? We're already active in both."
+  },
+  {
+   "t": "h",
+   "text": "Why choose firestone"
+  },
+  {
+   "t": "p",
+   "text": "Firestone Fire and Security Systems has delivered fire and gas safety solutions across the UAE since 2007, holding approvals from ADCD, DCD, SCD, and SIRA. As a trusted <strong>gas installer</strong> and <strong>gas installation company</strong>, our certified engineers manage every gas system project end to end, from design through installation, compliance, and ongoing maintenance, as a single point of contact."
+  },
+  {
+   "t": "h",
+   "text": "Frequently Asked Questions"
+  },
+  {
+   "t": "faq",
+   "items": [
+    {
+     "q": "How do I get gas installed in my property?",
+     "a": "Getting gas installed starts with a site assessment to determine gas load and the best system type — LPG, central, or a hybrid setup — followed by design, DOE/ADCD approval, and installation. As a certified gas installation company, we manage the entire process end to end."
+    },
+    {
+     "q": "How long does gas system installation take?",
+     "a": "A straightforward residential or small commercial gas system installation typically takes 1–2 weeks once approvals are in place; larger commercial or industrial projects with more complex distribution networks can take longer depending on scope. Approval timelines with civil defence and DOE run separately and vary by emirate."
+    },
+    {
+     "q": "Do I need a certified gas contractor, or can a plumber install my gas system?",
+     "a": "Gas system installation must be carried out by a licensed, Civil Defence-approved gas installer — general plumbing contractors aren't certified for gas system design, pressure regulation, or DOE/ADCD compliance submissions, and using an uncertified installer can invalidate your compliance certification entirely."
+    },
+    {
+     "q": "What compliance certificates are required for a gas system installation?",
+     "a": "Every gas system installation in the UAE requires DOE approval and, in Abu Dhabi, ADCD sign-off — together covering your gas system compliance certificate and gas installation certificate. We handle the technical drawings, submissions, and documentation as part of every project."
+    },
+    {
+     "q": "How much does gas system installation cost?",
+     "a": "Cost depends on system type, gas load, and property size — an LPG cylinder setup and a central distribution network for a commercial tower are priced very differently. Our quotes are based on a site assessment rather than a flat rate, and we aim to keep every project competitively priced for the scope involved."
+    },
+    {
+     "q": "Which areas do you cover for gas installation?",
+     "a": "We deliver gas system installation projects across Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah, and Fujairah — for hospitals, hotels, residential towers, commercial properties, and industrial facilities."
+    },
+    {
+     "q": "Are you a gas installation company in Abu Dhabi and Dubai?",
+     "a": "Yes — Firestone is a Civil Defence-approved gas company in Abu Dhabi and an active gas installation provider in Dubai, alongside coverage across the wider UAE."
+    },
+    {
+     "q": "How do I start a gas system installation project?",
+     "a": "Contact us for a site assessment — we'll evaluate your gas load and property layout, recommend the right system type, and handle design, approvals, and installation from there as a single point of contact."
+    }
+   ]
+  }
+ ],
+ "title": "Gas System Installation Abu Dhabi"
+}

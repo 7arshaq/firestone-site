@@ -1,0 +1,79 @@
+{
+ "route": "/services/access-control-system",
+ "kind": "service",
+ "metaTitle": "Access Control System UAE | Door Access & Biometric",
+ "metaDescription": "Firestone designs and installs access control systems across Abu Dhabi, Dubai, Sharjah, and Al Ain, including biometric, card, and door access control systems.",
+ "blocks": [
+  {
+   "t": "p",
+   "text": "A locked door only controls access if you know exactly who has a key — and once a business grows past a handful of people, that stops being realistic to manage with physical keys alone. An access control system replaces keys with credentials that can be issued, tracked, and revoked individually, so you always know who can get into a building or restricted area, and you can see exactly who did, and when.We design and install access control systems across Abu Dhabi, Dubai, Sharjah, and Al Ain, specifying door access control hardware and credential type to match each property's actual security needs, from a single office door to a full multi-door building with centralized management."
+  },
+  {
+   "t": "links",
+   "items": [
+    {
+     "href": "#",
+     "text": "Get a Quote"
+    },
+    {
+     "href": "#",
+     "text": "explore solutions"
+    }
+   ]
+  },
+  {
+   "t": "pairs",
+   "items": [
+    {
+     "k": "MANAGE ACCESS",
+     "v": "Role-based access control for better management"
+    },
+    {
+     "k": "MULTIPLE ACCESS METHODS",
+     "v": "Fingerprint, card, PIN, QR code & more"
+    },
+    {
+     "k": "ACCESS REPORTS",
+     "v": "Detailed reports and alerts for every entry"
+    },
+    {
+     "k": "SCALABLE SOLUTIONS",
+     "v": "Ideal for businesses of all sizes and industries"
+    }
+   ]
+  },
+  {
+   "t": "h",
+   "text": "How Access Control Works"
+  },
+  {
+   "t": "p",
+   "text": "An access control system reads a credential — a card, fingerprint, face scan, or PIN — at a door, checks it against an authorized list, and releases the door lock if it's valid. Every read gets logged, so there's a record of who accessed a door and when, which matters both for day-to-day security and for reviewing what happened after an incident. Credentials can be added or revoked individually, so losing a card or an employee leaving doesn't mean rekeying the whole building — you just deactivate that one credential."
+  },
+  {
+   "t": "h",
+   "text": "Credential Types"
+  },
+  {
+   "t": "p",
+   "text": "We install access control systems using card and proximity credentials, biometric readers (fingerprint and facial recognition), and PIN code entry, either individually or combined for higher-security areas that need more than one form of verification. Biometric access control removes the risk of a lost or shared card entirely, since the credential is tied directly to the person, while card-based systems are often preferred where credentials need to be issued and managed at scale, like visitor access."
+  },
+  {
+   "t": "h",
+   "text": "Brands We Supply"
+  },
+  {
+   "t": "h",
+   "text": "Why Access Control Matters"
+  },
+  {
+   "t": "p",
+   "text": "Every unmanaged door in a building is a decision left to whoever happens to be holding a key, and once a business grows past a handful of people, that's not a level of control anyone can realistically maintain. Keys get copied, lost, or handed to someone who was never supposed to have them, and once that happens, there's no way to know who actually has access to your building without physically rekeying every lock — an expensive, disruptive fix for a problem access control avoids entirely.Beyond just locking doors, access control gives you something a key never could: a record. If something goes missing, if there's a dispute about who was where, or if an area needs to be reviewed after an incident, having a log of exactly who accessed a door and when turns a guessing game into a straightforward answer. That record also matters for compliance and insurance purposes in facilities that are required to demonstrate controlled access to certain areas — server rooms, pharmacy storage, restricted zones — where \"we trust our staff\" isn't sufficient documentation on its own.Access control also scales in a way physical keys don't. Adding a new employee, contractor, or visitor doesn't mean cutting a new key and hoping it's returned — it means issuing a credential that can be time-limited, restricted to specific doors, and revoked instantly the moment it's no longer needed. For a growing business or a building with regular staff turnover, that flexibility is often the actual reason access control pays for itself, well beyond the security angle alone."
+  },
+  {
+   "t": "p",
+   "text": "Everything you need to know about access control systems"
+  }
+ ],
+ "title": "How Access Control Works"
+}

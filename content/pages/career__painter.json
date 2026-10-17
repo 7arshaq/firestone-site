@@ -1,0 +1,78 @@
+{
+ "route": "/career/painter",
+ "kind": "job",
+ "metaTitle": "Painter | Careers at Firestone UAE",
+ "metaDescription": "Apply for the Painter role at Firestone Fire and Security Systems, a civil defence approved fire protection contractor in the UAE.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Painter"
+  },
+  {
+   "t": "p",
+   "text": "UAE"
+  },
+  {
+   "t": "p",
+   "text": "Full Time"
+  },
+  {
+   "t": "link",
+   "href": "#career-form",
+   "text": "Apply Now"
+  },
+  {
+   "t": "h",
+   "text": "<strong>Job Description:</strong>"
+  },
+  {
+   "t": "p",
+   "text": "We are seeking a skilled and reliable <strong>Painter</strong> to join our fire and safety and ventilation systems team. The successful candidate will be responsible for applying protective and aesthetic coatings to pipes, ducts, fire protection systems, and equipment, ensuring compliance with safety standards and durability requirements."
+  },
+  {
+   "t": "h",
+   "text": "🔧 <strong>Key Responsibilities:</strong>"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "Prepare surfaces by cleaning, sanding, and applying primers as needed.",
+    "Apply paint, coatings, and finishes to fire pipes, ventilation ducts, safety equipment, and structural components.",
+    "Follow company and safety regulations related to painting materials and ventilation requirements.",
+    "Work with fire-rated and corrosion-resistant coatings as per specification.",
+    "Maintain painting tools, equipment, and inventory of materials.",
+    "Assist in touch-ups and repainting during maintenance work.",
+    "Collaborate with installation and maintenance teams during project execution.",
+    "Ensure high-quality finish and protection of all painted surfaces."
+   ]
+  },
+  {
+   "t": "h",
+   "text": "✅ <strong>Requirements:</strong>"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "Proven experience as a professional painter, preferably in industrial or MEP environments.",
+    "Familiarity with fireproof coatings, anti-corrosive paint, and ventilation system components is an advantage.",
+    "Ability to work at heights and confined spaces, as needed.",
+    "Knowledge of safety practices and PPE use in industrial environments.",
+    "Physical stamina and attention to detail.",
+    "Ability to work independently and as part of a team."
+   ]
+  },
+  {
+   "t": "h",
+   "text": "🕒 <strong>Working Conditions:</strong>"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "Full-time position",
+    "On-site work at commercial and industrial project locations",
+    "May require weekend or overtime work depending on project deadlines"
+   ]
+  }
+ ],
+ "title": "Painter"
+}

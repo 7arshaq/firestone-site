@@ -1,0 +1,61 @@
+{
+ "route": "/services/structured-cabling",
+ "kind": "service",
+ "metaTitle": "Structured Cabling UAE | Network & Data Cabling",
+ "metaDescription": "Firestone designs and installs structured cabling systems in the UAE, providing organised, scalable data and network infrastructure for buildings.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Structured Cabling"
+  },
+  {
+   "t": "p",
+   "text": "<a href=\"#\">Call Now</a> Every network, phone system, and connected device in a building eventually traces back to a cable, and how those cables are organized determines whether a building's infrastructure is easy to maintain or a tangle nobody wants to troubleshoot. Structured cabling is the standardized, organized approach to running that infrastructure — a planned system rather than cable added wherever convenient each time something new needs connecting.We design and install structured cabling systems across Abu Dhabi, Dubai, Sharjah, and Al Ain, planning the cabling backbone around a building's actual and future connectivity needs, not just what's needed on day one."
+  },
+  {
+   "t": "h",
+   "text": "What Is Structured Cabling"
+  },
+  {
+   "t": "p",
+   "text": "Structured cabling is a standardized cabling system organized into defined pathways, patch panels, and termination points, designed to support voice, data, and video across a building through a single, coherent infrastructure rather than separate cable runs for every individual system. This structure is what makes it possible to add, move, or reconfigure a network connection later without tracing cable runs through walls and ceilings to figure out what connects to what."
+  },
+  {
+   "t": "h",
+   "text": "Structured Cabling System Components"
+  },
+  {
+   "t": "p",
+   "text": "A structured cabling system is built from horizontal and backbone cabling, patch panels and termination points in equipment rooms, and outlets at each work area or device location, all organized to a defined standard. This layered structure separates the building's permanent cabling infrastructure from the equipment that plugs into it, so changes to devices or network equipment don't require touching the cabling itself."
+  },
+  {
+   "t": "h",
+   "text": "Why Structured Cabling Matters"
+  },
+  {
+   "t": "p",
+   "text": "A building without structured cabling tends to accumulate cable runs added reactively over years — a new printer here, a relocated desk there — until nobody can confidently say what a given cable actually connects to without testing it. Structured cabling avoids that by planning capacity and pathways upfront, so the infrastructure supports growth and change without requiring new cable runs every time something moves or gets added."
+  },
+  {
+   "t": "h",
+   "text": "Cat6 & Network Cabling"
+  },
+  {
+   "t": "p",
+   "text": "Structured cabling for data and network connectivity is typically installed using Cat6 or Cat6A cable, chosen based on the bandwidth and future-proofing a building needs — Cat6A supports higher data rates over longer distances, which matters for buildings anticipating higher network demand rather than just current requirements. We specify cable category based on actual usage and growth expectations, not the lowest-cost option regardless of what the building will need in a few years."
+  },
+  {
+   "t": "h",
+   "text": "Installation & Testing"
+  },
+  {
+   "t": "p",
+   "text": "Installation covers running cable through planned pathways, terminating at patch panels and outlets, and organizing everything to the structured standard rather than leaving cable coiled or unlabeled. Every cable run is tested for continuity and performance before handover, so the infrastructure is confirmed working correctly rather than assumed fine because it's physically connected."
+  },
+  {
+   "t": "p",
+   "text": "Everything you need to know about structured cabling"
+  }
+ ],
+ "title": "Structured Cabling"
+}

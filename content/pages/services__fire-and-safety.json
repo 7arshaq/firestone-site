@@ -1,0 +1,163 @@
+{
+ "route": "/services/fire-and-safety",
+ "kind": "service",
+ "metaTitle": "Fire Protection Services in UAE | Firestone Fire & Security",
+ "metaDescription": "Civil Defence approved fire protection services across Abu Dhabi, Dubai, Sharjah and Al Ain: fire alarm, suppression, AMC and compliance since 2007.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Fire Protection Services in UAE"
+  },
+  {
+   "t": "p",
+   "text": "Maintenance, Supply & Installation Across Abu Dhabi, Dubai sharjah,Al Ain"
+  },
+  {
+   "t": "link",
+   "href": "tel:+971506761638",
+   "text": "Call Now"
+  },
+  {
+   "t": "p",
+   "text": "A trusted fire protection company in Abu Dhabi and across the UAE, we have been protecting commercial, industrial, and residential properties since 2007. As a leading Civil Defence approved company, we offer unparalleled expertise in the maintenance, supply, and installation of fire protection systems and integrated fire and life safety systems for commercial, industrial, and residential properties in Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah, and Fujairah."
+  },
+  {
+   "t": "p",
+   "text": "our services"
+  },
+  {
+   "t": "h",
+   "text": "Experts in Active Fire Protection Systems & Project Management"
+  },
+  {
+   "t": "card",
+   "href": "/services/fire-alarm",
+   "title": "Fire alarm system",
+   "text": "We design, supply and install conventional and addressable fire alarm systems built to NFPA 72, ADCD and DOE requirements, backed by our AMC. Learn about our<a href=\"/services/fire-alarm\">fire alarm system installation and maintenance</a>",
+   "alt": "Wall-mounted fire alarm panel with red fire extinguisher in a commercial building corridor"
+  },
+  {
+   "t": "card",
+   "href": "/services/fire-fighting-system",
+   "title": "Fire fighting systems",
+   "text": "A reliable fire fighting system is the backbone of fire safety. We design, install, and maintain sprinkler, hydrant, hose reel, and foam-based systems for residential, commercial, and industrial properties — built to international standards, protecting your property around the clock.",
+   "alt": "Fire fighting equipment and extinguishers warehouse, Firestone"
+  },
+  {
+   "t": "card",
+   "href": "/services/fire-protection-products",
+   "title": "Fire protection products",
+   "text": "Our fire protection portfolio includes fire extinguishers, hose cabinets, fire blankets, <a href=\"/services/emergency-lighting-exit-sign\">emergency lighting</a>, smoke detectors, sprinkler heads, and more — certified to international standards. Whether new or upgrading, we help you stay civil defence compliant and keep occupants safe.",
+   "alt": "Fire safety technicians servicing and testing fire suppression and firefighting equipment components"
+  },
+  {
+   "t": "card",
+   "href": "/services/fire-safety-services",
+   "title": "Fire Protection Compliance Services",
+   "text": "Comprehensive fire protection goes beyond equipment — it takes expert planning, regular inspections, and strict compliance. Our services cover fire risk assessments, civil defence approvals, AMC, and emergency response planning, backed by certified professionals who keep your property fully code-compliant and emergency-ready.",
+   "alt": "Fire protection systems inspection and compliance check, Firestone technicians"
+  },
+  {
+   "t": "card",
+   "href": "/services/fire-suppression-system",
+   "title": "Fire suppression system",
+   "text": "When fire breaks out in high-risk environments, a fast-acting suppression system is the difference between a minor incident and catastrophic loss. We install and service clean agent, CO₂, foam, and water mist systems for data centers, server rooms, industrial plants, and commercial kitchens — engineered, tested, and maintained to the highest standards.",
+   "alt": "Fire suppression system room with red gas cylinders and overhead pipework installed in a commercial building"
+  },
+  {
+   "t": "h",
+   "text": "19+ Years of Fire Protection Experience\""
+  },
+  {
+   "t": "p",
+   "text": "Firestone has delivered fire protection services and systems across the UAE since 2007, backed by Civil Defence Grade A approval and licenses from ADCD, DCD, DOE, ADMCC, AACD, SCD, and SIRA. With over 1,200 AMC contracts and 2,500 projects completed, we provide fire protection systems for commercial, industrial, residential, hospitality, and healthcare properties across Abu Dhabi, Dubai, Sharjah, and Al Ain, supported by 24/7 emergency response and a single-point solution from Civil Defence approval to installation, testing, and Annual Maintenance Contracts."
+  },
+  {
+   "t": "h",
+   "text": "Fire protection services across UAE"
+  },
+  {
+   "t": "h",
+   "text": "Firestone delivers fire protection services and systems in"
+  },
+  {
+   "t": "tiles",
+   "items": [
+    {
+     "title": "AbuDhabi",
+     "alt": "Firestone engineer inspecting a fire alarm panel inside a restaurant kitchen in Abu Dhabi"
+    },
+    {
+     "title": "Sharjah",
+     "alt": "Firestone technician servicing a fire alarm control panel on-site in Sharjah"
+    },
+    {
+     "title": "Dubai",
+     "alt": "Firestone technicians on-site near Dubai Frame during a fire protection site visit"
+    },
+    {
+     "title": "Al ain",
+     "alt": "Fire alarm panel maintenance, Al Ain"
+    }
+   ]
+  },
+  {
+   "t": "h",
+   "text": "When do you need a fire protection service"
+  },
+  {
+   "t": "p",
+   "text": "Recognizing the signs early helps avoid compliance issues and costly downtime. You may need fire protection services if:"
+  },
+  {
+   "t": "p",
+   "text": "If any of these apply, our team can carry out a site assessment and outline exactly what's needed to bring your fire protection systems up to Civil Defence standard."
+  },
+  {
+   "t": "link",
+   "href": "tel:0523258941",
+   "text": "Book a fire protection assessment"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "Your fire alarm panel is showing fault codes or hasn't been tested in the last 12 months",
+    "Your Civil Defence certificate or fitness certificate is due for renewal",
+    "You're fitting out a new commercial, industrial, or residential unit and need Civil Defence approval before occupancy",
+    "Your existing fire suppression or sprinkler system hasn't been serviced under an Annual Maintenance Contract",
+    "You've had a Civil Defence inspection flag non-compliance issues",
+    "You're expanding or renovating a facility and fire protection systems need to be re-assessed for the new layout"
+   ]
+  },
+  {
+   "t": "faq",
+   "items": [
+    {
+     "q": "What fire protection services does Firestone offer?",
+     "a": "Firestone provides fire protection services across the UAE, including fire alarm systems, fire fighting systems, fire suppression systems, fire protection products, and Civil Defence compliance support. All services are backed by an Annual Maintenance Contract to keep your fire protection systems tested and operational."
+    },
+    {
+     "q": "Is Firestone a Civil Defence approved fire protection company in Abu Dhabi?",
+     "a": "Yes. Firestone is a Civil Defence approved fire protection company with approvals from ADCD, DCD, DOE, ADMCC, AACD, SCD, and SIRA, operating across Abu Dhabi, Dubai, Sharjah, and Al Ain since 2007."
+    },
+    {
+     "q": "What is included in a fire protection systems maintenance contract?",
+     "a": "Our Annual Maintenance Contract covers regular testing, inspection, and servicing of fire alarm systems, fire fighting systems, and fire suppression systems, along with Civil Defence documentation and certificate renewal support to keep your facility compliant."
+    },
+    {
+     "q": "Does Firestone provide fire protection services across all UAE emirates?",
+     "a": "Yes. Firestone delivers fire protection services and systems across Abu Dhabi, Dubai, Sharjah, Al Ain, Ajman, Umm Al Quwain, Ras Al Khaimah, and Fujairah."
+    },
+    {
+     "q": "How often should fire protection systems be inspected?",
+     "a": "Fire protection systems, including fire alarm panels and suppression systems, should be tested and inspected regularly under an Annual Maintenance Contract to remain Civil Defence compliant and fully operational."
+    },
+    {
+     "q": "What industries does Firestone provide fire protection services for?",
+     "a": "Firestone provides fire protection services for commercial, industrial, residential, hospitality, and healthcare properties across the UAE."
+    }
+   ]
+  }
+ ],
+ "title": "Fire Protection Services in UAE"
+}

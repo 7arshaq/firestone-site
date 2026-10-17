@@ -1,0 +1,161 @@
+{
+ "route": "/services/foam-suppression-system",
+ "kind": "service",
+ "metaTitle": "Foam Suppression System UAE | Civil Defence Approved",
+ "metaDescription": "Foam suppression system design, installation and maintenance in the UAE. Civil Defence approved contractor for flammable liquid and high-hazard areas.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Foam Suppression System"
+  },
+  {
+   "t": "p",
+   "text": "Installation & Maintenance in the UAE"
+  },
+  {
+   "t": "img",
+   "alt": "Foam suppression system image"
+  },
+  {
+   "t": "p",
+   "text": "A foam suppression system is designed to control fires involving flammable liquids, where water alone can spread the fuel rather than extinguish it. Firestone Fire and Security Systems designs, installs, and maintains foam suppression systems across industrial and high-hazard facilities in the UAE, built to civil defence requirements."
+  },
+  {
+   "t": "h",
+   "text": "How a Foam Suppression System Works"
+  },
+  {
+   "t": "p",
+   "text": "Foam suppression systems mix a foam concentrate with water at a set ratio, then discharge the mixture over a fuel surface or hazard area. The foam blanket that forms cools the fuel, cuts off its oxygen supply, and suppresses the flammable vapour that would otherwise reignite once a fire is knocked down. This makes foam effective on fires that water alone can't safely control, particularly where the burning material floats on or mixes with water."
+  },
+  {
+   "t": "h",
+   "text": "Our foam suppression system services"
+  },
+  {
+   "t": "h",
+   "text": "Foam Suppression System Installation"
+  },
+  {
+   "t": "p",
+   "text": "Installation covers the foam concentrate tank, proportioning equipment, pipework, and discharge devices, along with connection to the site's water supply and detection system. Systems are commissioned and tested before handover to confirm foam is generated and discharged at the correct ratio and rate."
+  },
+  {
+   "t": "h",
+   "text": "Foam Suppression System Maintenance"
+  },
+  {
+   "t": "p",
+   "text": "Foam systems need regular testing of the foam concentrate itself, in addition to the mechanical components, since foam degrades over time and must be replaced within its service life to remain effective. Our maintenance visits check concentrate condition, proportioning equipment, and discharge devices, carried out under a scheduled AMC."
+  },
+  {
+   "t": "h",
+   "text": "Types of Foam Suppression Systems"
+  },
+  {
+   "t": "p",
+   "text": "Foam systems are specified differently depending on the hazard and how the foam needs to be delivered:"
+  },
+  {
+   "t": "h",
+   "text": "Foam-water sprinkler systems"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "Foam-water sprinkler systems combine a standard sprinkler network with foam concentrate, giving both cooling and vapour suppression through existing sprinkler heads."
+   ]
+  },
+  {
+   "t": "h",
+   "text": "Foam-water deluge systems"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "Foam-water deluge systems discharge foam through every open nozzle simultaneously across a protected area, used where a fire could spread too quickly for a standard sprinkler response."
+   ]
+  },
+  {
+   "t": "h",
+   "text": "Foam pourer and chamber systems"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "Foam pourer and chamber systems deliver foam gently onto the surface of stored fuel from chambers mounted on a tank wall, avoiding the turbulence that could cause a burning liquid to splash."
+   ]
+  },
+  {
+   "t": "h",
+   "text": "Automatic Foam Suppression System"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "An automatic foam suppression system activates without manual intervention, triggered by a linked detection method such as heat or flame detectors, in the same way an automatic deluge system operates. This is the standard approach for high-hazard sites where the time it takes a person to respond could allow a fire to escalate beyond control."
+   ]
+  },
+  {
+   "t": "h",
+   "text": "Fixed Foam Suppression System"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "A fixed foam suppression system is permanently installed and connected to the protected hazard, as opposed to mobile or portable foam equipment brought in during an incident. Fixed systems are typically specified for tanks, process areas, and hangars where the hazard is constant and the coverage needs to be pre-engineered rather than improvised."
+   ]
+  },
+  {
+   "t": "h",
+   "text": "Our service areas"
+  },
+  {
+   "t": "p",
+   "text": "Abu Dhabi"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "<strong>Dubai</strong>",
+    "<strong>Sharjah</strong>",
+    "<strong>Al Ain</strong>"
+   ],
+   "rich": true
+  },
+  {
+   "t": "h",
+   "text": "Why You Need a Foam Suppression System"
+  },
+  {
+   "t": "p",
+   "text": "Water alone can make some fires worse rather than better. Flammable liquid fires, in particular, can spread as burning fuel floats on top of water rather than being extinguished by it, which is exactly the scenario a foam suppression system is built to handle. For facilities storing or handling fuel, chemicals, or other flammable liquids, a properly specified foam system is often the difference between a contained incident and one that spreads across a tank farm or process area.Beyond the immediate safety case, foam suppression is frequently a specific civil defence requirement for facilities storing flammable liquids above a certain quantity, assessed during design approval rather than treated as optional. A facility without adequate foam protection for its hazard classification can face delays to its Istifa or occupancy approval, the same way any other missing fire protection system would."
+  },
+  {
+   "t": "h",
+   "text": "Foam Suppression System — FAQ"
+  },
+  {
+   "t": "faq",
+   "items": [
+    {
+     "q": "What is a foam suppression system?",
+     "a": "A foam suppression system discharges a foam and water mixture over a fuel surface or hazard area, cooling the fire, cutting off its oxygen supply, and suppressing flammable vapour, used where water alone could spread the fuel rather than extinguish it."
+    },
+    {
+     "q": "What is the difference between a foam suppression system and a deluge system?",
+     "a": "A deluge system can discharge water or foam through every open nozzle at once, while a foam suppression system specifically refers to systems designed around foam concentrate and delivery, which may use a deluge, sprinkler, or pourer-based discharge method depending on the hazard."
+    },
+    {
+     "q": "How much does a foam suppression system cost?",
+     "a": "Cost depends on the hazard being protected, the foam type and concentrate volume required, and the size and complexity of the pipework and discharge system. A site assessment and design are needed before an accurate quote can be given."
+    },
+    {
+     "q": "Do foam suppression systems need civil defence approval?",
+     "a": "Yes. Foam suppression systems in the UAE must be designed, installed, and maintained by a civil defence-approved contractor, with system design and foam specification meeting ADCD, DCD, or SCD requirements depending on the emirate."
+    }
+   ]
+  }
+ ],
+ "title": "Foam Suppression System"
+}

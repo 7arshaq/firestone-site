@@ -1,0 +1,50 @@
+{
+ "route": "/services/fire-protection-products",
+ "kind": "service",
+ "metaTitle": "Fire Protection Products UAE | Extinguishers, Doors, Dampers",
+ "metaDescription": "Firestone supplies and installation of fire protection products in the UAE, including fire extinguishers, fire rated doors, fire rated cable and fire dampers.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Fire protection products"
+  },
+  {
+   "t": "link",
+   "href": "tel:+971506761638",
+   "text": "Call Now"
+  },
+  {
+   "t": "p",
+   "text": "Our fire protection portfolio includes fire extinguishers, hose cabinets, fire blankets, emergency lighting, smoke detectors, sprinkler heads, and more — sourced from trusted manufacturers and certified to international standards. Whether outfitting a new facility or upgrading an existing one, we help you select the right products to stay civil defence compliant and keep occupants safe."
+  },
+  {
+   "t": "h",
+   "text": "Products We Supply & Install"
+  },
+  {
+   "t": "card",
+   "href": "/services/fire-extinguisher",
+   "title": "Fire Extinguishers",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/fire-rated-door",
+   "title": "Fire Rated Door",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/emergency-lighting-exit-sign",
+   "title": "Emergency lightning and exit sign",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/central-battery-system",
+   "title": "Central battery system",
+   "alt": ""
+  }
+ ],
+ "title": "Fire protection products"
+}

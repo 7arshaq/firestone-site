@@ -1,0 +1,149 @@
+{
+ "route": "/career",
+ "kind": "page",
+ "metaTitle": "Careers at Firestone Fire & Security UAE | Join Our Team",
+ "metaDescription": "Join Firestone Fire and Security Systems in the UAE. See open roles for fire alarm and fire fighting technicians, engineers and supervisors.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "We’re Hiring – Let’s Work Together"
+  },
+  {
+   "t": "p",
+   "text": "We’re always on the lookout for passionate, skilled, and driven individuals to join our growing team. If you're ready to make an impact and grow your career in a supportive, dynamic environment, we’d love to hear from you. Apply today and let’s build the future together."
+  },
+  {
+   "t": "img",
+   "alt": "image of fire and safety office"
+  },
+  {
+   "t": "img",
+   "alt": "image of fire stone office staffs"
+  },
+  {
+   "t": "img",
+   "alt": "workers meeting image"
+  },
+  {
+   "t": "p",
+   "text": "Now Hiring"
+  },
+  {
+   "t": "h",
+   "text": "Find the Role That Fits You"
+  },
+  {
+   "t": "h",
+   "text": "HVAC Technician"
+  },
+  {
+   "t": "p",
+   "text": "UAE"
+  },
+  {
+   "t": "p",
+   "text": "Full Time"
+  },
+  {
+   "t": "link",
+   "href": "/career/hvac-technician",
+   "text": "Apply Now"
+  },
+  {
+   "t": "p",
+   "text": "We are seeking a skilled HVAC Technician to install, maintain, and repair heating, ventilation, and air conditioning systems in commercial, residential, and industrial facilities."
+  },
+  {
+   "t": "h",
+   "text": "Supervisor"
+  },
+  {
+   "t": "link",
+   "href": "/career/supervisor",
+   "text": "Apply Now"
+  },
+  {
+   "t": "p",
+   "text": "We are looking for a dedicated and experienced Supervisor to oversee fire and safety projects and maintenance activities."
+  },
+  {
+   "t": "h",
+   "text": "Project Engineer"
+  },
+  {
+   "t": "link",
+   "href": "/career/project-engineer",
+   "text": "Apply Now"
+  },
+  {
+   "t": "p",
+   "text": "We are seeking a skilled and detail-oriented Project Engineer to oversee the planning, execution, and completion of fire and safety projects."
+  },
+  {
+   "t": "h",
+   "text": "Maintenance Engineer"
+  },
+  {
+   "t": "link",
+   "href": "/career/maintenance-engineer",
+   "text": "Apply Now"
+  },
+  {
+   "t": "p",
+   "text": "We are seeking a skilled and detail-oriented Maintenance Engineer to handle the installation, inspection, repair, and preventive maintenance of fire and safety systems."
+  },
+  {
+   "t": "h",
+   "text": "Fire Alarm Technician"
+  },
+  {
+   "t": "link",
+   "href": "/career/fire-alarm-technician",
+   "text": "Apply Now"
+  },
+  {
+   "t": "p",
+   "text": "We are looking for an experienced and detail-oriented Fire Alarm Technician to install, test, maintain, and repair fire alarm systems in commercial, residential, and industrial facilities. The ideal candidate will have strong technical knowledge of fire detection systems and the ability to interpret system schematics and comply with safety codes and standards."
+  },
+  {
+   "t": "h",
+   "text": "Fire Fighting Technician"
+  },
+  {
+   "t": "link",
+   "href": "/career/fire-fighting-technician",
+   "text": "Apply Now"
+  },
+  {
+   "t": "p",
+   "text": "We are seeking a skilled and experienced Fire Fighting Technician to join our team. The technician will be responsible for the installation, maintenance, testing, and repair of fire fighting systems, including sprinklers, fire pumps, hydrants, hose reels, and suppression systems in residential, commercial, and industrial facilities."
+  },
+  {
+   "t": "h",
+   "text": "Fire Sealant Applicator"
+  },
+  {
+   "t": "link",
+   "href": "/career/fire-sealant-applicator-lile6",
+   "text": "Apply Now"
+  },
+  {
+   "t": "p",
+   "text": "We are looking for a skilled Fire Sealant Applicator to join our fire protection team. The primary responsibility of this role is to apply fire-resistant sealants and materials around service penetrations, joints, and openings in walls, floors, and ceilings to maintain fire compartmentation in buildings. This position plays a vital role in ensuring compliance with fire safety standards and local regulations."
+  },
+  {
+   "t": "h",
+   "text": "Painter"
+  },
+  {
+   "t": "link",
+   "href": "/career/painter",
+   "text": "Apply Now"
+  },
+  {
+   "t": "p",
+   "text": "We are seeking a skilled and reliable Painter to join our fire and safety and ventilation systems team. The successful candidate will be responsible for applying protective and aesthetic coatings to pipes, ducts, fire protection systems, and equipment, ensuring compliance with safety standards and durability requirements."
+  }
+ ],
+ "title": "We’re Hiring – Let’s Work Together"
+}

@@ -1,0 +1,53 @@
+{
+ "route": "/services/fire-fighting-system",
+ "kind": "service",
+ "metaTitle": "Fire Fighting Systems UAE | Installation & Maintenance",
+ "metaDescription": "Firestone designs, installs and maintains fire fighting systems across the UAE. Civil Defence approved contractor. Request a quote.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Fire fighting system"
+  },
+  {
+   "t": "card",
+   "href": "/services/sprinkler-system",
+   "title": "Sprinkler system",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/wet-riser-system",
+   "title": "Wet riser system",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/fire-hydrant-system",
+   "title": "Fire hydrant system",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/fire-hose-reel-system",
+   "title": "Fire hose reel",
+   "alt": ""
+  },
+  {
+   "t": "h",
+   "text": "Fire pumb Room"
+  },
+  {
+   "t": "h",
+   "text": "Deluge system"
+  },
+  {
+   "t": "h",
+   "text": "Foam suppression system"
+  },
+  {
+   "t": "h",
+   "text": "HDPE Piping Systems"
+  }
+ ],
+ "title": "Fire fighting system"
+}

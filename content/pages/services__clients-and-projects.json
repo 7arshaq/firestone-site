@@ -1,0 +1,206 @@
+{
+ "route": "/services/clients-and-projects",
+ "kind": "service",
+ "metaTitle": "Our Projects & Clients | Firestone Fire & Security UAE",
+ "metaDescription": "Explore the fire protection and security projects Firestone has delivered for clients across Abu Dhabi, Dubai, Sharjah and Al Ain.",
+ "blocks": [
+  {
+   "t": "p",
+   "text": "Trusted across the UAE"
+  },
+  {
+   "t": "h",
+   "text": "Our Work"
+  },
+  {
+   "t": "p",
+   "text": "A closer look at the organizations we work with and the projects we've delivered across the UAE since 2007. From government authorities and healthcare institutions to hospitality, education, and industrial facilities, our work spans sectors where fire safety, security, and compliance genuinely matter. Every project on this page reflects the same standard we bring to every job, regardless of size — Civil Defence approved design, certified installation, and documentation ready for handover. Take a look at who we've worked with and what we've delivered."
+  },
+  {
+   "t": "pairs",
+   "items": [
+    {
+     "k": "1,200 +",
+     "v": "AMC Contracts"
+    },
+    {
+     "k": "2,500 +",
+     "v": "Projects Completed"
+    },
+    {
+     "k": "3,600 +",
+     "v": "Happy Clients"
+    },
+    {
+     "k": "2007",
+     "v": "Since"
+    }
+   ]
+  },
+  {
+   "t": "h",
+   "text": "AL Bateen Airport"
+  },
+  {
+   "t": "h",
+   "text": "Abu Dhabi"
+  },
+  {
+   "t": "h",
+   "text": "Completed on 2025"
+  },
+  {
+   "t": "h",
+   "text": "uae accountability authority building"
+  },
+  {
+   "t": "h",
+   "text": "Abu Dhabi"
+  },
+  {
+   "t": "h",
+   "text": "Completed on 2023"
+  },
+  {
+   "t": "h",
+   "text": "red planet freeze dried plant"
+  },
+  {
+   "t": "h",
+   "text": "Abu Dhabi"
+  },
+  {
+   "t": "h",
+   "text": "Completed on 2025"
+  },
+  {
+   "t": "h",
+   "text": "bosco trading co"
+  },
+  {
+   "t": "h",
+   "text": "Abu Dhabi"
+  },
+  {
+   "t": "h",
+   "text": "Ongoing"
+  },
+  {
+   "t": "h",
+   "text": "qasr al jurf sales center"
+  },
+  {
+   "t": "h",
+   "text": "Abu Dhabi"
+  },
+  {
+   "t": "h",
+   "text": "Ongoing"
+  },
+  {
+   "t": "h",
+   "text": "adfsa fodder centers"
+  },
+  {
+   "t": "h",
+   "text": "Various Location-54,Abu Dhabi"
+  },
+  {
+   "t": "h",
+   "text": "Ongoing"
+  },
+  {
+   "t": "h",
+   "text": "al jazeera main hotel"
+  },
+  {
+   "t": "h",
+   "text": "Ghatoot"
+  },
+  {
+   "t": "h",
+   "text": "Completed on 2025"
+  },
+  {
+   "t": "h",
+   "text": "national ambulance warehouse"
+  },
+  {
+   "t": "h",
+   "text": "Kizad"
+  },
+  {
+   "t": "h",
+   "text": "Completed on 2019"
+  },
+  {
+   "t": "h",
+   "text": "dhl express logistics center"
+  },
+  {
+   "t": "h",
+   "text": "Metdan Branch Dubai"
+  },
+  {
+   "t": "h",
+   "text": "Completed on 2024"
+  },
+  {
+   "t": "h",
+   "text": "khalifa university campus"
+  },
+  {
+   "t": "h",
+   "text": "Abu Dhabi"
+  },
+  {
+   "t": "h",
+   "text": "Completed on 2025"
+  },
+  {
+   "t": "h",
+   "text": "presidential court khalifa park offices"
+  },
+  {
+   "t": "h",
+   "text": "Abu Dhabi"
+  },
+  {
+   "t": "h",
+   "text": "Completed on 2024"
+  },
+  {
+   "t": "h",
+   "text": "presidential court khalifa park offices"
+  },
+  {
+   "t": "h",
+   "text": "Al Ain"
+  },
+  {
+   "t": "h",
+   "text": "Completed on 2026"
+  },
+  {
+   "t": "h",
+   "text": "Client Feedback"
+  },
+  {
+   "t": "p",
+   "text": "Outstanding service provided by dedicated experts. I highly recommend Firestone Fire and safety company"
+  },
+  {
+   "t": "img",
+   "alt": "image of happy customer"
+  },
+  {
+   "t": "p",
+   "text": "<strong>Musavir Bin Khalifa AlKahyoom</strong>"
+  },
+  {
+   "t": "p",
+   "text": "Abu Dhabi, UAE"
+  }
+ ],
+ "title": "Our Work"
+}

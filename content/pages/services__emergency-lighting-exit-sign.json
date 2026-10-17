@@ -1,0 +1,102 @@
+{
+ "route": "/services/emergency-lighting-exit-sign",
+ "kind": "service",
+ "metaTitle": "Emergency Lighting & Exit Signs UAE",
+ "metaDescription": "Emergency and exit lighting design, installation and maintenance across the UAE. Civil defence approved contractor for evacuation route lighting.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Emergency Lighting & Exit Sign Installation in the UAE"
+  },
+  {
+   "t": "img",
+   "alt": "Wall-mounted white emergency light with two square LED lamps and indicator lights for power and charge."
+  },
+  {
+   "t": "img",
+   "alt": "Green emergency exit sign with a running figure and a right-pointing arrow."
+  },
+  {
+   "t": "p",
+   "text": "Emergency lighting keeps escape routes visible and safe to use if a building loses power during a fire or other emergency, guiding occupants to exits when normal lighting fails. Firestone Fire and Security Systems designs, installs, and maintains emergency lighting and exit sign systems across commercial, residential, and industrial buildings in the UAE, integrated with fire alarm and central battery systems."
+  },
+  {
+   "t": "h",
+   "text": "How Emergency Lighting Works"
+  },
+  {
+   "t": "p",
+   "text": "Emergency lighting activates automatically the moment normal mains power is lost, switching to a backup power source to keep escape routes, stairwells, and exit points illuminated long enough for safe evacuation. Depending on the building, that backup power comes either from a battery built into each individual light fitting, known as self-contained emergency lighting, or from a central battery system feeding multiple fittings across the building through a dedicated supply. Exit signs work alongside this lighting, staying illuminated or backlit to direct occupants toward the nearest safe exit even in low visibility."
+  },
+  {
+   "t": "h",
+   "text": "Self-Contained vs Central Battery Emergency Lighting"
+  },
+  {
+   "t": "p",
+   "text": "Self-contained emergency lighting has its own battery built into each fitting, making it simpler to install since no dedicated central wiring is needed, though each unit needs to be tested and its battery replaced individually over time."
+  },
+  {
+   "t": "p",
+   "text": "Central battery emergency lighting draws backup power from one central battery system feeding multiple fittings through the building, simplifying testing and maintenance since the system can be monitored and tested from a single point rather than fitting by fitting."
+  },
+  {
+   "t": "p",
+   "text": "The right choice depends on the building's size, layout, and how the fire alarm and life safety systems are already structured, which our team assesses during design."
+  },
+  {
+   "t": "h",
+   "text": "Our services"
+  },
+  {
+   "t": "h",
+   "text": "Exit Sign Installation"
+  },
+  {
+   "t": "p",
+   "text": "Exit signs are positioned to give occupants a clear, continuous path toward the nearest safe exit from any point in the building, remaining visible whether lit internally or externally illuminated by nearby emergency lighting. Sign placement is planned alongside the emergency lighting layout so escape routes are never left with a gap in visibility or direction."
+  },
+  {
+   "t": "h",
+   "text": "Emergency Lighting Maintenance"
+  },
+  {
+   "t": "p",
+   "text": "Routine maintenance includes testing each fitting's battery backup function, confirming light output meets the level required along escape routes, and checking exit signs remain clearly visible and correctly illuminated. Central battery systems are tested from the control panel, while self-contained fittings are tested individually, with all results documented to support civil defence inspection and Istifa records."
+  },
+  {
+   "t": "h",
+   "text": "Where Emergency Lighting Is Required"
+  },
+  {
+   "t": "p",
+   "text": "Emergency lighting is required along escape routes, stairwells, corridors, car parks, and at final exit points in virtually every commercial, residential, and industrial building, assessed by civil defence as part of the overall fire and life safety design. Buildings with complex layouts, basement car parks, or areas without natural light typically need more extensive coverage to keep every part of the escape route visible."
+  },
+  {
+   "t": "h",
+   "text": "Emergency Lighting — FAQ"
+  },
+  {
+   "t": "faq",
+   "items": [
+    {
+     "q": "What is emergency lighting?",
+     "a": "Emergency lighting automatically activates when normal mains power is lost, keeping escape routes, stairwells, and exit points illuminated long enough for occupants to evacuate safely."
+    },
+    {
+     "q": "What is the difference between self-contained and central battery emergency lighting?",
+     "a": "Self-contained emergency lighting has its own battery built into each fitting, while central battery emergency lighting draws backup power from one central system feeding multiple fittings, simplifying testing and maintenance from a single point."
+    },
+    {
+     "q": "How often should emergency lighting be tested?",
+     "a": "Emergency lighting should be tested at regular intervals to confirm battery backup function and light output remain within civil defence requirements, with central battery systems typically tested from the control panel and self-contained fittings tested individually."
+    },
+    {
+     "q": "Do exit signs need to be part of an emergency lighting plan?",
+     "a": "Yes, exit signs are planned alongside emergency lighting to give occupants a continuous, clearly visible path toward the nearest safe exit, with both systems assessed together during civil defence design approval."
+    }
+   ]
+  }
+ ],
+ "title": "Emergency Lighting & Exit Sign Installation in the UAE"
+}

@@ -1,0 +1,131 @@
+{
+ "route": "/services/security-and-elv-systems",
+ "kind": "service",
+ "metaTitle": "Security & ELV Systems | CCTV, Access Control | Firestone",
+ "metaDescription": "Integrated security and ELV solutions including CCTV surveillance, access control, structured cabling, and IT infrastructure for complete facility protection.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Security & ELV System"
+  },
+  {
+   "t": "p",
+   "text": "Integrated CCTV, Access Control & Smart Surveillance Solutions"
+  },
+  {
+   "t": "link",
+   "href": "tel:+971506761638",
+   "text": "Call Now"
+  },
+  {
+   "t": "p",
+   "text": "A robust security and ELV (Extra Low Voltage) system is essential for safeguarding people, assets, and infrastructure across residential, commercial, and industrial facilities. Our integrated solutions combine cutting-edge technology with expert installation and ongoing support to deliver complete peace of mind."
+  },
+  {
+   "t": "p",
+   "text": "our services"
+  },
+  {
+   "t": "h",
+   "text": "Security and ELV system"
+  },
+  {
+   "t": "img",
+   "alt": "image of cctv"
+  },
+  {
+   "t": "h",
+   "text": "Security System"
+  },
+  {
+   "t": "p",
+   "text": "A comprehensive security system is the first line of defense in protecting your property, assets, and people from unauthorized access, theft, and potential threats. We design and install CCTV, access control, gate barriers, burglar alarm systems, video intercoms, time attendance, and ANPR, each specified to your facility's actual needs and fully supported by ongoing maintenance. Learn More ≫"
+  },
+  {
+   "t": "p",
+   "text": "Learn More"
+  },
+  {
+   "t": "h",
+   "text": "ELV & IT Solutions"
+  },
+  {
+   "t": "p",
+   "text": "Extra Low Voltage (ELV) and IT solutions form the intelligent backbone of a modern building, covering structured cabling, network infrastructure, and connected systems that enable communication and automation across a facility. Our engineers design, install, and maintain this infrastructure to the standard the rest of your systems depend on"
+  },
+  {
+   "t": "h",
+   "text": "Security System AMC"
+  },
+  {
+   "t": "p",
+   "text": "Security hardware isn't install-and-forget — cameras drift, sensors wear, and credentials need ongoing management. Our Security System AMC covers scheduled maintenance and priority response across CCTV, access control, gate barriers, and alarms — one contract, one point of contact, instead of juggling separate arrangements for each system."
+  },
+  {
+   "t": "h",
+   "text": "Compliance & Licensing"
+  },
+  {
+   "t": "p",
+   "text": "Security system installation and operation in the UAE is regulated by authorities including SIRA (Dubai) and ADMCC (Abu Dhabi), and working with a licensed, compliant contractor matters for both legal operation and insurance purposes. We manage the compliance side of every security installation, so your systems are installed and documented to meet the licensing requirements relevant to your emirate.For fire-related civil defence compliance and Istifa Certificate services, see our dedicated Civil Defence Compliance page."
+  },
+  {
+   "t": "h",
+   "text": "Why Choose Firestone for Security & ELV"
+  },
+  {
+   "t": "p",
+   "text": "Firestone Fire and Security Systems has designed and installed security and ELV systems across the UAE since 2007, working alongside our fire protection services to give facilities a single contractor across life safety, security, and building infrastructure. Rather than specializing in just one product line, we handle the full range — from individual systems like CCTV or access control through to structured cabling and IT infrastructure — so a project doesn't need to be split across multiple contractors who each own a small piece of the building's overall security and connectivity."
+  },
+  {
+   "t": "h",
+   "text": "Why Integrate Your Security and ELV Systems"
+  },
+  {
+   "t": "p",
+   "text": "Security and ELV systems installed separately, by different contractors at different times, often don't communicate with each other — a gate barrier that doesn't recognize an access control credential, a CCTV system with no link to the intrusion alarm, or IT infrastructure that wasn't planned around the security systems now running on it. We design these systems together from the start, so access control, CCTV, gate barriers, and the network backbone they all depend on work as one coordinated system rather than isolated installations that happen to share a building."
+  },
+  {
+   "t": "h",
+   "text": "Our Security Systems"
+  },
+  {
+   "t": "p",
+   "text": "We design, install, and maintain a full range of security systems, each specified to your facility's actual needs."
+  },
+  {
+   "t": "pairs",
+   "items": [
+    {
+     "k": "CCTV Installation",
+     "v": "Access control system"
+    },
+    {
+     "k": "Time attendance system",
+     "v": "Gate barrier system"
+    },
+    {
+     "k": "Burglar system",
+     "v": "Vedio intercom system"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "text": "ANPR System"
+  },
+  {
+   "t": "h",
+   "text": "Who We Work With"
+  },
+  {
+   "t": "p",
+   "text": "We work directly with property developers, facility managers, main contractors, and MEP consultants across residential towers, commercial buildings, hotels, industrial facilities, and gated communities. Whether a project needs a single system specified for an existing building or full security and ELV design as part of new construction, our team scopes the work around the actual project rather than a standard package applied regardless of building type."
+  },
+  {
+   "t": "p",
+   "text": "Everything you need to know about security & ELV systems"
+  }
+ ],
+ "title": "Security & ELV System"
+}

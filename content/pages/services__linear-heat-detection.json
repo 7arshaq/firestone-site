@@ -1,0 +1,90 @@
+{
+ "route": "/services/linear-heat-detection",
+ "kind": "service",
+ "metaTitle": "Linear Heat Detection UAE | LHD System | Firestone",
+ "metaDescription": "Linear heat detection cable and system installation for cable trays, tunnels and high-hazard areas across the UAE. Civil defence approved contractor.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Linear Heat Detection (LHD) System Supply & Installation in the UAE"
+  },
+  {
+   "t": "img",
+   "alt": "Gray electrical junction box mounted on a metal beam with red pipes suspended from a concrete ceiling."
+  },
+  {
+   "t": "p",
+   "text": "Linear heat detection uses a continuous sensing cable to detect a rise in temperature at any point along its length, rather than relying on detectors positioned at fixed intervals. Firestone Fire and Security Systems supplies and installs linear heat detection systems across cable trays, tunnels, and high-hazard industrial areas in the UAE, integrated with addressable and conventional fire alarm systems."
+  },
+  {
+   "t": "p",
+   "text": "<strong>02 444 1638</strong>"
+  },
+  {
+   "t": "h",
+   "text": "How Linear Heat Detection Works"
+  },
+  {
+   "t": "p",
+   "text": "A linear heat detection cable runs continuously along the length of the area being protected, such as a cable tray, conveyor, or tunnel wall. The cable itself acts as the sensor, triggering an alarm when any point along its run reaches a set temperature threshold, rather than depending on heat reaching a fixed detector spaced at intervals. This gives continuous coverage along the full length of the protected route, with no gaps between detection points."
+  },
+  {
+   "t": "h",
+   "text": "Brands We Supply and Install"
+  },
+  {
+   "t": "p",
+   "text": "We supply and install linear heat detection cable and control equipment from established fire alarm manufacturers, including Asenware, Hochiki, System Sensor, Apollo, and Notifier, selected to match the hazard being protected and the fire alarm panel already in place."
+  },
+  {
+   "t": "h",
+   "text": "Where Linear Heat Detection Is Used"
+  },
+  {
+   "t": "p",
+   "text": "Linear heat detection is typically specified for long, narrow, or hard-to-access spaces where point-type detectors would leave gaps in coverage, including cable trays and tunnels, conveyor systems, car park ceilings, escalators, and industrial process areas where dust, humidity, or extreme temperatures make standard smoke detection unreliable."
+  },
+  {
+   "t": "h",
+   "text": "our services"
+  },
+  {
+   "t": "h",
+   "text": "Linear Heat Detection Maintenance"
+  },
+  {
+   "t": "p",
+   "text": "Routine maintenance includes testing the control unit's ability to detect a simulated fault or temperature rise along the cable, checking the physical condition of the cable and its mounting for damage, and confirming the system remains correctly zoned or addressed within the fire alarm panel. Environments with vibration, movement, or exposure to chemicals are checked more closely, since these conditions can degrade cable condition faster than a typical indoor installation."
+  },
+  {
+   "t": "h",
+   "text": "Linear Heat Detection Maintenance"
+  },
+  {
+   "t": "h",
+   "text": "Linear Heat Detection — FAQ"
+  },
+  {
+   "t": "faq",
+   "items": [
+    {
+     "q": "What is linear heat detection?",
+     "a": "Linear heat detection uses a continuous sensing cable to detect a temperature rise at any point along its length, giving continuous coverage along a protected route rather than relying on detectors spaced at fixed intervals."
+    },
+    {
+     "q": "Where is linear heat detection used instead of point-type detectors?",
+     "a": "Linear heat detection is typically used for cable trays, tunnels, conveyor systems, car parks, and industrial areas where dust, humidity, or extreme temperatures make standard smoke detection unreliable, or where the space is too long or narrow for evenly spaced point detectors."
+    },
+    {
+     "q": "What is the difference between digital and analogue linear heat detection cable?",
+     "a": "Digital LHD cable can identify the approximate location along its length where a temperature rise occurred, while analogue cable triggers a zone-based alarm without pinpointing the exact position."
+    },
+    {
+     "q": "Can linear heat detection connect to an addressable fire alarm system?",
+     "a": "Yes, linear heat detection control units can be integrated with both addressable and conventional fire alarm panels, depending on the building's existing system."
+    }
+   ]
+  }
+ ],
+ "title": "Linear Heat Detection (LHD) System Supply & Installation in the UAE"
+}

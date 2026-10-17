@@ -1,0 +1,158 @@
+{
+ "route": "/services/fire-pump-system",
+ "kind": "service",
+ "metaTitle": "Fire Pump System Installation & Repair UAE | Firestone",
+ "metaDescription": "Fire pump system installation, testing, repair and maintenance services in the UAE. Reliable fire pump solutions for commercial and industrial properties.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Fire Pump System"
+  },
+  {
+   "t": "p",
+   "text": "Installation, Testing & Repair in UAE"
+  },
+  {
+   "t": "img",
+   "alt": "fire pump system"
+  },
+  {
+   "t": "h",
+   "text": "Reliable Fire Pump Systems for Critical Fire Protection"
+  },
+  {
+   "t": "p",
+   "text": "A reliable fire pump system is a critical component of an active fire protection system, providing the required water flow and pressure to firefighting systems when needed. At <strong>Firestone Fire & Security LLC</strong>, we provide professional <strong>fire pump system installation, testing, repair, maintenance and commissioning services</strong> across the UAE.Our team supports commercial buildings, residential developments, warehouses, industrial facilities, hotels, retail properties and other projects with properly designed and maintained fire pump systems.From new <strong>fire pump system installation</strong> to periodic testing and emergency repairs, we help ensure your firefighting infrastructure remains reliable, operational and aligned with applicable UAE fire safety requirements."
+  },
+  {
+   "t": "h",
+   "text": "Our services"
+  },
+  {
+   "t": "h",
+   "text": "Fire Pump System Installation"
+  },
+  {
+   "t": "p",
+   "text": "Our fire pump system installation service covers pump selection and sizing, pump room layout, control panel setup, and connection to the building's water source and distribution network. Every installation is based on the flow and pressure demand calculated for the specific building, not a standard fixed configuration."
+  },
+  {
+   "t": "h",
+   "text": "Fire Pump System Maintenance"
+  },
+  {
+   "t": "p",
+   "text": "Regular maintenance keeps a fire pump ready to perform when it's needed, even after long periods of standby. Our fire pump maintenance visits include running tests to confirm automatic start-up, checking pressure and flow output, inspecting the control panel, and servicing the jockey pump, all carried out under a scheduled AMC rather than left until a fault appears."
+  },
+  {
+   "t": "h",
+   "text": "Fire Pump Repair"
+  },
+  {
+   "t": "p",
+   "text": "Where a pump fails to start, underperforms, or a control panel fault is identified, our fire pump repair service diagnoses and resolves the issue, whether that's a mechanical fault in the pump itself, a wiring or control panel problem, or an issue with the pump's fuel or power supply."
+  },
+  {
+   "t": "h",
+   "text": "Fire Pump Room System"
+  },
+  {
+   "t": "p",
+   "text": "The pump room houses the fire pump, jockey pump, and control panel together, and its layout affects both performance and compliance. We design and fit out fire pump rooms with the ventilation, access, and space clearances civil defence requires, so the room itself doesn't become a point of failure during an inspection."
+  },
+  {
+   "t": "h",
+   "text": "Fire Pump Suppliers in UAE"
+  },
+  {
+   "t": "p",
+   "text": "Alongside installation and maintenance, we supply fire pumps and associated equipment, including electric and diesel pump units, jockey pumps, and control panels, sourced to meet UAE fire protection standards."
+  },
+  {
+   "t": "h",
+   "text": "Service Areas"
+  },
+  {
+   "t": "p",
+   "text": "Abu Dhabi Fire pump system installation and maintenance for properties across Abu Dhabi under ADCD requirements."
+  },
+  {
+   "t": "p",
+   "text": "Dubai Design, installation, and servicing of fire pump systems for Dubai properties, compliant with DCD regulations."
+  },
+  {
+   "t": "p",
+   "text": "Sharjah Fire pump system services for Sharjah sites, meeting SCD standards."
+  },
+  {
+   "t": "p",
+   "text": "Al Ain Installation and maintenance support for fire pump systems across Al Ain."
+  },
+  {
+   "t": "h",
+   "text": "Why a Fire Pump System Matters"
+  },
+  {
+   "t": "p",
+   "text": "Without adequate pump pressure, hydrants, sprinklers, and hose reels can only deliver whatever pressure the incoming water supply provides on its own, which is rarely enough during an actual fire when multiple outlets may be drawing water at once. A properly sized and maintained fire pump is what turns a building's fire protection network from a set of pipes and outlets into a system that can actually perform under real firefighting conditions.Fire pump performance is also a specific point civil defence authorities test during inspection and approval, separate from checking the pipework or outlets themselves. A pump that fails to start automatically, or can't sustain the required pressure, can hold up a building's Istifa or occupancy approval even if every other part of the system is correctly installed."
+  },
+  {
+   "t": "h",
+   "text": "Who Needs a Fire Pump System"
+  },
+  {
+   "t": "p",
+   "text": "Any building where hydrants, sprinklers, wet risers, or hose reels rely on more pressure than the incoming water supply alone can provide will need a fire pump system, typically including:"
+  },
+  {
+   "t": "p",
+   "text": "High-rise and mid-rise buildings"
+  },
+  {
+   "t": "img",
+   "alt": "Fire pump testing image"
+  },
+  {
+   "t": "h",
+   "text": "Fire Pump Testing and Performance Checks"
+  },
+  {
+   "t": "p",
+   "text": "Testing confirms a fire pump starts automatically under a simulated pressure drop, reaches its rated flow and pressure output, and shuts down correctly once demand ends. Results are recorded and kept on file to support civil defence inspections and Istifa documentation, the same way test records are maintained for hydrant and hose reel systems."
+  },
+  {
+   "t": "h",
+   "text": "Fire Pump Room Requirements"
+  },
+  {
+   "t": "p",
+   "text": "A compliant pump room needs enough space for access and maintenance around the pump and control panel, adequate ventilation, and clear signage identifying it as a fire pump room. Poor pump room design is a common reason a system fails inspection even when the pump itself is correctly specified, since civil defence assesses the room's layout as part of the overall system, not just the equipment inside it."
+  },
+  {
+   "t": "h",
+   "text": "Fire Pump System — FAQ"
+  },
+  {
+   "t": "faq",
+   "items": [
+    {
+     "q": "What is a fire pump system?",
+     "a": "A fire pump system boosts water pressure and flow to a building's firefighting network, including hydrants, sprinklers, wet risers, and hose reels, whenever the incoming water supply alone can't meet demand."
+    },
+    {
+     "q": "How often should a fire pump system be maintained?",
+     "a": "Fire pump systems should be tested and serviced at regular intervals to confirm automatic start-up, pressure output, and control panel function remain within civil defence requirements."
+    },
+    {
+     "q": "What is the difference between a fire pump and a jockey pump?",
+     "a": "A fire pump delivers the full pressure and flow needed during a fire, while a jockey pump is a smaller pump that maintains minor pressure fluctuations during normal operation, preventing the main pump from starting unnecessarily."
+    },
+    {
+     "q": "Do fire pump systems need civil defence approval?",
+     "a": "Yes. Fire pump systems in the UAE must be designed, installed, and maintained by a civil defence-approved contractor, with pump performance and pump room layout meeting ADCD, DCD, or SCD requirements depending on the emirate."
+    }
+   ]
+  }
+ ],
+ "title": "Fire Pump System"
+}

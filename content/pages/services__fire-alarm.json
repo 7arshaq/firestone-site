@@ -1,0 +1,220 @@
+{
+ "route": "/services/fire-alarm",
+ "kind": "service",
+ "metaTitle": "Fire Alarm Company in UAE | Installation & supply | Firestone",
+ "metaDescription": "Civil Defence approved fire alarm company in Dubai, Abu Dhabi & Sharjah. Fire alarm system design, installation & 24/7 repair. Get a free quote.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Fire Alarm Company in UAE: Installation and Supply"
+  },
+  {
+   "t": "p",
+   "text": "Civil Defence approved fire alarm system design, installation, supply company for commercial, industrial and residential buildings in Dubai, Abu Dhabi and Sharjah, backed by a fast fire alarm repair service with 24/7 emergency response. Conventional and addressable systems, fully tested and handed over with authority approval support."
+  },
+  {
+   "t": "link",
+   "href": "tel:+971506761638",
+   "text": "Call Now"
+  },
+  {
+   "t": "p",
+   "text": "Civil Defence Approved Fire Alarm services— Design & Engineering, Installation, Testing & Commissioning, <a href=\"/services/annual-maintenance-contract-abu-dhabi\">Annual Maintenance Contracts (AMC)</a> and 24/7 Emergency Breakdown Support. <a href=\"/\">Fire and safety company</a> providing all your fire alarm services. Our certified technicians deliver preventive maintenance, inspections, system testing, emergency breakdown support, and compliance services to keep your fire alarm systems operating safely and reliably."
+  },
+  {
+   "t": "h",
+   "text": "Fire Alarm System Supply & Installation in UAE"
+  },
+  {
+   "t": "p",
+   "text": "Fire alarm control panels, detectors, sounders and manual call points, supplied and installed by certified technicians in Dubai, Abu Dhabi and Sharjah."
+  },
+  {
+   "t": "tiles",
+   "items": [
+    {
+     "title": "Conventional and addressable control panel",
+     "alt": "Fire alarm control panel with indicator lights and buttons mounted on a corridor wall"
+    },
+    {
+     "title": "Manual call points",
+     "alt": "Red manual call points for a fire alarm system mounted on a wall"
+    },
+    {
+     "title": "Sounders and flashers",
+     "alt": "Red fire alarm sounder and flasher with FIRE label mounted on a wall"
+    },
+    {
+     "title": "VESDA system",
+     "alt": "VESDA air sampling smoke detection units with red sampling pipes on a wall"
+    },
+    {
+     "title": "Beam detectors",
+     "alt": "White optical beam smoke detector mounted high on a wall bracket"
+    },
+    {
+     "title": "Flame detectors",
+     "alt": "Red flame detector with flame symbol and dark sensor lens"
+    },
+    {
+     "title": "Linear heat detection system",
+     "alt": "Red linear heat detection cable fixed to a steel bracket on an industrial ceiling"
+    },
+    {
+     "title": "Public address and voice evacuation system",
+     "alt": "Public address and voice evacuation system console with microphone and ceiling speaker"
+    }
+   ]
+  },
+  {
+   "t": "h",
+   "text": "Conventional vs Addressable Fire Alarm System in UAE"
+  },
+  {
+   "t": "p",
+   "text": "Choosing between a conventional and an addressable fire alarm system depends on your building's size, layout, use and Civil Defence requirements. We design, supply and install both types, with their fire alarm control panels, in Dubai, Abu Dhabi and Sharjah."
+  },
+  {
+   "t": "h",
+   "text": "Conventional Fire Alarm System"
+  },
+  {
+   "t": "p",
+   "text": "In a conventional fire alarm system, detectors and manual call points are wired in zones, such as a floor or a wing. When a device activates, the fire alarm control panel shows which zone is in alarm, but not which device triggered it. Conventional systems are simple, reliable and usually cost less to install, which suits smaller buildings, shops, small offices and warehouses with a limited number of zones."
+  },
+  {
+   "t": "h",
+   "text": "Addressable Fire Alarm System"
+  },
+  {
+   "t": "p",
+   "text": "In an addressable fire alarm system, each detector and call point has its own address on a wired loop, so the control panel shows exactly which device is in alarm and where it is. Loop wiring with isolators keeps the system working if a cable is damaged, and the system is easier to expand and to integrate with other life safety systems. Addressable systems suit larger buildings such as towers, malls, hospitals, hotels and industrial sites."
+  },
+  {
+   "t": "h",
+   "text": "Fire Alarm Services in UAE"
+  },
+  {
+   "t": "h",
+   "text": "Fire Alarm Design, Supply & Installation"
+  },
+  {
+   "t": "p",
+   "text": "We provide end-to-end fire alarm services in Dubai, Abu Dhabi and Sharjah, from design to handover:"
+  },
+  {
+   "t": "p",
+   "text": "Design & Engineering — code-compliant fire alarm system design that meets Civil Defence requirements"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "<strong>Supply & Installation</strong> — fire alarm control panels, detectors, sounders and call points, supplied and installed by certified technicians",
+    "<strong>Testing & Commissioning</strong> — full fire alarm installation and testing, including cause and effect verification, before handover",
+    "<strong>Upgrades, Retrofit & Expansion</strong> — upgrading or extending existing fire alarm systems for renovated or expanded buildings",
+    "<strong>Programming & Documentation</strong> — control panel programming and zoning, plus as-built documents and handover records",
+    "<strong>Hassantuk Connection</strong> — connecting your fire alarm system to the Hassantuk network in Dubai"
+   ],
+   "rich": true
+  },
+  {
+   "t": "h",
+   "text": "Fire Alarm Maintenance, Repair & AMC"
+  },
+  {
+   "t": "p",
+   "text": "Regular maintenance keeps your fire alarm system reliable, supports Civil Defence compliance and keeps it ready for inspection. Our fire alarm maintenance covers contracts, planned servicing and fast repair. A well-maintained fire alarm system is a legal requirement and a critical safety measure. Our fire alarm AMC (Annual Maintenance Contract) keeps your system compliant, functional, and ready for inspection year-round."
+  },
+  {
+   "t": "ul",
+   "items": [
+    "<strong>Fire Alarm Repair Service</strong> — fast diagnosis and fault rectification, with faulty detectors, panels and accessories replaced",
+    "<strong>Emergency Breakdown Service (24/7)</strong> — round-the-clock fire alarm repair and response in Dubai, Abu Dhabi and Sharjah",
+    "<strong>Annual Maintenance Contract (AMC)</strong> — scheduled visits to keep your fire alarm system compliant and operational",
+    "<strong>Preventive Maintenance (PPM)</strong> — detector cleaning and calibration, panel health checks and battery tests to catch issues early",
+    "<strong>Battery Replacement Service</strong> — routine fire alarm battery replacement to maintain backup power"
+   ],
+   "rich": true
+  },
+  {
+   "t": "p",
+   "text": "Fire alarm maintenance in <a href=\"/services/fire-amc-dubai\">Dubai</a> <a href=\"/services/annual-maintenance-contract-abu-dhabi\">Abu Dhabi</a>and <a href=\"/services/fire-amc-sharjah\">Sharjah</a>"
+  },
+  {
+   "t": "p",
+   "text": "Frequently Asked Questions"
+  },
+  {
+   "t": "p",
+   "text": "Common questions about fire alarm installation, AMC and maintenance in Dubai, Abu Dhabi and Sharjah"
+  },
+  {
+   "t": "p",
+   "text": "Last updated: October 2026"
+  },
+  {
+   "t": "faq",
+   "items": [
+    {
+     "q": "What are the four types of fire alarm systems?",
+     "a": "The four main types of fire alarm systems are conventional, addressable, analogue addressable and wireless. Conventional systems wire detectors in zones. Addressable systems give each device its own address on a loop. Analogue addressable systems send readings from each detector, such as smoke level, to the control panel, which decides when to raise the alarm. Wireless systems use radio signals instead of cable. Firestone designs, supplies and installs <a href=\"#conventional-addressable\">conventional and addressable fire alarm systems</a> in Dubai, Abu Dhabi and Sharjah."
+    },
+    {
+     "q": "How much does it cost to install a fire alarm system in the UAE?",
+     "a": "The cost of installing a fire alarm system in the UAE depends on the building's size, the number of zones or devices, whether the system is conventional or addressable, the cabling, and Civil Defence approval requirements. Addressable systems usually cost more upfront than conventional ones. Firestone gives a free quote after reviewing your drawings or visiting the site, so send us your building type and floor area to get started."
+    },
+    {
+     "q": "Which fire alarm company is the best in Dubai?",
+     "a": "There is no official ranking of fire alarm companies in Dubai, so check four things before you choose: approval by the local civil defence authority (DCD in Dubai, ADCD in Abu Dhabi, SCD in Sharjah), experience with your type of building, <a href=\"#hassantuk\">Hassantuk</a> support in Dubai, and after-sales maintenance with 24/7 repair. Firestone is a Category A civil defence approved contractor that has worked in the UAE since 2007, and designs, supplies, installs and maintains fire alarm systems."
+    },
+    {
+     "q": "Is Hassantuk connection mandatory for fire alarm systems in Dubai?",
+     "a": "Hassantuk connection is required for eligible buildings in Dubai. Hassantuk is Dubai Civil Defence's smart fire alarm monitoring system. Firestone checks whether your building needs it, upgrades the fire alarm control panel if necessary, and <a href=\"#hassantuk\">supports the connection and registration</a> with Dubai Civil Defence."
+    },
+    {
+     "q": "Do you sell fire alarm equipment without installation?",
+     "a": "No. Firestone supplies fire alarm control panels, detectors, sounders and call points together with installation, testing and commissioning by certified technicians. This keeps the system compliant and covered by one contractor."
+    },
+    {
+     "q": "Can you upgrade or extend an existing fire alarm system?",
+     "a": "Yes. Firestone assesses your existing panel and devices, then extends or upgrades the fire alarm system for renovated or expanded buildings. This includes compatibility checks, panel reprogramming and updated as-built documents at handover."
+    },
+    {
+     "q": "How often should my fire alarm be serviced?",
+     "a": "Fire alarm systems should be inspected and tested on a regular schedule set by your maintenance contract and the authority's requirements, with visits commonly quarterly or yearly depending on the building. Each visit typically covers detector testing, control panel checks and battery tests. Firestone provides fire alarm maintenance contracts in <a href=\"/services/fire-amc-dubai#fire-alarm\">Dubai</a>, <a href=\"/services/annual-maintenance-contract-abu-dhabi#fire-alarm\">Abu Dhabi</a> and <a href=\"/services/fire-amc-sharjah\">Sharjah</a>."
+    },
+    {
+     "q": "Do you maintain the fire alarm systems you install?",
+     "a": "Yes. Firestone provides fire alarm maintenance, planned servicing and 24/7 emergency repair for the systems it installs and for existing systems. Maintenance contracts are available in <a href=\"/services/fire-amc-dubai#fire-alarm\">Dubai</a>, <a href=\"/services/annual-maintenance-contract-abu-dhabi#fire-alarm\">Abu Dhabi</a> and <a href=\"/services/fire-amc-sharjah\">Sharjah</a>."
+    },
+    {
+     "q": "What should I do if my fire alarm shows a fault or keeps giving false alarms?",
+     "a": "If your fire alarm shows a fault or keeps giving false alarms, report it to a fire alarm technician and do not disconnect or bypass the system. Common causes are dirty or faulty detectors, low batteries, wiring faults and failed devices. Firestone's fire alarm repair service offers diagnosis and 24/7 emergency response in Dubai, Abu Dhabi and Sharjah."
+    }
+   ]
+  },
+  {
+   "t": "h",
+   "text": "Hassantuk Smart Fire Alarm System in Dubai"
+  },
+  {
+   "t": "p",
+   "text": "Hassantuk is Dubai Civil Defence's smart fire alarm monitoring system. It connects your building's fire alarm control panel directly to the Civil Defence control centre, so fire detection is reported in real time and emergency response is faster. Hassantuk is required for eligible commercial, residential and industrial buildings in Dubai."
+  },
+  {
+   "t": "ul",
+   "items": [
+    "Hassantuk System Services in Dubai",
+    "Hassantuk system supply and installation, integrated with your fire alarm control panel",
+    "Hassantuk connection and registration support with Dubai Civil Defence",
+    "Compatibility checks and upgrades for existing fire alarm systems to meet Hassantuk requirements",
+    "Ongoing maintenance and fault monitoring to keep your Hassantuk connection active and compliant"
+   ]
+  },
+  {
+   "t": "p",
+   "text": "If your building requires Hassantuk connectivity, our engineers will assess your current fire alarm system and manage the upgrade or new installation, from design through Dubai Civil Defence approval. Already connected? See our fire alarm maintenance in Dubai."
+  }
+ ],
+ "title": "Fire Alarm Company in UAE: Installation and Supply"
+}

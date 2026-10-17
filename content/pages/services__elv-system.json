@@ -1,0 +1,95 @@
+{
+ "route": "/services/elv-system",
+ "kind": "service",
+ "metaTitle": "ELV System UAE | Extra Low Voltage Solutions | Firestone",
+ "metaDescription": "Firestone designs and installs ELV (extra low voltage) systems in the UAE, including structured cabling, IT solutions and SMATV/IPTV systems.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "ELV System"
+  },
+  {
+   "t": "p",
+   "text": "Every building runs on more than just its main electrical supply — the network that carries data, video, and low-power signals throughout a building is its own system entirely, and it's what an ELV (Extra Low Voltage) system covers. Structured cabling, IT infrastructure, TV distribution, and building communication networks all fall under ELV, and when they're designed together rather than added piecemeal over time, a building's connectivity actually works the way it's supposed to.We design and install ELV systems across Abu Dhabi, Dubai, Sharjah, and Al Ain, covering the full range of low-voltage infrastructure a modern building needs, from the cabling backbone through to the systems that run on it."
+  },
+  {
+   "t": "link",
+   "href": "#",
+   "text": "Call Now"
+  },
+  {
+   "t": "h",
+   "text": "What Falls Under ELV"
+  },
+  {
+   "t": "p",
+   "text": "ELV (Extra Low Voltage) refers to any system that operates on low-voltage circuits rather than a building's main power supply — this includes structured cabling, IT and network infrastructure, SMATV/IPTV television distribution, and the security and communication systems we cover elsewhere on our site, like CCTV, access control, and intercom. Because these systems all share the same low-voltage backbone, designing them together avoids the compatibility and coordination issues that come from treating each one as a separate, unrelated installation."
+  },
+  {
+   "t": "h",
+   "text": "Our ELV & IT Services"
+  },
+  {
+   "t": "p",
+   "text": "<strong>Structured Cabling</strong>"
+  },
+  {
+   "t": "p",
+   "text": "Structured cabling is the physical backbone every ELV system runs on — data, network, and communication cabling installed to a standard, organized layout rather than an ad-hoc mix of cable runs added over time.<a href=\"/services/structured-cabling\">Learn more➔</a>"
+  },
+  {
+   "t": "p",
+   "text": "<strong>IT Solutions</strong>"
+  },
+  {
+   "t": "p",
+   "text": "Our IT solutions cover network setup, infrastructure, and ongoing support for businesses that need reliable connectivity without managing it internally.<a href=\"/services/it-solutions\">Learn more➔</a>"
+  },
+  {
+   "t": "p",
+   "text": "<strong>SMATV / IPTV Systems</strong>"
+  },
+  {
+   "t": "p",
+   "text": "SMATV (Satellite Master Antenna TV) and IPTV systems distribute television signals throughout a building from a single shared source, commonly installed in hotels, residential towers, and multi-unit developments rather than running individual satellite dishes per unit."
+  },
+  {
+   "t": "h",
+   "text": "Why Design ELV as One System"
+  },
+  {
+   "t": "p",
+   "text": "ELV systems installed separately — cabling from one contractor, IT setup from another, TV distribution from a third — often don't coordinate well, leading to redundant cable runs, compatibility gaps, and no single point of accountability when something doesn't work correctly. We design ELV infrastructure as one coordinated system from the start, so the cabling backbone actually supports everything running on it, rather than each system working around limitations left by whatever was installed before it."
+  },
+  {
+   "t": "h",
+   "text": "Why Choose Firestone for ELV solutions"
+  },
+  {
+   "t": "p",
+   "text": "Firestone Fire and Security Systems has designed and installed ELV and security systems across the UAE since 2007, working alongside our fire protection services to give clients a single contractor across fire, security, and ELV infrastructure. We design ELV systems as coordinated infrastructure, not disconnected installations, so cabling, IT, and connected systems work together from day one."
+  },
+  {
+   "t": "faq",
+   "items": [
+    {
+     "q": "What does ELV mean?",
+     "a": "ELV stands for Extra Low Voltage — it refers to systems operating on low-voltage circuits, including structured cabling, IT networks, TV distribution, and security systems like CCTV and access control."
+    },
+    {
+     "q": "What's included in an ELV system?",
+     "a": "An ELV system typically includes structured cabling, network and IT infrastructure, SMATV/IPTV television distribution, and connected security systems such as CCTV, access control, and intercom."
+    },
+    {
+     "q": "Why should ELV systems be designed together rather than separately?",
+     "a": "Designing ELV systems together avoids compatibility gaps and redundant cabling that come from treating each system as a separate installation, and gives you one point of accountability instead of coordinating multiple contractors."
+    },
+    {
+     "q": "Does Firestone handle both ELV infrastructure and the systems that run on it?",
+     "a": "Yes, we design and install the cabling backbone along with the systems that use it, including IT, TV distribution, and security systems, as one coordinated project."
+    }
+   ]
+  }
+ ],
+ "title": "ELV System"
+}

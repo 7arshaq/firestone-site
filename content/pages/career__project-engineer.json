@@ -1,0 +1,91 @@
+{
+ "route": "/career/project-engineer",
+ "kind": "job",
+ "metaTitle": "Project Engineer | Careers at Firestone UAE",
+ "metaDescription": "Apply for the Project Engineer role at Firestone Fire and Security Systems, a civil defence approved fire protection contractor in the UAE.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Project Engineer"
+  },
+  {
+   "t": "p",
+   "text": "UAE"
+  },
+  {
+   "t": "p",
+   "text": "Full Time"
+  },
+  {
+   "t": "link",
+   "href": "#career-form",
+   "text": "Apply Now"
+  },
+  {
+   "t": "h",
+   "text": "📝 <strong>Job Description</strong>"
+  },
+  {
+   "t": "p",
+   "text": "We are seeking a <strong>skilled and detail-oriented Project Engineer</strong> to oversee the planning, execution, and completion of fire and safety projects. The ideal candidate will have experience in project coordination, technical expertise in fire protection systems, and the ability to ensure projects are delivered on time, within scope, and in compliance with quality and safety standards."
+  },
+  {
+   "t": "h",
+   "text": "🔧 <strong>Key Responsibilities</strong>"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "Plan, coordinate, and execute fire and safety projects from initiation to completion.",
+    "Review project drawings, specifications, and requirements.",
+    "Supervise installation, testing, and commissioning of fire protection and safety systems.",
+    "Monitor project progress and ensure adherence to timelines, budgets, and quality standards.",
+    "Coordinate with consultants, contractors, vendors, and internal teams.",
+    "Prepare technical reports, project documentation, and progress updates.",
+    "Ensure compliance with NFPA, civil defense, and local fire authority regulations.",
+    "Provide technical support and resolve on-site issues during project execution."
+   ]
+  },
+  {
+   "t": "h",
+   "text": "✅ <strong>Requirements</strong>"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "Bachelor’s Degree/Diploma in Mechanical/Electrical Engineering or related field.",
+    "Proven experience in fire and safety project execution.",
+    "Strong knowledge of fire protection systems (sprinklers, hydrants, pumps, fire alarms, suppression systems).",
+    "Ability to read and interpret engineering drawings and specifications.",
+    "Strong organizational and leadership skills.",
+    "Good communication and coordination skills."
+   ]
+  },
+  {
+   "t": "p",
+   "text": "🎯 <strong>Preferred Qualifications</strong>"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "Civil Defense-approved Engineer (preferred, not mandatory).",
+    "PMP or equivalent project management certification.",
+    "Knowledge of integrated building systems (BMS, access control, CCTV).",
+    "Familiarity with AutoCAD or project scheduling tools."
+   ]
+  },
+  {
+   "t": "h",
+   "text": "🕒 <strong>Working Conditions</strong>"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "Office and site-based role across multiple project locations.",
+    "May involve extended hours, weekend work, and emergency site visits.",
+    "PPE and project-related tools will be provided by the company."
+   ]
+  }
+ ],
+ "title": "Project Engineer"
+}

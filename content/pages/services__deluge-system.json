@@ -1,0 +1,135 @@
+{
+ "route": "/services/deluge-system",
+ "kind": "service",
+ "metaTitle": "Deluge System UAE | Civil Defence Approved | Firestone",
+ "metaDescription": "Deluge fire suppression system design, installation and maintenance across the UAE. Civil defence approved contractor for high-hazard fire protection.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Deluge System Design, Installation & Maintenance in the UAE"
+  },
+  {
+   "t": "img",
+   "alt": "Deluge system"
+  },
+  {
+   "t": "h",
+   "text": "What is deluge system"
+  },
+  {
+   "t": "p",
+   "text": "A deluge system is a fire suppression setup built for high-hazard environments, where every open nozzle on the network discharges water or foam simultaneously the moment the system activates. Firestone Fire and Security Systems designs, installs, and maintains deluge systems across industrial and high-risk facilities in the UAE, in line with civil defence requirements."
+  },
+  {
+   "t": "h",
+   "text": "How a Deluge System Works"
+  },
+  {
+   "t": "p",
+   "text": "Unlike a standard sprinkler system, where individual heads open only where heat is detected, a deluge system keeps every nozzle on the network open at all times. The pipework itself stays empty until a separate detection system, such as heat or flame detectors, triggers the deluge valve to open. Once triggered, water or foam floods the entire protected area at once, giving rapid, full-coverage suppression for risks where a fire could spread too fast for a standard sprinkler response to contain."
+  },
+  {
+   "t": "h",
+   "text": "our services"
+  },
+  {
+   "t": "h",
+   "text": "Deluge System Design"
+  },
+  {
+   "t": "p",
+   "text": "Deluge system design starts with a fire risk assessment of the specific hazard being protected, followed by hydraulic calculations to determine pipe sizing, nozzle spacing, and the flow rate needed for full coverage. Detection method, valve type, and water or foam supply are all specified against the risk the system is protecting, not a standard template."
+  },
+  {
+   "t": "h",
+   "text": "Deluge System Installation"
+  },
+  {
+   "t": "p",
+   "text": "Installation covers the deluge valve, detection system, pipe network, and nozzles, along with connection to the water or foam supply and the fire pump system supplying it. Every installation is commissioned and pressure-tested before handover to confirm the system activates and discharges as designed."
+  },
+  {
+   "t": "h",
+   "text": "Deluge System Maintenance"
+  },
+  {
+   "t": "p",
+   "text": "Deluge systems need regular testing to confirm the detection system, valve, and nozzles all function correctly, since the system may sit inactive for long periods between triggers. Our maintenance visits include valve operation testing, detection system checks, and nozzle inspection, carried out under a scheduled AMC."
+  },
+  {
+   "t": "h",
+   "text": "Deluge System Testing"
+  },
+  {
+   "t": "p",
+   "text": "Testing confirms the deluge valve opens on demand, water or foam reaches full coverage across the protected area, and the detection system triggers the valve correctly. Results are documented to support civil defence inspection and Istifa certification."
+  },
+  {
+   "t": "h",
+   "text": "Why Deluge Systems important in the UAE"
+  },
+  {
+   "t": "p",
+   "text": "The UAE's industrial base includes a concentration of exactly the facility types that rely on deluge protection: oil and gas processing sites, fuel and chemical storage terminals, power transformer stations, and large-scale industrial plants across the free zones and industrial cities in Abu Dhabi, Dubai, and Sharjah. These facilities carry a level of fire risk that general-purpose sprinkler or hydrant systems weren't designed to handle, which is why civil defence authorities specifically assess high-hazard sites for deluge protection during design approval rather than leaving it as an optional upgrade.The UAE's climate adds a further factor. High ambient temperatures increase the risk profile for facilities storing flammable liquids or gas, since heat accelerates vapour release and raises the chance of rapid ignition. A deluge system's ability to flood a hazard area immediately, rather than responding progressively, is particularly relevant in environments where that speed genuinely changes the outcome.For facility owners and EPC contractors delivering industrial projects in the UAE, a correctly designed deluge system is often the difference between a project passing civil defence approval on schedule and facing delays over an inadequately specified fire protection strategy for a high-hazard area."
+  },
+  {
+   "t": "h",
+   "text": "Why Deluge Systems Are Different"
+  },
+  {
+   "t": "p",
+   "text": "Most fire suppression systems are designed to respond to a fire after it starts and contain it locally. A deluge system is designed around a different assumption: that in certain environments, a fire can spread faster than a room-by-room response can keep up with, so the system floods the entire hazard area at once rather than waiting to see where the fire spreads next. This makes deluge systems less about containment and more about denying a fire the time it needs to escalate."
+  },
+  {
+   "t": "h",
+   "text": "Deluge System Inspection Checklist"
+  },
+  {
+   "t": "p",
+   "text": "Routine inspection typically checks:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "Deluge valve opens smoothly on test",
+    "Detection devices respond correctly",
+    "Nozzles are unobstructed and correctly aligned",
+    "Water or foam supply meets the pressure the system was designed around"
+   ]
+  },
+  {
+   "t": "h",
+   "text": "What Triggers a Deluge System"
+  },
+  {
+   "t": "p",
+   "text": "A deluge system doesn't activate on its own; it depends on a separate detection method identifying the fire first. Depending on the site, this might be heat detectors, flame detectors, or a linked fire alarm system, each wired to open the deluge valve once a genuine fire condition is confirmed. Getting the detection method right is as important as the pipework and nozzles themselves, since a system that floods too late, or false-triggers too often, fails the purpose it was installed for."
+  },
+  {
+   "t": "h",
+   "text": "Deluge System — FAQ"
+  },
+  {
+   "t": "faq",
+   "items": [
+    {
+     "q": "What is a deluge system?",
+     "a": "A deluge system is a fire suppression system where every nozzle on the network is open at all times, discharging water or foam across the entire protected area simultaneously once a detection system triggers the deluge valve."
+    },
+    {
+     "q": "How is a deluge system different from a sprinkler system?",
+     "a": "A sprinkler system activates individual heads only where heat is detected, while a deluge system discharges through every open nozzle at once across the whole protected area, designed for risks where a fire could spread too fast for a standard sprinkler response."
+    },
+    {
+     "q": "Where are deluge systems used?",
+     "a": "Deluge systems are typically used in high-hazard environments such as transformer rooms, chemical and fuel storage areas, gas processing facilities, and aircraft hangars, rather than general commercial buildings."
+    },
+    {
+     "q": "Do deluge systems need civil defence approval?",
+     "a": "Yes. Deluge systems in the UAE must be designed, installed, and maintained by a civil defence-approved contractor, with system design and valve specification meeting ADCD, DCD, or SCD requirements depending on the emirate."
+    }
+   ]
+  }
+ ],
+ "title": "Deluge System Design, Installation & Maintenance in the UAE"
+}

@@ -1,0 +1,120 @@
+{
+ "route": "/services",
+ "kind": "page",
+ "metaTitle": "Fire & Safety Services in Abu Dhabi, UAE | Firestone Fire & Safety",
+ "metaDescription": "ADCD Category A approved fire protection and safety services in Abu Dhabi, Dubai, Sharjah and Al Ain. Fire alarm, gas suppression, AMC, civil defence compliance and more.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Our services"
+  },
+  {
+   "t": "p",
+   "text": "Firestone Fire & Security Systems LLC is an ADCD Category A approved fire protection contractor delivering complete fire and life safety services across Abu Dhabi, Dubai, Sharjah, and Al Ain. With over 19 years of experience since 2007, our certified engineers handle everything from system design and installation to annual maintenance contracts, Civil Defence compliance, and Istifa certificate processing."
+  },
+  {
+   "t": "h",
+   "text": "Complete Fire Protection & Security Services Across the UAE"
+  },
+  {
+   "t": "features",
+   "items": [
+    {
+     "title": "Civil Defence Compliance",
+     "text": "Complete Civil Defence compliance services including ADCD, DCD, SCD, and AACD compliance, Istifa certificate processing, annual inspections, building compliance audits, and full Civil Defence approval process management across the UAE."
+    },
+    {
+     "title": "Fire protection services",
+     "text": "Design, supply, and installation of fire alarm systems, smoke detection, firefighting systems, sprinkler systems, and FM200 gas suppression across the UAE. ADCD approved from AutoCAD shop drawing to testing, commissioning, and Annual Maintenance Contract."
+    },
+    {
+     "title": "Gas Suppression Systems",
+     "text": "FM200 gas suppression, LPG, and central gas system design, supply, installation, and AMC in Abu Dhabi and UAE. DOE approved — fully compliant with UAE Civil Defence regulations for server rooms, warehouses, and commercial facilities."
+    },
+    {
+     "title": "Smoke Management Systems",
+     "text": "DOE approved smoke management, smoke ventilation, and exhaust system design, supply, and installation in Abu Dhabi. Compliant with UAE Civil Defence and air ventilation regulations for commercial, industrial, and residential buildings."
+    },
+    {
+     "title": "Fire Sealant & Fire Stopping",
+     "text": "Supply and installation of firestop sealants, firestop sprays, and intumescent coating systems across Abu Dhabi and UAE. FCIA certified passive fire protection contractor — DOE approved for walls, floors, and building joints."
+    },
+    {
+     "title": "Security & ELV Systems",
+     "text": "Supply and installation of CCTV cameras, access control systems, gate barrier systems, and audio-video intercom in Abu Dhabi. SIRA and MCC approved including ADMCC approved CCTV Annual Maintenance Contract."
+    },
+    {
+     "title": "Annual Maintenance Contract Abu Dhabi",
+     "text": "ADCD approved fire system Annual Maintenance Contracts covering fire alarm systems, firefighting equipment, gas suppression, and all fire safety installations across Abu Dhabi and UAE facilities."
+    },
+    {
+     "title": "Fire AMC Sharjah",
+     "text": "Comprehensive fire system Annual Maintenance Contracts for facilities across Sharjah — covering fire alarm systems, firefighting equipment, and full Civil Defence compliance documentation."
+    },
+    {
+     "title": "Istifa",
+     "text": "End-to-end Istifa certificate processing and renewal services across Abu Dhabi, Dubai, Sharjah, and Al Ain — managing all technical documentation, system inspections, and authority submissions on behalf of your facility."
+    }
+   ]
+  },
+  {
+   "t": "h",
+   "text": "What sets fire stone apart"
+  },
+  {
+   "t": "features",
+   "items": [
+    {
+     "title": "Single Point of Responsibility",
+     "text": "From initial system design through final Civil Defence certification, one dedicated team manages your entire project — eliminating the coordination gaps that often arise when multiple contractors handle different phases of fire protection work."
+    },
+    {
+     "title": "In-house engineering",
+     "text": "Unlike contractors who outsource documentation and approvals, our AutoCAD drafting, technical submissions, and Civil Defence liaison are all handled internally — meaning faster turnaround and accountability at every step."
+    },
+    {
+     "title": "Multi-Emirate Licensing",
+     "text": "Holding active approvals across ADCD, DCD, SCD, and SIRA means we can take on projects spanning multiple emirates without subcontracting to third parties, keeping quality and pricing consistent across all your sites."
+    },
+    {
+     "title": "Long-Term Maintenance Partnership of Responsibility",
+     "text": "We don't disappear after installation. Our Annual Maintenance Contracts are designed around your facility's actual usage patterns and inspection cycles, not generic service intervals."
+    }
+   ]
+  },
+  {
+   "t": "h",
+   "text": "want to know more"
+  },
+  {
+   "t": "faq",
+   "items": [
+    {
+     "q": "Which areas in the UAE does Firestone cover?",
+     "a": "We operate across Abu Dhabi, Dubai, Sharjah, and Al Ain, holding active approvals from ADCD, DCD, SCD, and SIRA — allowing us to handle multi-site projects without subcontracting to third parties."
+    },
+    {
+     "q": "Do you handle both installation and ongoing maintenance?",
+     "a": "Yes. We design, supply, and install fire and safety systems, then continue supporting your facility through Annual Maintenance Contracts, Civil Defence inspections, and Istifa certificate renewals — so you're not switching contractors between project phases."
+    },
+    {
+     "q": "How long does a typical fire safety project take from design to certification?",
+     "a": "Timelines vary by system complexity and building size, but most projects move from initial AutoCAD shop drawings through installation, testing, and final Civil Defence approval within a few weeks for standard commercial properties. Larger or multi-system projects are scoped individually."
+    },
+    {
+     "q": "Can Firestone service a building that already has fire systems installed by another contractor?",
+     "a": "Yes. We regularly take over maintenance and compliance for existing systems, conducting an initial assessment to confirm everything meets current Civil Defence standards before issuing an AMC."
+    },
+    {
+     "q": "What happens if my facility fails a Civil Defence inspection?",
+     "a": "Our team identifies the deficiency, carries out the required corrective work, and resubmits documentation to the relevant authority — ADCD, DCD, or SCD — to get your facility back to compliant status as quickly as possible."
+    },
+    {
+     "q": "Do you provide emergency response outside business hours?",
+     "a": "Yes, AMC clients receive priority emergency call-out support for urgent fire system issues, in addition to scheduled maintenance visits."
+    }
+   ]
+  }
+ ],
+ "title": "Our services"
+}

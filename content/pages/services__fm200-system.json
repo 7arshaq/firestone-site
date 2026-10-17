@@ -1,0 +1,79 @@
+{
+ "route": "/services/fm200-system",
+ "kind": "service",
+ "metaTitle": "FM200 Fire Suppression System UAE |Installation and refilling",
+ "metaDescription": "Firestone supplies, installs and maintains FM200 fire suppression systems in the UAE: clean agent protection for data centres and server rooms.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "FM200 System"
+  },
+  {
+   "t": "card",
+   "href": "#",
+   "title": "call now",
+   "alt": ""
+  },
+  {
+   "t": "p",
+   "text": "FM200 is a clean agent fire suppression gas — chemically known as HFC-227ea — designed to extinguish a fire in seconds without leaving residue, without damaging equipment, and without needing to evacuate the space beforehand in most configurations. That makes it the go-to suppression system for environments where water or foam would cause more damage than the fire itself: server rooms, data centres, electrical switch rooms, and archives.What makes FM200 different from a water sprinkler or foam system isn't just that it's a gas — it's that it works by absorbing heat and interrupting the chemical reaction that keeps a fire burning, rather than smothering or cooling from the outside. That's why it can knock down a fire in under 10 seconds without soaking a server rack or leaving a corrosive residue on circuit boards, which is exactly the kind of damage a traditional suppression method would cause even if it successfully put the fire out.We supply, install, and maintain FM200 systems across Abu Dhabi, Dubai, Sharjah, and Al Ain, sizing each system to the room it's protecting rather than fitting a standard cylinder and hoping the concentration works out. Room volume, sealing, and any potential leakage paths all factor into that sizing — get it wrong and the agent either doesn't reach the concentration needed to suppress the fire, or you've paid for far more cylinder capacity than the room actually needed."
+  },
+  {
+   "t": "h",
+   "text": "How FM200 Works"
+  },
+  {
+   "t": "p",
+   "text": "FM200 suppresses fire primarily by absorbing heat, interrupting the chemical reaction that keeps a fire burning, and it does this fast enough to extinguish most fires within 10 seconds of discharge. Because it's a gas, it fills the entire protected space rather than targeting a single point, which is why room integrity — sealed doors, ceiling voids, cable penetrations — matters as much as the system itself; a leaky room lets the agent escape before it reaches the concentration needed to put the fire out."
+  },
+  {
+   "t": "h",
+   "text": "Our services"
+  },
+  {
+   "t": "h",
+   "text": "FM200 Installation"
+  },
+  {
+   "t": "p",
+   "text": "FM200 installation starts with calculating the room's volume and any leakage paths, since the system's agent concentration has to be sized correctly for the space to actually work — undersizing it means the fire isn't fully suppressed, oversizing it wastes agent and cost unnecessarily. Once sized, we install the cylinder bank, run discharge piping to the nozzles, wire in detection and the control panel, and commission the whole system before handover, confirming it will actually discharge and reach suppression concentration if triggered."
+  },
+  {
+   "t": "h",
+   "text": "FM200 Refilling & Maintenance"
+  },
+  {
+   "t": "p",
+   "text": "Once an FM200 system discharges — whether from an actual fire or accidental trigger — the cylinder needs refilling before the system is protecting the room again, and that's not something to leave until it's convenient. We refill and recharge FM200 cylinders, and also run scheduled maintenance checking cylinder pressure, detection devices, and control panel function, so the system's still ready to discharge correctly if it's ever needed and hasn't quietly drifted out of spec since the last check."
+  },
+  {
+   "t": "h",
+   "text": "FM200 vs Novec 1230"
+  },
+  {
+   "t": "p",
+   "text": "FM200 and Novec 1230 are both clean agent suppression gases and get compared often, since they solve the same problem in slightly different ways — FM200 has a longer track record and is generally the lower-cost option, while Novec 1230 has a shorter atmospheric lifetime and is sometimes preferred where environmental impact is a specific project requirement. Neither is strictly \"better\" — the right choice usually comes down to project budget, regulatory preference, and whether environmental criteria are part of the building's specification."
+  },
+  {
+   "t": "h",
+   "text": "Where FM200 Is Used"
+  },
+  {
+   "t": "p",
+   "text": "FM200 systems are most commonly specified for data centres and server rooms, electrical and switch gear rooms, telecom facilities, archives and record storage, and other spaces where the value of what's being protected is high and water-based suppression isn't an option. If your facility falls into one of these categories, FM200 is very likely the suppression type your civil defence-approved fire strategy will call for."
+  },
+  {
+   "t": "h",
+   "text": "Why Choose Firestone"
+  },
+  {
+   "t": "p",
+   "text": "Firestone Fire and Security Systems has designed, installed, and maintained fire suppression systems across the UAE since 2007, holding approvals from ADCD, DCD, SCD, and SIRA. We supply FM200 systems from recognized manufacturers, size every installation to the actual space it's protecting, and provide ongoing refilling and maintenance so the system stays ready, not just installed and forgotten."
+  },
+  {
+   "t": "p",
+   "text": "Everything you need to know about FM200 systems"
+  }
+ ],
+ "title": "FM200 System"
+}

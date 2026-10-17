@@ -1,0 +1,86 @@
+{
+ "route": "/services/flame-detector",
+ "kind": "service",
+ "metaTitle": "Flame Detector UAE | Fire Alarm Flame Detection | Firestone",
+ "metaDescription": "Flame detector supply, installation and maintenance for high-hazard and fast-fire-spread environments across the UAE. Civil defence approved contractor.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Flame Detector Supply, Installation & Maintenance in the UAE"
+  },
+  {
+   "t": "img",
+   "alt": "Flame detector mounted on a wall"
+  },
+  {
+   "t": "p",
+   "text": "A flame detector identifies fire by sensing the radiation given off by flames themselves, allowing it to respond faster than smoke-based detection in environments where a fire could spread quickly. Firestone Fire and Security Systems supplies, installs, and maintains flame detectors across industrial and high-hazard facilities in the UAE, integrated with addressable and conventional fire alarm systems."
+  },
+  {
+   "t": "p",
+   "text": "02 444 1638"
+  },
+  {
+   "t": "h",
+   "text": "Brands We Supply and Install:"
+  },
+  {
+   "t": "img",
+   "alt": "Red lowercase text spelling 'apollo' on transparent background."
+  },
+  {
+   "t": "h",
+   "text": "How a Flame Detector Works"
+  },
+  {
+   "t": "p",
+   "text": "Unlike a smoke or heat detector, a flame detector doesn't wait for smoke or rising temperature to reach it. It monitors the radiation emitted by flames, either in the infrared (IR) or ultraviolet (UV) spectrum, and triggers an alarm as soon as it detects the signature of an open flame within its field of view. This makes flame detectors significantly faster to respond than smoke detection in open, well-ventilated, or outdoor areas where smoke may disperse before reaching a standard detector."
+  },
+  {
+   "t": "h",
+   "text": "our services"
+  },
+  {
+   "t": "h",
+   "text": "Flame Detector Installation"
+  },
+  {
+   "t": "p",
+   "text": "Installation covers selecting the correct detector type for the hazard and environment, positioning units within line of sight of the area being protected, and wiring into the building's addressable or conventional fire alarm panel. Detector placement accounts for potential false-alarm sources in the area, such as welding, flare stacks, or direct sunlight, before the system is commissioned."
+  },
+  {
+   "t": "h",
+   "text": "How a Flame Detector Works"
+  },
+  {
+   "t": "h",
+   "text": "How a Flame Detector Works"
+  },
+  {
+   "t": "h",
+   "text": "Flame Detector — FAQ"
+  },
+  {
+   "t": "faq",
+   "items": [
+    {
+     "q": "What is a flame detector?",
+     "a": "A flame detector identifies fire by sensing the radiation emitted by flames themselves, in the infrared or ultraviolet spectrum, and triggers an alarm as soon as it detects a flame within its field of view."
+    },
+    {
+     "q": "What is the difference between a UV and an IR flame detector?",
+     "a": "A UV flame detector responds to ultraviolet radiation and offers fast response but can be prone to false alarms from other UV sources, while an IR flame detector responds to infrared radiation and is generally less affected by UV interference but can be more sensitive to heat or sunlight depending on the model."
+    },
+    {
+     "q": "Where are flame detectors used instead of smoke detectors?",
+     "a": "Flame detectors are typically used in fuel storage areas, chemical plants, power facilities, and outdoor or open-sided structures where a fire could spread rapidly or where smoke disperses before it can trigger standard smoke detection."
+    },
+    {
+     "q": "Can a flame detector connect to an addressable fire alarm system?",
+     "a": "Yes, flame detectors can be integrated with both addressable and conventional fire alarm panels, depending on the building's existing system."
+    }
+   ]
+  }
+ ],
+ "title": "Flame Detector Supply, Installation & Maintenance in the UAE"
+}

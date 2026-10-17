@@ -1,0 +1,94 @@
+{
+ "route": "/services/anpr-system",
+ "kind": "service",
+ "metaTitle": "ANPR camera installation and maintenance| Number Plate Recognition",
+ "metaDescription": "ANPR camera installation in the UAE for automated vehicle access at gates, parking and facility entrances.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "ANPR System"
+  },
+  {
+   "t": "p",
+   "text": "<a href=\"tel:+971506761638\">Call Now</a> Checking every vehicle manually at a gate — matching a plate against a list, waving through what looks familiar — doesn't scale, and it's exactly the kind of task an ANPR camera does faster and more reliably than a person standing at the barrier all day. ANPR (Automatic Number Plate Recognition) reads a vehicle's license plate as it approaches, checks it against an authorized list, and can trigger entry automatically without a card, fob, or manual check.We supply and install ANPR cameras and systems across Abu Dhabi, Dubai, Sharjah, and Al Ain, specifying camera placement and integration to match each site's traffic pattern and existing gate or barrier setup."
+  },
+  {
+   "t": "link",
+   "href": "#",
+   "text": "Call Now"
+  },
+  {
+   "t": "h",
+   "text": "How ANPR Works"
+  },
+  {
+   "t": "p",
+   "text": "An ANPR camera captures an image of a vehicle's license plate as it approaches, then uses recognition software to convert that image into readable plate text almost instantly. That plate number is checked against a database of authorized vehicles, and if it matches, the system can automatically trigger a connected gate barrier to open — no card, fob, or manual check needed. If the plate doesn't match, the vehicle can be denied entry, logged for review, or routed to a manual check, depending on how the site's configured."
+  },
+  {
+   "t": "h",
+   "text": "ANPR & Gate Barrier Integration"
+  },
+  {
+   "t": "p",
+   "text": "ANPR is most commonly installed alongside a gate barrier system, since the camera's real value is triggering automated entry rather than just capturing plate data on its own. Pairing the two means recognized vehicles — staff, residents, regular deliveries — move through a gate without stopping at all, while the barrier still enforces the actual physical access control. If you're specifying both together, see our Gate Barrier System page for the barrier hardware side of this pairing."
+  },
+  {
+   "t": "h",
+   "text": "ANPR Applications"
+  },
+  {
+   "t": "p",
+   "text": "<strong>Staff & Resident Parking</strong>"
+  },
+  {
+   "t": "p",
+   "text": "Recognized vehicles pass through automatically, removing the need for cards or manual checks at high-traffic staff or resident entrances."
+  },
+  {
+   "t": "p",
+   "text": "<strong>Facility & Compound Access</strong>"
+  },
+  {
+   "t": "p",
+   "text": "ANPR logs every vehicle entering a facility, giving a complete record of vehicle movement without requiring a guard to manually note every plate."
+  },
+  {
+   "t": "p",
+   "text": "<strong>Visitor & Unregistered Vehicle Management</strong>"
+  },
+  {
+   "t": "p",
+   "text": "Unrecognized plates can be flagged for manual approval or logged separately, so unregistered visitors still get through where appropriate, without compromising the automated flow for known vehicles."
+  },
+  {
+   "t": "h",
+   "text": "Camera Placement & System Design"
+  },
+  {
+   "t": "p",
+   "text": "ANPR accuracy depends heavily on camera placement — angle, distance, lighting, and vehicle approach speed all affect whether a plate is read correctly and consistently. We assess each site's entry point before specifying camera position and configuration, rather than mounting a camera wherever's convenient and hoping recognition rates hold up in practice."
+  },
+  {
+   "t": "h",
+   "text": "Recognition Accuracy & Conditions"
+  },
+  {
+   "t": "p",
+   "text": "Not every ANPR camera performs the same in real-world conditions, and this is where a lot of installations fall short — a camera that reads plates perfectly in a demo can struggle with glare, low light, or a fast-moving vehicle at an actual gate. Better-performing cameras use features like adjustable infrared illumination to handle both reflective and non-reflective plates, wide dynamic range to manage strong sunlight and shadow at the same entry point, and fast shutter speeds to avoid motion blur on vehicles arriving at speed.Given how much UAE gate entrances deal with strong daylight glare and low-light evening traffic, we factor lighting conditions into camera selection and placement rather than assuming any ANPR camera will perform consistently regardless of the site."
+  },
+  {
+   "t": "h",
+   "text": "What Affects Plate Recognition"
+  },
+  {
+   "t": "p",
+   "text": "Plate recognition accuracy depends on several site-specific factors working together: the camera's distance and angle relative to the vehicle's approach, the plate's condition and reflectivity, and the lighting at different times of day. A camera mounted at the wrong height or angle can technically be \"installed\" while still missing plates consistently, which is why we assess the actual approach path and lighting at a site before finalizing camera position, rather than treating placement as a formality."
+  },
+  {
+   "t": "p",
+   "text": "Everything you need to know about ANPR systems"
+  }
+ ],
+ "title": "ANPR System"
+}

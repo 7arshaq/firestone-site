@@ -1,0 +1,265 @@
+{
+ "route": "/",
+ "kind": "page",
+ "metaTitle": "Fire & Safety Company UAE | Civil Defence Approved| Firestone",
+ "metaDescription": "Civil Defence approved Grade A fire and safety company in the UAE since 2007. Fire fighting and security systems in Abu Dhabi, Dubai, Sharjah and Al Ain.",
+ "blocks": [
+  {
+   "t": "p",
+   "text": "Complete Protection Solutions"
+  },
+  {
+   "t": "h",
+   "text": "Civil Defence Approved Fire and Safety Company In UAE"
+  },
+  {
+   "t": "p",
+   "text": "Annual Maintenance Contract (AMC) Across UAE"
+  },
+  {
+   "t": "p",
+   "text": "Contact Us"
+  },
+  {
+   "t": "img",
+   "alt": "Ventilation system installed at commercial building, Abu Dhabi"
+  },
+  {
+   "t": "pairs",
+   "items": [
+    {
+     "k": "1,200 +",
+     "v": "AMC Contracts"
+    },
+    {
+     "k": "2,500 +",
+     "v": "Projects Completed"
+    },
+    {
+     "k": "3,600 +",
+     "v": "Happy Clients"
+    },
+    {
+     "k": "2007",
+     "v": "Since"
+    }
+   ]
+  },
+  {
+   "t": "h",
+   "text": "Trusted by Leading Organizations"
+  },
+  {
+   "t": "img",
+   "alt": "Firestone fire safety team shaking hands with a client in Abu Dhabi"
+  },
+  {
+   "t": "img",
+   "alt": "Firestone team discussing a client project in the office"
+  },
+  {
+   "t": "p",
+   "text": "who we are"
+  },
+  {
+   "t": "h",
+   "text": "Trusted Civil Defence Approved Fire & Safety company in UAE"
+  },
+  {
+   "t": "p",
+   "text": "<strong>Firestone Fire & Security Systems LLC</strong> is a trusted fire and safety company in the UAE, operating since 2007. As a fire fighting company, we design, install, test and maintain sprinkler systems, fire hydrant systems, hose reels, <a href=\"/services/fire-alarm\">fire alarm systems</a> and security systems for commercial, industrial, residential, hospitality and healthcare buildings in Abu Dhabi, Al Ain, Dubai and Sharjah."
+  },
+  {
+   "t": "p",
+   "text": "As a Grade A Civil Defence approved fire safety company, we hold approvals from ADCD, DCD, DOE, ADMCC, AACD, SCD and SIRA. Our in-house team prepares AutoCAD shop drawings and handles Civil Defence approvals, so one company manages your project from design through testing, commissioning and certification.Our teams work on offices, warehouses, hospitals, hotels, schools and residential buildings, and every installation is tested and commissioned before handover."
+  },
+  {
+   "t": "p",
+   "text": "As a fire and safety company, we also provide Civil Defence approved Annual Maintenance Contracts for fire alarm, fire fighting, gas and security systems, with 24/7 emergency support. See our AMC services in <a href=\"/services/annual-maintenance-contract-abu-dhabi\">Abu Dhabi</a>, <a href=\"/services/fire-amc-dubai\">Dubai</a> and <a href=\"/services/fire-amc-sharjah\">Sharjah</a>.Our services include <a href=\"/services/fire-and-safety\">fire fighting and sprinkler systems</a>, <a href=\"/services/fire-sealant-and-fire-stopping\">fire sealant and fire stopping</a>, <a href=\"/services/smoke-management-systems\">smoke management</a>, <a href=\"/services/security-and-elv-systems\">security and ELV systems</a>, <a href=\"/services/gas-system\">gas systems</a> and <a href=\"/services/civil-defense-compliance\">Civil Defence compliance</a>."
+  },
+  {
+   "t": "h",
+   "text": "Our Mission"
+  },
+  {
+   "t": "p",
+   "text": "Protecting Lives, Securing Spaces."
+  },
+  {
+   "t": "card",
+   "href": "/about-us",
+   "title": "Our Vision",
+   "text": "To Lead with Innovation in Fire & Safety Solutions.",
+   "alt": ""
+  },
+  {
+   "t": "h",
+   "text": "Complete Fire and security systems in UAE"
+  },
+  {
+   "t": "p",
+   "text": "Firestone is a fire and security company in the UAE, serving Abu Dhabi, Dubai, Sharjah and Al Ain since 2007. Fire safety and security work often involves the same buildings, the same consultants and the same approval process, so we give building owners and facility managers one team for both. That means one set of Civil Defence drawings, one installation schedule and one point of contact, from design through to certification, instead of coordinating separate contractors."
+  },
+  {
+   "t": "p",
+   "text": "As a Grade A Civil Defence approved fire company, we hold approvals from ADCD, DCD, SCD, SIRA and ADMCC, so one contractor can cover sites in different emirates. Commercial, industrial, residential, hospitality and healthcare clients rely on us as their fire fighting company, and our 24/7 emergency support means you can reach a fire and safety company at any hour. For multi-site clients, a single fire and security company holding the drawings, approvals and certificates also makes renewals and inspections simpler."
+  },
+  {
+   "t": "img",
+   "alt": "A technician fixing the cctv"
+  },
+  {
+   "t": "link",
+   "href": "tel:0523258941",
+   "text": "GET A QUOTE"
+  },
+  {
+   "t": "h",
+   "text": "Explore Our Specialized Services"
+  },
+  {
+   "t": "card",
+   "href": "/services/fire-and-safety",
+   "title": "Fire protection services",
+   "text": "Design, supply and installation of<a href=\"/services/fire-alarm\">fire alarm systems</a>,smoke detection, fire fighting systems, sprinkler systems and FM200 gas suppression in Abu Dhabi and UAE. ADCD approved fire safety company — from AutoCAD shop drawing to testing, commissioning, <a href=\"/services/annual-maintenance-contract-abu-dhabi\">Annual Maintenance Contract.</a>",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/gas-system",
+   "title": "Gas System",
+   "text": "FM200 gas suppression, LPG and central gas system design, supply, installation and Annual Maintenance Contract (AMC) in Abu Dhabi. DOE approved <a href=\"/services/gas-system\">gas safety systems</a> — fully compliant with UAE civil defence regulations.",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/security-and-elv-systems",
+   "title": "Security and ELV system",
+   "text": "Supply and installation of CCTV cameras, access control systems, gate barrier systems and audio-video intercom in Abu Dhabi. SIRA and MCC approved — including ADMCC approved CCTV Annual Maintenance Contract (AMC) for full compliance.",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/fire-sealant-and-fire-stopping",
+   "title": "Fire Sealant and Fire Stopping",
+   "text": "Supply and installation of firestop sealants, firestop sprays and intumescent coating systems across Abu Dhabi and UAE. FCIA certified passive fire protection contractor — DOE approved fire penetration sealing for walls, floors and building joints by UAE's trusted fire safety company.",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/smoke-management-systems",
+   "title": "Smoke Management System",
+   "text": "DOE approved smoke management, smoke ventilation and exhaust system design, supply and installation in Abu Dhabi. Compliant with UAE civil defence and air ventilation regulations — covering commercial, industrial and residential buildings.",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/civil-defense-compliance",
+   "title": "Civil Defence Compliance",
+   "text": "Full Civil Defence compliance service — from ADCD fitness certificate<a href=\"/services/istifa-certificate-uae\">,</a><a href=\"/services/istifa-certificate-uae\">Istifa certificate</a>, DCD certificate,SCD certificate renewal to civil defence inspections, documentation and approvals. We manage your fire AMC, AutoCAD shop drawings and evacuation plan submissions — ensuring your facility passes every ADCD inspection in Abu Dhabi.",
+   "alt": ""
+  },
+  {
+   "t": "link",
+   "href": "/services",
+   "text": "View all services"
+  },
+  {
+   "t": "h",
+   "text": "Every thing you need to know about us"
+  },
+  {
+   "t": "p",
+   "text": "What does a fire and safety company do? A fire and safety company designs, installs, tests and maintains the systems that control fire and keep people safe in a building. In the UAE it also prepares Civil Defence drawings and arranges approvals and certificates. Firestone, a Civil Defence approved fire company operating since 2007, handles each step in-house for commercial, industrial, residential, hospitality and healthcare buildings."
+  },
+  {
+   "t": "p",
+   "text": "How do I choose a fire safety company in the UAE? Choose a fire safety company that holds Civil Defence approval for your emirate, prepares drawings and approvals in-house, tests and commissions every installation before handover, and offers ongoing maintenance and a 24/7 emergency contact. Ask to see completed projects similar to yours, and ask for an itemised quote so you can compare like with like. Firestone has operated since 2007 with Grade A Civil Defence approval."
+  },
+  {
+   "t": "p",
+   "text": "How much does it cost to hire a fire and safety company in the UAE? The cost depends on the size and type of the building, the systems involved, the authority's requirements, and whether you also need drawings, approvals and ongoing maintenance. Because no two buildings are alike, Firestone gives an itemised quote after a site survey, so you know the full cost before work starts. We work to keep quotes competitive and can adjust the scope to fit your budget. For ongoing maintenance, see our <a href=\"/services/annual-maintenance-contract-abu-dhabi\">Abu Dhabi</a>, <a href=\"/services/fire-amc-dubai\">Dubai</a> and <a href=\"/services/fire-amc-sharjah\">Sharjah</a> contract pages, or <a href=\"/contact\">request a quote</a>."
+  },
+  {
+   "t": "p",
+   "text": "Is Firestone a fire fighting company in the UAE? Yes. Firestone is a Civil Defence approved fire fighting company. We design, supply, install, test and maintain <a href=\"/services/fire-and-safety\">fire fighting and sprinkler systems</a>, including hydrant systems and hose reels, for buildings in Abu Dhabi, Dubai, Sharjah and Al Ain, and we handle the drawings, approvals and certification."
+  },
+  {
+   "t": "p",
+   "text": "What is the difference between a fire fighting company and a fire and safety company? A fire fighting company focuses on the systems that put out fire, such as sprinklers, hydrants and hose reels. A fire and safety company covers more: Civil Defence compliance, evacuation plans, fire sealing, smoke management and ongoing maintenance. Firestone does both, so one team can handle the whole project."
+  },
+  {
+   "t": "p",
+   "text": "Why use one fire and security company for fire safety and security systems? Fire safety and security work often happens in the same building and goes through the same approval process. Using one fire and security company means one set of Civil Defence drawings, one installation schedule and one point of contact. Firestone delivers fire and security systems together, including <a href=\"/services/security-and-elv-systems\">CCTV, access control and ELV systems</a>."
+  },
+  {
+   "t": "p",
+   "text": "Which Civil Defence authority approves fire companies in Abu Dhabi, Dubai, Sharjah and Al Ain, and how do I check a company is approved? ADCD approves projects in Abu Dhabi and Al Ain, DCD in Dubai and SCD in Sharjah. Ask the company for its Civil Defence licence and approval certificate, and check that it covers the authority for your site and suits your project size. Firestone is a Grade A Civil Defence approved fire company, approved with ADCD, DCD and SCD."
+  },
+  {
+   "t": "p",
+   "text": "Can one company handle a multi-site project across several emirates? Yes, if it is approved with each emirate's Civil Defence authority. Firestone holds ADCD, DCD and SCD approvals, so we manage drawings, installation and certificates for sites in Abu Dhabi, Al Ain, Dubai and Sharjah, with one point of contact and one set of records for renewals."
+  },
+  {
+   "t": "p",
+   "text": "Does Firestone offer 24/7 emergency support? Yes. Firestone provides 24/7 emergency support for fire and safety systems across Abu Dhabi, Al Ain, Dubai and Sharjah. Call +971 50 676 1638 or visit our <a href=\"/services/fire-safety-emergency-support\">emergency support page</a>."
+  },
+  {
+   "t": "p",
+   "text": "testimonials"
+  },
+  {
+   "t": "h",
+   "text": "Feedback That Fuels Us"
+  },
+  {
+   "t": "p",
+   "text": "Every review is a reflection of our dedication. We’re driven by the trust and appreciation of our clients-and we’re proud to share their words."
+  },
+  {
+   "t": "p",
+   "text": "★★★★★"
+  },
+  {
+   "t": "p",
+   "text": "4.7 out of 5 — 51+ reviews"
+  },
+  {
+   "t": "p",
+   "text": "Abu Dhabi · Dubai · Sharjah · Al Ain"
+  },
+  {
+   "t": "p",
+   "text": "Outstanding service provided by dedicated experts. I highly recommend Firestone Fire and safety company"
+  },
+  {
+   "t": "img",
+   "alt": "image of happy customer"
+  },
+  {
+   "t": "p",
+   "text": "<strong>Musavir Bin Khalifa AlKahyoom</strong>"
+  },
+  {
+   "t": "p",
+   "text": "Abu Dhabi, UAE"
+  },
+  {
+   "t": "p",
+   "text": "The team's expertise in fire protection is unmatched. Truly professionals at work!"
+  },
+  {
+   "t": "img",
+   "alt": "image of happy customer"
+  },
+  {
+   "t": "p",
+   "text": "Shan Rahman PK"
+  },
+  {
+   "t": "p",
+   "text": "Dubai, UAE"
+  }
+ ],
+ "title": "Civil Defence Approved Fire and Safety Company In UAE"
+}

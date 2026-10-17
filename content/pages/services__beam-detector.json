@@ -1,0 +1,98 @@
+{
+ "route": "/services/beam-detector",
+ "kind": "service",
+ "metaTitle": "Beam Detector UAE | Fire Alarm Beam Detection | Firestone",
+ "metaDescription": "Beam detector supply, installation and alignment for large open areas across the UAE. Civil defence approved fire alarm contractor.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Beam Detector Supply, Installation & Maintenance in the UAE"
+  },
+  {
+   "t": "img",
+   "alt": "Two white wall-mounted beam detectors with a visible red laser beam between them in a hallway."
+  },
+  {
+   "t": "p",
+   "text": "A beam detector protects large open spaces from fire using a projected infrared beam instead of individual smoke detectors spread across the ceiling. Firestone Fire and Security Systems supplies, installs, and maintains beam detectors across warehouses, atriums, and high-ceiling facilities in the UAE, integrated with addressable and conventional fire alarm systems."
+  },
+  {
+   "t": "h",
+   "text": "Brand we supply and install"
+  },
+  {
+   "t": "p",
+   "text": "We supply and install beam detectors from established fire alarm manufacturers, including Asenware, Hochiki, System Sensor, Apollo, and Notifier, selected to match the fire alarm panel and system already in place or specified for your building."
+  },
+  {
+   "t": "h",
+   "text": "Our service"
+  },
+  {
+   "t": "h",
+   "text": "Beam Detector Installation"
+  },
+  {
+   "t": "p",
+   "text": "Installation covers positioning the transmitter, receiver, or reflector at the correct height and distance for the space being protected, wiring the unit into the fire alarm panel, and integrating it with the building's addressable or conventional system. Every installation is followed by alignment and functional testing before handover."
+  },
+  {
+   "t": "h",
+   "text": "Beam Detector Alignment"
+  },
+  {
+   "t": "p",
+   "text": "Correct alignment is critical to a beam detector functioning reliably, since even a small misalignment between the transmitter and receiver or reflector can cause false alarms or missed detection. Our technicians align each unit using the beam detector's built-in signal strength indicator, confirming a stable, centred signal before the system is commissioned."
+  },
+  {
+   "t": "h",
+   "text": "Beam Detector Maintenance"
+  },
+  {
+   "t": "p",
+   "text": "Routine maintenance includes checking beam alignment hasn't drifted, cleaning the lens on the transmitter and receiver units, and confirming signal strength remains within range. Dust and debris buildup in warehouse and industrial environments is a common cause of beam detector faults, making regular cleaning and testing particularly important in these settings."
+  },
+  {
+   "t": "h",
+   "text": "How a Beam Detector Works"
+  },
+  {
+   "t": "p",
+   "text": "A beam detector sends an infrared beam across a protected space, either to a separate receiver unit or back to itself via a reflector, depending on the type installed. When smoke enters the space and obscures part of the beam, the detector registers the drop in signal strength and triggers an alarm once obscuration crosses its set threshold. A single beam detector can cover a long, wide span that would otherwise need dozens of individual point-type smoke detectors."
+  },
+  {
+   "t": "h",
+   "text": "Where Beam Detectors Are Used"
+  },
+  {
+   "t": "p",
+   "text": "Beam detectors are typically specified for spaces where point-type smoke detectors aren't practical, including warehouses, atriums, exhibition halls, sports halls, and aircraft hangars. High or sloped ceilings, long open spans, and architectural constraints that make wiring individual detectors difficult are common reasons a beam detector is chosen over a standard point detector layout."
+  },
+  {
+   "t": "h",
+   "text": "Beam Detector — FAQ"
+  },
+  {
+   "t": "faq",
+   "items": [
+    {
+     "q": "What is a beam detector?",
+     "a": "A beam detector is a type of smoke detector that protects a large open area using a projected infrared beam, triggering an alarm when smoke obscures the beam beyond a set threshold, instead of relying on individual point detectors across the ceiling."
+    },
+    {
+     "q": "Where are beam detectors used instead of standard smoke detectors?",
+     "a": "Beam detectors are typically used in warehouses, atriums, exhibition halls, and other large open or high-ceiling spaces where installing enough point-type smoke detectors would be impractical or where wiring individual detectors is difficult."
+    },
+    {
+     "q": "Why does beam detector alignment matter?",
+     "a": "Even a small misalignment between the transmitter and receiver or reflector can cause false alarms or prevent the detector from registering smoke correctly, so alignment is checked during installation and as part of routine maintenance."
+    },
+    {
+     "q": "Can a beam detector connect to an addressable fire alarm system?",
+     "a": "Yes, beam detectors can be integrated with both addressable and conventional fire alarm panels, depending on the building's existing system."
+    }
+   ]
+  }
+ ],
+ "title": "Beam Detector Supply, Installation & Maintenance in the UAE"
+}

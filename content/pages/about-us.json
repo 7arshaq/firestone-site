@@ -1,0 +1,216 @@
+{
+ "route": "/about-us",
+ "kind": "page",
+ "metaTitle": "About Firestone Fire & Security Systems | UAE Since 2007",
+ "metaDescription": "Firestone is a Civil Defence approved fire protection and security contractor, operating in the UAE since 2007 across Abu Dhabi, Dubai, Sharjah and Al Ain.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Leading the Way in Safety & Technology"
+  },
+  {
+   "t": "p",
+   "text": "We specialize in delivering integrated safety solutions-from fire and gas systems to advanced IT and security services. With a focus on reliability, innovation, and compliance, we help protect people, property, and infrastructure through tailored systems designed to meet the unique needs of every project."
+  },
+  {
+   "t": "img",
+   "alt": "firestone GROUP PHOTO"
+  },
+  {
+   "t": "img",
+   "alt": "image of fire stone employ get tougher"
+  },
+  {
+   "t": "img",
+   "alt": "firestone office price distribution"
+  },
+  {
+   "t": "img",
+   "alt": "image of fire stone employ"
+  },
+  {
+   "t": "img",
+   "alt": "firestone GROUP PHOTO"
+  },
+  {
+   "t": "img",
+   "alt": "image of fire stone employs"
+  },
+  {
+   "t": "img",
+   "alt": "fire stone employ group"
+  },
+  {
+   "t": "img",
+   "alt": "image of fire stone employ get tougher"
+  },
+  {
+   "t": "img",
+   "alt": "handshake"
+  },
+  {
+   "t": "img",
+   "alt": "image of women"
+  },
+  {
+   "t": "h",
+   "text": "Global Client Service with Strong Middle East Presence"
+  },
+  {
+   "t": "p",
+   "text": "Since 2007, Firestone Fire and Security Systems LLC has been a trusted provider of fire protection and security solutions across the UAE. With operational bases in Dubai, Abu Dhabi, Al Ain, Sharjah, and Ras Al Khaimah, we are dedicated to safeguarding lives and properties throughout all Emirates."
+  },
+  {
+   "t": "p",
+   "text": "Our expertise covers fire and safety systems, fire alarms, fire sealants, gas safety systems, IT security solutions, and ventilation systems. We deliver end-to-end services-including system design, installation, and maintenance-adhering to the highest industry standards."
+  },
+  {
+   "t": "p",
+   "text": "As a Civil Defense-approved company, Firestone is committed to delivering reliable, high-quality systems that ensure safety, compliance, and peace of mind for commercial, industrial, and residential clients."
+  },
+  {
+   "t": "h",
+   "text": "Our Mission"
+  },
+  {
+   "t": "p",
+   "text": "Protecting Lives, Securing Spaces."
+  },
+  {
+   "t": "h",
+   "text": "Our Vision"
+  },
+  {
+   "t": "p",
+   "text": "To Lead with Innovation in Fire & Safety Solutions."
+  },
+  {
+   "t": "h",
+   "text": "Your Trusted Fire Fighting Company in the UAE"
+  },
+  {
+   "t": "p",
+   "text": "In the dynamic landscape of the UAE, fire safety is more than a regulatory requirement-it's a critical necessity. Firestone Fire and Security Systems is a leading provider of complete fire protection solutions, offering unmatched expertise as a top-tier fire fighting and fire alarm company across all emirates."
+  },
+  {
+   "t": "h",
+   "text": "Complete Fire Protection from Design to Certification"
+  },
+  {
+   "t": "p",
+   "text": "With a commitment to safety and compliance, we provide end-to-end fire safety services, making us the preferred choice for commercial, residential, and industrial clients throughout the UAE. From initial system design to installation, maintenance, and Civil Defense certification, we ensure every project meets the highest safety standards."
+  },
+  {
+   "t": "p",
+   "text": "Approved by Dubai and Abu Dhabi Civil Defense, we make securing a Civil Defense certificate a seamless process by guiding you through every step."
+  },
+  {
+   "t": "h",
+   "text": "Our Core Services"
+  },
+  {
+   "t": "p",
+   "text": "Fire Fighting Systems: Design, supply & installation of sprinkler systems, fire pumps, hose reels, FM200, and more."
+  },
+  {
+   "t": "p",
+   "text": "Fire Alarm Systems: Expert installation of conventional, addressable, and wireless alarm systems with full testing and servicing."
+  },
+  {
+   "t": "p",
+   "text": "Fire Maintenance & AMC: Regular inspections, repairs, and Annual Maintenance Contracts to ensure system readiness."
+  },
+  {
+   "t": "p",
+   "text": "Emergency Evacuation Planning: Evacuation plans and photoluminescent signage to guide occupants to safety."
+  },
+  {
+   "t": "p",
+   "text": "Fire Extinguisher Services: Inspection, servicing, and readiness checks of all portable fire fighting equipment."
+  },
+  {
+   "t": "p",
+   "text": "Fire Sealant Applications: Compartmentalization of fire and smoke for enhanced building protection."
+  },
+  {
+   "t": "p",
+   "text": "Hassantuk System Integration: Hassle-free setup and maintenance with Civil Defense connectivity."
+  },
+  {
+   "t": "h",
+   "text": "Why Choose Us?"
+  },
+  {
+   "t": "p",
+   "text": "UAE-Wide Presence: Serving Dubai, Abu Dhabi, Al Ain, Sharjah, and Ras Al Khaimah."
+  },
+  {
+   "t": "p",
+   "text": "Certified Professionals: Approved by both Dubai and Abu Dhabi Civil Defense."
+  },
+  {
+   "t": "p",
+   "text": "Complete Solutions: From consultation to commissioning and maintenance-all under one roof."
+  },
+  {
+   "t": "p",
+   "text": "Client-Focused: Custom, scalable, and budget-friendly solutions without compromising safety or compliance."
+  },
+  {
+   "t": "h",
+   "text": "Trusted by Leading Organizations"
+  },
+  {
+   "t": "h",
+   "text": "Explore Our Specialized Services"
+  },
+  {
+   "t": "card",
+   "href": "/services/fire-and-safety",
+   "title": "Fire protection services",
+   "text": "Design, supply and installation of<a href=\"/services/fire-alarm\">fire alarm systems</a>,smoke detection, fire fighting systems, sprinkler systems and FM200 gas suppression in Abu Dhabi and UAE. ADCD approved fire safety company — from AutoCAD shop drawing to testing, commissioning, <a href=\"/services/annual-maintenance-contract-abu-dhabi\">Annual Maintenance Contract.</a>",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/gas-system",
+   "title": "Gas System",
+   "text": "FM200 gas suppression, LPG and central gas system design, supply, installation and Annual Maintenance Contract (AMC) in Abu Dhabi. DOE approved <a href=\"/services/gas-system\">gas safety systems</a> — fully compliant with UAE civil defence regulations.",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/security-and-elv-systems",
+   "title": "Security and ELV system",
+   "text": "Supply and installation of CCTV cameras, access control systems, gate barrier systems and audio-video intercom in Abu Dhabi. SIRA and MCC approved — including ADMCC approved CCTV Annual Maintenance Contract (AMC) for full compliance.",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/fire-sealant-and-fire-stopping",
+   "title": "Fire Sealant and Fire Stopping",
+   "text": "Supply and installation of firestop sealants, firestop sprays and intumescent coating systems across Abu Dhabi and UAE. FCIA certified passive fire protection contractor — DOE approved fire penetration sealing for walls, floors and building joints by UAE's trusted fire safety company.",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/smoke-management-systems",
+   "title": "Smoke Management System",
+   "text": "DOE approved smoke management, smoke ventilation and exhaust system design, supply and installation in Abu Dhabi. Compliant with UAE civil defence and air ventilation regulations — covering commercial, industrial and residential buildings.",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/civil-defense-compliance",
+   "title": "Civil Defence Compliance",
+   "text": "Full Civil Defence compliance service — from ADCD fitness certificate<a href=\"/services/istifa-certificate-uae\">,</a><a href=\"/services/istifa-certificate-uae\">Istifa certificate</a>, DCD certificate,SCD certificate renewal to civil defence inspections, documentation and approvals. We manage your fire AMC, AutoCAD shop drawings and evacuation plan submissions — ensuring your facility passes every ADCD inspection in Abu Dhabi.",
+   "alt": ""
+  },
+  {
+   "t": "link",
+   "href": "/services",
+   "text": "View all services"
+  }
+ ],
+ "title": "Leading the Way in Safety & Technology"
+}

@@ -1,0 +1,47 @@
+{
+ "route": "/services/fire-suppression-system",
+ "kind": "service",
+ "metaTitle": "Fire Suppression System UAE | FM200, Novec 1230 & CO2",
+ "metaDescription": "Firestone designs, installs and maintains fire suppression systems in the UAE, including FM200, Novec 1230, kitchen hood and clean agent systems.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Fire suppression system"
+  },
+  {
+   "t": "p",
+   "text": "When a fire breaks out in high-risk environments, a fast-acting fire suppression system can mean the difference between a minor incident and a catastrophic loss. We design, install, and maintain fire suppression systems across the UAE — including FM200, Novec 1230, CO2, kitchen hood, and clean agent systems — engineered and commissioned to protect critical assets like data centers, server rooms, industrial facilities, and commercial kitchens."
+  },
+  {
+   "t": "card",
+   "href": "/services/fm200-system",
+   "title": "FM 200 system",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/novec-1230",
+   "title": "Novec 1230 system",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/kitchenhood-fire-suppression-system",
+   "title": "Kitchen Hood Suppression Systems",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/clean-agent-suppression-system",
+   "title": "Clean Agent Suppression Systems",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/fire-damper",
+   "title": "Fire Damper",
+   "alt": ""
+  }
+ ],
+ "title": "Fire suppression system"
+}

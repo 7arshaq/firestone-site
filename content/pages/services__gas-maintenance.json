@@ -1,0 +1,139 @@
+{
+ "route": "/services/gas-maintenance",
+ "kind": "service",
+ "metaTitle": "Gas Maintenance & AMC services UAE",
+ "metaDescription": "Gas maintenance and annual maintenance contracts (AMC) in Abu Dhabi and Al Ain: inspection, servicing and emergency response for gas system.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Gas Maintenance & AMC Services in the UAE"
+  },
+  {
+   "t": "p",
+   "text": "Scheduled gas system maintenance, gas line pressure testing, tightness testing, and coverage for LPG and central gas systems AMC across Abu Dhabi, Dubai, and Al Ain."
+  },
+  {
+   "t": "link",
+   "href": "tel:+971506761638",
+   "text": "Call Now"
+  },
+  {
+   "t": "h",
+   "text": "Gas Maintenance & AMC Services: Why Your UAE Gas System Needs an AMC"
+  },
+  {
+   "t": "p",
+   "text": "A gas system that isn't maintained doesn't fail quietly. It fails at the worst possible time, usually when nobody's expecting it. Regular <strong>gas system maintenance</strong> catches the small stuff before it becomes the expensive stuff: a regulator drifting out of calibration, a seal starting to wear, a pressure reading that's crept slightly off spec. That's exactly why a gas AMC matters in the UAE. Civil defence authorities expect gas installations to be properly inspected and documented, and an annual contract keeps your service records audit-ready, your costs predictable, and your kitchen, building, or plant running without emergency shutdowns. We provide <strong>gas maintenance and AMC services</strong> across Abu Dhabi, Dubai, Sharjah, Al Ain, and the wider UAE, covering LPG systems, central gas distribution, and gas detection equipment. As a trusted provider of <strong>gas maintenance UAE</strong>-wide, if you're searching for <strong>gas maintenance services</strong>, we're already working across most of the emirates and can usually get a technician assessing your system within days, not weeks."
+  },
+  {
+   "t": "h",
+   "text": "What Our Gas Maintenance Covers"
+  },
+  {
+   "t": "p",
+   "text": "Our scheduled gas maintenance visits include full <strong>gas pressure testing</strong> and <strong>gas tightness test</strong> checks across the system, <strong>pipe inspection</strong> of pipework and connections for wear or corrosion, <strong>tank inspection</strong> for cylinders and bulk storage, and testing of every regulator and shut-off valve, plus confirming gas detection sensors are still reading accurately. We don't run through a generic checklist — every visit is scoped to whatever's already installed on-site, whether that's a cylinder manifold, a bulk storage tank, or an existing central distribution network, regardless of who installed it originally.Anything found during a visit gets flagged and fixed on the spot where possible, or scheduled as a follow-up if it needs parts or a longer repair window. Either way, you're not left wondering what state your gas system's actually in."
+  },
+  {
+   "t": "img",
+   "alt": "Technician performing gas system maintenance and pressure testing on an LPG cylinder manifold in the UAE"
+  },
+  {
+   "t": "h",
+   "text": "Areas We Cover"
+  },
+  {
+   "t": "p",
+   "text": "We provide gas maintenance and AMC services across Abu Dhabi and Al Ain — covering residential towers, hotels, hospitals, restaurants, and industrial facilities. If your property is in Abu Dhabi or Al Ain, our team can reach you for both scheduled maintenance and repair callouts.For properties in other emirates, contact us to check availability."
+  },
+  {
+   "t": "h",
+   "text": "<strong>Gas Systems AMC</strong>"
+  },
+  {
+   "t": "p",
+   "text": "An Annual Maintenance Contract turns your gas maintenance into a structured, scheduled <strong>gas maintenance contract</strong> instead of leaving it to chance — we come to you at set intervals, you're not the one having to remember to call. It also means priority response if something comes up between visits, rather than joining a general queue.AMC clients get a running service history for every visit, useful for civil defence renewals, insurance, and simply knowing when the system was last checked without digging through old invoices. It's the same coverage whether you've got a single LPG manifold or a multi-point gas network running across a whole tower."
+  },
+  {
+   "t": "h",
+   "text": "<strong>LPG System Maintenance in the UAE</strong>"
+  },
+  {
+   "t": "p",
+   "text": "LPG systems need regular attention because small problems like a worn regulator, a loose fitting or a failing hose can turn into leaks. Our gas maintenance and AMC service covers LPG installations in villas, restaurants, kitchens and commercial buildings across Abu Dhabi, Dubai, Sharjah and Al Ain.Each visit includes inspection of pipework, regulators and connections, gas leak checks, and pressure and tightness testing, followed by a clear report of what we found and what needs fixing. You can choose a one-off visit or an annual contract with scheduled maintenance.Looking for LPG installation or system design? See our <a href=\"/services/lpg-gas-systems\">LPG Gas Systems</a> page."
+  },
+  {
+   "t": "h",
+   "text": "Gas Repair & Emergency Response"
+  },
+  {
+   "t": "p",
+   "text": "Not everything waits for a scheduled visit. Our <strong>emergency gas repair</strong> service covers regulator failures, seized valves, or an alert from your existing gas detection sensors between maintenance dates — we respond directly rather than routing the call through a general helpline. Our technicians carry common replacement parts, so a lot of repairs get closed out on the first visit."
+  },
+  {
+   "t": "img",
+   "alt": "Gas pressure regulator and shut-off valve inspection on industrial piping"
+  },
+  {
+   "t": "img",
+   "alt": "Gas pipeline maintenance and pressure testing on an industrial gas distribution line"
+  },
+  {
+   "t": "img",
+   "alt": "Gas pipe fitting and connection inspection during scheduled maintenance"
+  },
+  {
+   "t": "img",
+   "alt": "LPG gas cylinders secured in a manifold rack during a maintenance visit"
+  },
+  {
+   "t": "h",
+   "text": "Frequently Asked Questions"
+  },
+  {
+   "t": "faq",
+   "items": [
+    {
+     "q": "What is Gas AMC / gas maintenance, and what's included?",
+     "a": "Gas maintenance is the ongoing servicing of your gas system — pressure testing, tightness testing, pipe and tank inspection, regulator and shut-off valve checks, and gas detection sensor verification. A Gas AMC (Annual Maintenance Contract) is what puts that maintenance on a fixed, recurring schedule instead of a one-off visit. Every AMC includes scheduled inspections, priority emergency response between visits, and a documented service history for civil defence and insurance records."
+    },
+    {
+     "q": "How often should a gas system be serviced?",
+     "a": "Gas systems should be inspected and serviced on a scheduled basis, typically at least annually, though higher-demand commercial and industrial systems may need more frequent visits."
+    },
+    {
+     "q": "What's the difference between gas maintenance and an AMC?",
+     "a": "Gas maintenance is the actual servicing work — inspection, testing, repair — while an AMC is the contract that puts that maintenance on a fixed recurring schedule with priority response included."
+    },
+    {
+     "q": "Do you offer emergency gas repair?",
+     "a": "Yes, we respond to gas repair callouts between scheduled maintenance visits, including regulator faults, valve issues, and detector alerts."
+    },
+    {
+     "q": "Which areas do you cover for gas services?",
+     "a": "We currently cover Abu Dhabi and Al Ain for scheduled gas maintenance and AMC services, including all districts and industrial zones within both emirates."
+    },
+    {
+     "q": "Do you offer gas maintenance in Musaffah or Mussafah industrial area?",
+     "a": "Yes — Musaffah is one of our most active service areas for gas maintenance and AMC, covering both commercial facilities and industrial units across the zone."
+    },
+    {
+     "q": "Is gas maintenance available for restaurants, villas, and camps?",
+     "a": "Yes, we provide scheduled gas maintenance and AMC coverage for restaurants, villas, and labour camps across Al Ain, alongside commercial and industrial properties."
+    },
+    {
+     "q": "How much does a gas maintenance AMC cost?",
+     "a": "AMC pricing depends on system size and visit frequency, but our plans are structured to stay affordable for both residential and commercial clients — get in touch for a quote based on your specific setup."
+    },
+    {
+     "q": "How do I start a new gas maintenance contract?",
+     "a": "Getting started is simple — contact us for a quick site assessment, and we'll set up an AMC tailored to your system size and service frequency, with your first scheduled visit booked in right away."
+    },
+    {
+     "q": "Do you provide gas maintenance for government or semi-government facilities in Abu Dhabi?",
+     "a": "Yes, we handle gas maintenance and AMC contracts for government, semi-government, and private facilities across Abu Dhabi and Al Ain."
+    }
+   ]
+  }
+ ],
+ "title": "Gas Maintenance & AMC Services in the UAE"
+}

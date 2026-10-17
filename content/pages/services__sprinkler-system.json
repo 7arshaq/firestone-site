@@ -1,0 +1,283 @@
+{
+ "route": "/services/sprinkler-system",
+ "kind": "service",
+ "metaTitle": "Fire Sprinkler System company in UAE | Firestone",
+ "metaDescription": "Get reliable fire sprinkler system installation, testing and maintenance in Abu Dhabi & across the UAE. Request a quote from Firestone.",
+ "blocks": [
+  {
+   "t": "p",
+   "text": "NFPA and civil defense compliant"
+  },
+  {
+   "t": "h",
+   "text": "Fire sprinkler system"
+  },
+  {
+   "t": "h",
+   "text": "Installation,maintenance,Inspection"
+  },
+  {
+   "t": "p",
+   "text": "Protecting people, property and assets across the UAE with certified fire sprinkler solutions."
+  },
+  {
+   "t": "link",
+   "href": "tel:024441638",
+   "text": "Get free site assessment"
+  },
+  {
+   "t": "img",
+   "alt": "Fire sprinkler system image"
+  },
+  {
+   "t": "h",
+   "text": "What Is a Fire Sprinkler System?"
+  },
+  {
+   "t": "p",
+   "text": "A fire sprinkler system is an automatic fire protection system built into a building's ceiling or walls, connected to a dedicated water supply. Each sprinkler head has a heat-sensitive element that responds only to real fire — not smoke, steam, or burnt toast.When heat around a head crosses its rated threshold, that head opens and releases water directly onto the fire. Heads activate independently, so only the affected area gets sprayed — the rest of the building stays dry.It doesn't wait for someone to notice a fire. It detects, alerts, and responds automatically, often containing a fire before it spreads beyond the room where it started."
+  },
+  {
+   "t": "features",
+   "items": [
+    {
+     "title": "Why UAE buildings need fire sprinkler systems",
+     "text": "Fire risk in the UAE isn't hypothetical — it's shaped by real, local conditions."
+    },
+    {
+     "title": "High-density buildings",
+     "text": "Fire in one unit can threaten many others if not contained fast."
+    },
+    {
+     "title": "Extreme heat and electrical load",
+     "text": "Constant AC use strains electrical systems, a common fire cause."
+    },
+    {
+     "title": "Rapid urban development",
+     "text": "Fast commissioning makes early fire protection essential."
+    },
+    {
+     "title": "Regulatory requirement",
+     "text": "Civil Defense mandates sprinklers for occupancy approval."
+    }
+   ]
+  },
+  {
+   "t": "h",
+   "text": "<strong>Insurance and liability</strong>"
+  },
+  {
+   "t": "p",
+   "text": "Insurers can deny claims without a certified, working system."
+  },
+  {
+   "t": "p",
+   "text": "Put simply: in the UAE's building environment, a fire sprinkler system isn't a premium feature — it's foundational protection."
+  },
+  {
+   "t": "h",
+   "text": "Types of sprinkler system"
+  },
+  {
+   "t": "tiles",
+   "items": [
+    {
+     "title": "Wet Pipe Systems",
+     "alt": "Wet pipe fire sprinkler system releasing water through sprinkler heads"
+    },
+    {
+     "title": "Dry Pipe Systems",
+     "alt": "Dry pipe fire sprinkler system with red piping and control valve assembly"
+    },
+    {
+     "title": "Pre-Action Systems",
+     "alt": "Pre-action fire sprinkler system with control valves, gauges and red piping"
+    },
+    {
+     "title": "Deluge Systems",
+     "alt": "Deluge fire sprinkler system releasing water through multiple sprinkler heads"
+    },
+    {
+     "title": "Sprinkler Head Styles Beyond system type",
+     "alt": "Different types of fire sprinkler heads including pendent, upright and concealed sprinklers"
+    }
+   ]
+  },
+  {
+   "t": "h",
+   "text": "Which sprinkler system is right for your building"
+  },
+  {
+   "t": "p",
+   "text": "The right choice depends on how your space is used, not just its size."
+  },
+  {
+   "t": "p",
+   "text": "Unsure? A free site assessment evaluates occupancy type, ceiling height, water supply, and fire risk classification."
+  },
+  {
+   "t": "link",
+   "href": "tel:024441638",
+   "text": "Get a free site assessment →"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "Offices, retail, residential",
+    "Warehouses, parking, unheated areas",
+    "Server rooms, sensitive equipment",
+    "Fuel storage, chemical facilities",
+    "Interior design-priority spaces",
+    "Wet pipe",
+    "Dry pipe",
+    "Pre-action",
+    "Deluge",
+    "Concealed pendant"
+   ]
+  },
+  {
+   "t": "h",
+   "text": "What affects installation cost"
+  },
+  {
+   "t": "pairs",
+   "items": [
+    {
+     "k": "Size & layout",
+     "v": "Coverage area, head count"
+    },
+    {
+     "k": "System type",
+     "v": "Dry/pre-action cost more"
+    },
+    {
+     "k": "Build vs. retrofit",
+     "v": "Retrofits cost more"
+    },
+    {
+     "k": "Water supply",
+     "v": "Existing source or new"
+    },
+    {
+     "k": "Hazard class",
+     "v": "Higher-risk needs more"
+    }
+   ]
+  },
+  {
+   "t": "p",
+   "text": "recommend a free site assessment rather than a flat estimate — costs can vary significantly between a straightforward office retrofit and a high-hazard industrial installation."
+  },
+  {
+   "t": "h",
+   "text": "Compliance & Risk: What Happens If You Don't Maintain Your System"
+  },
+  {
+   "t": "p",
+   "text": "An installed system isn't a one-time checkbox — ongoing compliance matters just as much:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "<strong>Failed inspections</strong>:can delay occupancy certificates, renovation approvals, or business licensing renewals",
+    "<strong>Expired compliance documentation:</strong> is one of the most common reasons insurance claims are denied after a fire incident",
+    "<strong>Unmaintained systems</strong>:are significantly more likely to fail when needed — corroded valves, blocked heads, and low water pressure often go unnoticed without scheduled checks",
+    "<strong>Civil Defense penalties</strong>:can apply for operating without a valid, current fire safety certificateStaying compliant isn't just about avoiding a fine — it's what makes sure the system actually works if you ever need it."
+   ],
+   "rich": true
+  },
+  {
+   "t": "h",
+   "text": "How sprinkler actually stop fires"
+  },
+  {
+   "t": "p",
+   "text": "It sounds high-tech, but the process is refreshingly simple — and that simplicity is exactly why it's so reliable."
+  },
+  {
+   "t": "pairs",
+   "items": [
+    {
+     "k": "Normal conditions",
+     "v": "Bulb intact, sprinkler closed"
+    },
+    {
+     "k": "Heat rises",
+     "v": "Liquid inside begins to expand"
+    },
+    {
+     "k": "Bulb shatters",
+     "v": "Head opens at rated temp"
+    },
+    {
+     "k": "Water releases",
+     "v": "Only onto the fire below"
+    }
+   ]
+  },
+  {
+   "t": "h",
+   "text": "Common myths about Fire sprinklers"
+  },
+  {
+   "t": "p",
+   "text": "Myth: If one sprinkler goes off, they all go off."
+  },
+  {
+   "t": "p",
+   "text": "Each head activates independently. In most fires, only one or two heads closest to the fire open."
+  },
+  {
+   "t": "p",
+   "text": "Myth: Sprinklers cause more water damage than the fire.."
+  },
+  {
+   "t": "p",
+   "text": "A single head releases a fraction of a fire hose's output, and stops fires while still small."
+  },
+  {
+   "t": "ticker",
+   "items": [
+    "GOT QUESTIONS?"
+   ]
+  },
+  {
+   "t": "p",
+   "text": "Fire Sprinkler System FAQs"
+  },
+  {
+   "t": "p",
+   "text": "Get answers about fire sprinkler installation,"
+  },
+  {
+   "t": "p",
+   "text": "maintenance, and protection solutions in the UAE."
+  },
+  {
+   "t": "faq",
+   "items": [
+    {
+     "q": "How much does fire sprinkler system installation cost in the UAE?",
+     "a": "The cost of fire sprinkler system installation in the UAE depends on factors such as building size, occupancy, fire hazards, system type, hydraulic design, equipment, and installation requirements. Contact our team for a project assessment and a tailored quotation."
+    },
+    {
+     "q": "Do you provide fire sprinkler system design, installation and commissioning?",
+     "a": "Yes. We provide complete fire sprinkler system solutions, including system design, installation, testing, and commissioning. Our team can assess your property and recommend a suitable fire protection solution based on the project's requirements and applicable regulations."
+    },
+    {
+     "q": "Where can I get fire sprinkler system installation in Abu Dhabi?",
+     "a": "Firestone Fire & Security Systems provides professional fire sprinkler system solutions in Abu Dhabi and across the UAE. We support commercial, industrial, residential, and other properties with fire protection system design, installation, testing, and commissioning."
+    },
+    {
+     "q": "Do you provide fire sprinkler system maintenance and inspection in the UAE?",
+     "a": "Yes. Regular fire sprinkler system inspection, testing, and maintenance help keep sprinkler heads, valves, pipes, pumps, and associated components in proper working condition. Our fire protection maintenance services can help identify potential issues and support ongoing system reliability."
+    },
+    {
+     "q": "How can I request a fire sprinkler system quotation in Abu Dhabi?",
+     "a": "You can contact Firestone Fire & Security Systems with your project details, building type, location, and fire protection requirements. Our team can review your requirements and provide guidance on the appropriate fire sprinkler system and quotation."
+    }
+   ]
+  }
+ ],
+ "title": "Fire sprinkler system"
+}

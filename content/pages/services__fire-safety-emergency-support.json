@@ -1,0 +1,108 @@
+{
+ "route": "/services/fire-safety-emergency-support",
+ "kind": "service",
+ "metaTitle": "24/7 Emergency Fire & Safety Support UAE | Firestone",
+ "metaDescription": "24/7 emergency fire and safety response in Abu Dhabi, Dubai, Sharjah and Al Ain: fire alarm faults, suppression issues, gas leaks and more.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "24/7 Emergency Fire & Safety Support"
+  },
+  {
+   "t": "p",
+   "text": "Fire and safety emergencies don't wait for business hours — neither do we."
+  },
+  {
+   "t": "links",
+   "items": [
+    {
+     "href": "tel:+971506761638",
+     "text": "Call Now"
+    },
+    {
+     "href": "tel:+971506761638",
+     "text": "WhatsApp Us"
+    }
+   ]
+  },
+  {
+   "t": "h",
+   "text": "When to Call Us"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "Fire alarm fault or false alarm won't stop",
+    "Fire suppression system fault",
+    "Fire pump failure",
+    "Gas leak alert",
+    "Sprinkler leak or burst pipe",
+    "Gas leak alert",
+    "Access control or security system failure"
+   ]
+  },
+  {
+   "t": "features",
+   "items": [
+    {
+     "title": "1",
+     "text": "Call or WhatsApp"
+    },
+    {
+     "title": "2",
+     "text": "We assess by phone"
+    },
+    {
+     "title": "3",
+     "text": "Technician dispatched"
+    },
+    {
+     "title": "4",
+     "text": "Fault fixed on-site"
+    }
+   ]
+  },
+  {
+   "t": "h",
+   "text": "Emergency Support for AMC Clients"
+  },
+  {
+   "t": "p",
+   "text": "For AMC clients, emergency support means that if a fire alarm, suppression system, or gas detection unit fails or malfunctions, help is a phone call away without needing a separate service quote each time. Coverage under the AMC typically includes priority scheduling and a guaranteed response window, so clients aren't left waiting behind non-contract customers during a fault. What's usually variable is the depth of that coverage: some AMC tiers bundle unlimited emergency call-outs including labor and minor parts, while more basic tiers may only cover a set number of visits per year or charge separately for parts and after-hours work. Because of that variation, it's worth confirming exactly what \"emergency support\" includes in your specific AMC — response time, hours covered, call-out limits, and whether replacement parts are extra — rather than assuming full coverage from the name of the contract alone."
+  },
+  {
+   "t": "h",
+   "text": "Fire safety FAQ"
+  },
+  {
+   "t": "p",
+   "text": "Answers to common questions about maintenance contracts and emergency response."
+  },
+  {
+   "t": "faq",
+   "items": [
+    {
+     "q": "Is emergency support included in an AMC contract?",
+     "a": "Most Annual Maintenance Contracts include a baseline level of emergency call-out support, but the scope varies by provider. Some cover unlimited emergency visits, while others cap the number of free call-outs per year and charge beyond that. Check whether your AMC covers parts and labor, or just one of the two."
+    },
+    {
+     "q": "How fast is your emergency response time?",
+     "a": "Reputable fire safety companies in the UAE typically commit to 30 to 60 minutes for emergency response within their service city. Get the exact figure written into your service-level agreement rather than relying on a verbal promise."
+    },
+    {
+     "q": "Do you charge extra for emergency call-outs outside business hours?",
+     "a": "Many providers apply a premium for after-hours, weekend, or public-holiday emergency visits unless it is explicitly included in a higher AMC tier. Ask for a clear rate breakdown between standard hours and after-hours before signing."
+    },
+    {
+     "q": "What should I do if my fire alarm won't stop sounding?",
+     "a": "Check for an obvious cause first, such as burnt food, steam, or dust near a detector, and ventilate the area if it's safe to do so. If there's no clear trigger, don't disable the system yourself. Contact your maintenance provider or building facilities team right away, since a persistent false alarm still needs a professional diagnosis."
+    },
+    {
+     "q": "Can you respond to a gas leak alert immediately?",
+     "a": "This depends on the provider. Some fire safety companies handle gas detection as part of their scope and will dispatch right away, but a suspected active gas leak is also a life-safety emergency: evacuate, avoid switches and open flames, call Civil Defense or emergency services first, then notify your maintenance provider."
+    }
+   ]
+  }
+ ],
+ "title": "24/7 Emergency Fire & Safety Support"
+}

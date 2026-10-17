@@ -1,0 +1,67 @@
+{
+ "route": "/services/fire-risk-assessment",
+ "kind": "service",
+ "metaTitle": "Fire Risk Assessment UAE | Civil Defence Compliant",
+ "metaDescription": "Fire risk assessments in the UAE that identify fire hazards and compliance gaps before they become inspection failures. Request an assessment.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Fire Risk Assessment"
+  },
+  {
+   "t": "p",
+   "text": "A building can have every fire alarm, extinguisher, and suppression system installed correctly and still carry real fire risk that none of that equipment addresses — a blocked escape route, an overloaded electrical panel, or storage stacked against a fire exit. A fire risk assessment identifies exactly those gaps, evaluating a building's actual fire hazards and evacuation readiness rather than just confirming the equipment is present. We provide fire risk assessments across Abu Dhabi, Dubai, Sharjah, and Al Ain, for businesses preparing for Civil Defence inspection, insurance requirements, or simply wanting a clear picture of where their real fire risk actually sits."
+  },
+  {
+   "t": "h",
+   "text": "What a Fire Risk Assessment Covers"
+  },
+  {
+   "t": "p",
+   "text": "A fire risk assessment reviews a building's fire hazards, evacuation routes, existing fire safety equipment, and staff readiness, identifying where the actual risk sits rather than just checking whether equipment is installed. This includes reviewing storage and housekeeping practices, electrical hazards, escape route obstructions, and whether existing fire alarm and suppression systems are appropriately matched to the building's actual risk profile — not just present, but adequate."
+  },
+  {
+   "t": "h",
+   "text": "Why a Fire Risk Assessment Matters"
+  },
+  {
+   "t": "p",
+   "text": "Fire safety equipment addresses risk that's already been identified and designed for — a fire risk assessment is what catches the risk nobody's accounted for yet, whether that's a storage practice that's crept in over time, a door that's been propped open so often nobody notices it anymore, or an occupancy change that's shifted the building's actual fire load beyond what the original fire strategy assumed. Buildings that skip this step often only discover these gaps during a Civil Defence inspection, when finding out is far more costly and time-sensitive than addressing it proactively."
+  },
+  {
+   "t": "h",
+   "text": "Who Needs a Fire Risk Assessment"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "Existing buildings undergoing a change of use or occupancy",
+    "Businesses preparing for Civil Defence inspection or Istifa renewal",
+    "Properties seeking updated insurance coverage",
+    "acility managers who want a genuine, independent view of their building's fire risk rather than assuming existing systems are adequate",
+    "Restaurants, warehouses, schools, and other buildings with elevated or specific fire risks needing assessment beyond standard system maintenance"
+   ]
+  },
+  {
+   "t": "h",
+   "text": "What Happens After the Assessment"
+  },
+  {
+   "t": "p",
+   "text": "A fire risk assessment isn't the end of the process — it's the starting point for actually resolving what it finds. Where the assessment identifies gaps in fire alarm coverage, suppression, or passive fire protection, we can design and implement the fix directly, since we're the same team doing the assessment and the installation, rather than handing a report to a building owner and leaving them to find a separate contractor to act on it."
+  },
+  {
+   "t": "h",
+   "text": "Fire Safety Audit"
+  },
+  {
+   "t": "p",
+   "text": "\"Fire safety audit\" and \"fire risk assessment\" are often used interchangeably, and in practice they describe the same core service — a structured review of a building's fire hazards, evacuation readiness, and compliance status. Where the terms sometimes differ is scope: a fire safety audit can lean more toward reviewing existing documentation, certificates, and procedural compliance, while a fire risk assessment focuses more on physically identifying hazards on-site. In either case, we cover both — physical inspection and documentation review — so you get a complete picture rather than half the assessment under either name.If your building specifically needs a fire safety audit for insurance, a tender requirement, or a specific compliance request, we scope the service to match that exact requirement rather than assuming one generic assessment fits every request."
+  },
+  {
+   "t": "p",
+   "text": "Everything you need to know about fire risk assessments"
+  }
+ ],
+ "title": "Fire Risk Assessment"
+}

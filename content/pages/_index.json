@@ -1,0 +1,524 @@
+[
+ {
+  "route": "/",
+  "kind": "page",
+  "title": "Civil Defence Approved Fire and Safety Company In UAE",
+  "blocks": 54
+ },
+ {
+  "route": "/about-us",
+  "kind": "page",
+  "title": "Leading the Way in Safety & Technology",
+  "blocks": 47
+ },
+ {
+  "route": "/blog",
+  "kind": "page",
+  "title": "Insights & Ideas",
+  "blocks": 134
+ },
+ {
+  "route": "/blog/elv-systems-building-smarter-safer-and-more-connected-environments",
+  "kind": "post",
+  "title": "ELV Systems: Building Smarter, Safer, and More Connected Environments",
+  "blocks": 26
+ },
+ {
+  "route": "/blog/fire-protection-is-a-business-continuity-strategy-protecting-operations-beyond-compliance",
+  "kind": "post",
+  "title": "Fire Protection Is a Business Continuity Strategy: Protecting Operations Beyond Compliance",
+  "blocks": 78
+ },
+ {
+  "route": "/blog/fire-safety-compliance-uae-portfolios",
+  "kind": "post",
+  "title": "Beyond the Checklist: A Tiered Approach to Fire Safety Compliance Across Your UAE Property Portfolio",
+  "blocks": 23
+ },
+ {
+  "route": "/blog/fire-safety-maintenance-why-regular-inspection-and-testing-matter",
+  "kind": "post",
+  "title": "Fire Safety Maintenance: Why Regular Inspection and Testing Matter",
+  "blocks": 66
+ },
+ {
+  "route": "/blog/fire-safety-solutions",
+  "kind": "post",
+  "title": "Fire Safety Solutions",
+  "blocks": 21
+ },
+ {
+  "route": "/blog/how-integrated-gas-security-and-safety-systems-are-changing-modern-buildings",
+  "kind": "post",
+  "title": "How Integrated Gas, Security and Safety Systems Are Changing Modern Buildings",
+  "blocks": 105
+ },
+ {
+  "route": "/blog/smoke-management-ventilation-systems-creating-safer-smarter-buildings-in-the-uae",
+  "kind": "post",
+  "title": "Smoke Management & Ventilation Systems: Creating Safer, Smarter Buildings in the UAE",
+  "blocks": 32
+ },
+ {
+  "route": "/blog/summer-fire-risk-uae-commercial-properties",
+  "kind": "post",
+  "title": "Is Your Building's Fire Safety Ready for UAE Summer?",
+  "blocks": 16
+ },
+ {
+  "route": "/blog/the-importance-of-fire-extinguisher-maintenance",
+  "kind": "post",
+  "title": "The Importance Of Fire Extinguisher Maintenance",
+  "blocks": 15
+ },
+ {
+  "route": "/blog/the-most-common-causes-of-fire",
+  "kind": "post",
+  "title": "The Most Common Causes of Fire",
+  "blocks": 14
+ },
+ {
+  "route": "/blog/the-non-negotiables-what-to-demand-from-a-fire-safety-contractor-in-the-uae",
+  "kind": "post",
+  "title": "The Non-Negotiables: What to Demand From a Fire Safety Contractor in the UAE",
+  "blocks": 29
+ },
+ {
+  "route": "/blog/the-vital-security-measure-is-fire-safety",
+  "kind": "post",
+  "title": "The vital security measure is fire safety!",
+  "blocks": 12
+ },
+ {
+  "route": "/blog/warehouse-fire-risk-assessment-a-strategic-approach-to-fire-safety-and-business-continuity",
+  "kind": "post",
+  "title": "Warehouse Fire Risk Assessment: A Strategic Approach to Fire Safety and Business Continuity",
+  "blocks": 47
+ },
+ {
+  "route": "/blog/why-is-the-fire-alarm-system-important",
+  "kind": "post",
+  "title": "Why is the fire alarm system important?",
+  "blocks": 9
+ },
+ {
+  "route": "/blog/why-routine-fire-safety-maintenance-prevents-failures",
+  "kind": "post",
+  "title": "Maintenance Isn't Optional",
+  "blocks": 25
+ },
+ {
+  "route": "/career",
+  "kind": "page",
+  "title": "We’re Hiring – Let’s Work Together",
+  "blocks": 33
+ },
+ {
+  "route": "/career/fire-alarm-technician",
+  "kind": "job",
+  "title": "Fire Alarm Technician",
+  "blocks": 14
+ },
+ {
+  "route": "/career/fire-fighting-technician",
+  "kind": "job",
+  "title": "Fire Fighting Technician",
+  "blocks": 14
+ },
+ {
+  "route": "/career/fire-sealant-applicator-lile6",
+  "kind": "job",
+  "title": "Fire Sealant Applicator",
+  "blocks": 14
+ },
+ {
+  "route": "/career/hvac-technician",
+  "kind": "job",
+  "title": "HVAC Technician",
+  "blocks": 14
+ },
+ {
+  "route": "/career/maintenance-engineer",
+  "kind": "job",
+  "title": "Maintenance Engineer",
+  "blocks": 14
+ },
+ {
+  "route": "/career/painter",
+  "kind": "job",
+  "title": "Painter",
+  "blocks": 12
+ },
+ {
+  "route": "/career/project-engineer",
+  "kind": "job",
+  "title": "Project Engineer",
+  "blocks": 14
+ },
+ {
+  "route": "/career/supervisor",
+  "kind": "job",
+  "title": "Supervisor",
+  "blocks": 14
+ },
+ {
+  "route": "/contact",
+  "kind": "page",
+  "title": "Contact Us for Reliable Fire Protection Solutions",
+  "blocks": 32
+ },
+ {
+  "route": "/services",
+  "kind": "page",
+  "title": "Our services",
+  "blocks": 8
+ },
+ {
+  "route": "/services/access-control-system",
+  "kind": "service",
+  "title": "How Access Control Works",
+  "blocks": 11
+ },
+ {
+  "route": "/services/annual-maintenance-contract-abu-dhabi",
+  "kind": "service",
+  "title": "ADCD Approved Fire Maintenance Company in Abu Dhabi — Annual Maintenance Contract (AMC)",
+  "blocks": 38
+ },
+ {
+  "route": "/services/anpr-system",
+  "kind": "service",
+  "title": "ANPR System",
+  "blocks": 21
+ },
+ {
+  "route": "/services/beam-detector",
+  "kind": "service",
+  "title": "Beam Detector Supply, Installation & Maintenance in the UAE",
+  "blocks": 18
+ },
+ {
+  "route": "/services/burglar-alarm-system",
+  "kind": "service",
+  "title": "Burglar Alarm System",
+  "blocks": 17
+ },
+ {
+  "route": "/services/cctv-camera-installation",
+  "kind": "service",
+  "title": "CCTV and security camera Installation company",
+  "blocks": 26
+ },
+ {
+  "route": "/services/central-battery-system",
+  "kind": "service",
+  "title": "Central Battery System Installation & Maintenance in the UAE",
+  "blocks": 16
+ },
+ {
+  "route": "/services/central-gas-system",
+  "kind": "service",
+  "title": "Central Gas System Installation",
+  "blocks": 19
+ },
+ {
+  "route": "/services/civil-defense-compliance",
+  "kind": "service",
+  "title": "Civil Defence Compliance UAE and certificate renewal",
+  "blocks": 38
+ },
+ {
+  "route": "/services/clean-agent-suppression-system",
+  "kind": "service",
+  "title": "Clean Agent System",
+  "blocks": 16
+ },
+ {
+  "route": "/services/clients-and-projects",
+  "kind": "service",
+  "title": "Our Work",
+  "blocks": 45
+ },
+ {
+  "route": "/services/deluge-system",
+  "kind": "service",
+  "title": "Deluge System Design, Installation & Maintenance in the UAE",
+  "blocks": 26
+ },
+ {
+  "route": "/services/elv-system",
+  "kind": "service",
+  "title": "ELV System",
+  "blocks": 17
+ },
+ {
+  "route": "/services/emergency-evacuation-plan",
+  "kind": "service",
+  "title": "Emergency Fire Evacuation Plan Design & Drawings in UAE",
+  "blocks": 23
+ },
+ {
+  "route": "/services/emergency-lighting-exit-sign",
+  "kind": "service",
+  "title": "Emergency Lighting & Exit Sign Installation in the UAE",
+  "blocks": 19
+ },
+ {
+  "route": "/services/fire-alarm",
+  "kind": "service",
+  "title": "Fire Alarm Company in UAE: Installation and Supply",
+  "blocks": 30
+ },
+ {
+  "route": "/services/fire-amc-dubai",
+  "kind": "service",
+  "title": "Fire Annual Maintenance Contract (AMC) — Fire and safety maintenance Dubai",
+  "blocks": 20
+ },
+ {
+  "route": "/services/fire-amc-sharjah",
+  "kind": "service",
+  "title": "Fire AMC Company in Sharjah | SCD Approved Fire & Safety Contractor",
+  "blocks": 24
+ },
+ {
+  "route": "/services/fire-and-safety",
+  "kind": "service",
+  "title": "Fire Protection Services in UAE",
+  "blocks": 22
+ },
+ {
+  "route": "/services/fire-damper",
+  "kind": "service",
+  "title": "Fire Dampers",
+  "blocks": 17
+ },
+ {
+  "route": "/services/fire-extinguisher",
+  "kind": "service",
+  "title": "Fire Extinguisher Refilling & Servicing",
+  "blocks": 19
+ },
+ {
+  "route": "/services/fire-fighting-system",
+  "kind": "service",
+  "title": "Fire fighting system",
+  "blocks": 9
+ },
+ {
+  "route": "/services/fire-hose-reel-system",
+  "kind": "service",
+  "title": "Fire hose reel system",
+  "blocks": 29
+ },
+ {
+  "route": "/services/fire-hydrant-system",
+  "kind": "service",
+  "title": "Fire hydrant system",
+  "blocks": 34
+ },
+ {
+  "route": "/services/fire-protection-products",
+  "kind": "service",
+  "title": "Fire protection products",
+  "blocks": 8
+ },
+ {
+  "route": "/services/fire-pump-system",
+  "kind": "service",
+  "title": "Fire Pump System",
+  "blocks": 33
+ },
+ {
+  "route": "/services/fire-rated-door",
+  "kind": "service",
+  "title": "Fire Rated Doors in the UAE",
+  "blocks": 14
+ },
+ {
+  "route": "/services/fire-risk-assessment",
+  "kind": "service",
+  "title": "Fire Risk Assessment",
+  "blocks": 13
+ },
+ {
+  "route": "/services/fire-safety-emergency-support",
+  "kind": "service",
+  "title": "24/7 Emergency Fire & Safety Support",
+  "blocks": 11
+ },
+ {
+  "route": "/services/fire-safety-services",
+  "kind": "service",
+  "title": "Fire safety services",
+  "blocks": 13
+ },
+ {
+  "route": "/services/fire-sealant",
+  "kind": "service",
+  "title": "Fire Sealant Supply, Application & Installation in the UAE",
+  "blocks": 31
+ },
+ {
+  "route": "/services/fire-sealant-and-fire-stopping",
+  "kind": "service",
+  "title": "Fire Stopping",
+  "blocks": 20
+ },
+ {
+  "route": "/services/fire-suppression-system",
+  "kind": "service",
+  "title": "Fire suppression system",
+  "blocks": 7
+ },
+ {
+  "route": "/services/flame-detector",
+  "kind": "service",
+  "title": "Flame Detector Supply, Installation & Maintenance in the UAE",
+  "blocks": 15
+ },
+ {
+  "route": "/services/fm200-system",
+  "kind": "service",
+  "title": "FM200 System",
+  "blocks": 17
+ },
+ {
+  "route": "/services/foam-suppression-system",
+  "kind": "service",
+  "title": "Foam Suppression System",
+  "blocks": 30
+ },
+ {
+  "route": "/services/gas-leakage-detection-system",
+  "kind": "service",
+  "title": "Gas Leak Detection System",
+  "blocks": 19
+ },
+ {
+  "route": "/services/gas-maintenance",
+  "kind": "service",
+  "title": "Gas Maintenance & AMC Services in the UAE",
+  "blocks": 22
+ },
+ {
+  "route": "/services/gas-system",
+  "kind": "service",
+  "title": "Gas System Installation Abu Dhabi",
+  "blocks": 22
+ },
+ {
+  "route": "/services/gate-barrier-system",
+  "kind": "service",
+  "title": "Gate Barrier System",
+  "blocks": 17
+ },
+ {
+  "route": "/services/hdpe-piping-system",
+  "kind": "service",
+  "title": "HDPE Piping System for Fire Fighting Installations in the UAE",
+  "blocks": 11
+ },
+ {
+  "route": "/services/istifa-certificate-uae",
+  "kind": "service",
+  "title": "Istifa Certificate Approval & Renewal | Abu Dhabi, Dubai, Sharjah & Al Ain",
+  "blocks": 43
+ },
+ {
+  "route": "/services/it-solutions",
+  "kind": "service",
+  "title": "IT Solutions",
+  "blocks": 20
+ },
+ {
+  "route": "/services/kitchen-ventilation-system",
+  "kind": "service",
+  "title": "Kitchen Ventilation System Installation & Maintenance",
+  "blocks": 16
+ },
+ {
+  "route": "/services/kitchenhood-fire-suppression-system",
+  "kind": "service",
+  "title": "Kitchen Hood Fire Suppression",
+  "blocks": 12
+ },
+ {
+  "route": "/services/linear-heat-detection",
+  "kind": "service",
+  "title": "Linear Heat Detection (LHD) System Supply & Installation in the UAE",
+  "blocks": 16
+ },
+ {
+  "route": "/services/lpg-gas-systems",
+  "kind": "service",
+  "title": "LPG Gas Connection & System Installation in Abu Dhabi",
+  "blocks": 24
+ },
+ {
+  "route": "/services/novec-1230",
+  "kind": "service",
+  "title": "Novec 1230 Fire suppression System",
+  "blocks": 15
+ },
+ {
+  "route": "/services/public-address-system-and-voice-evacuation-system",
+  "kind": "service",
+  "title": "Public Address & Voice Evacuation System Installation in the UAE",
+  "blocks": 18
+ },
+ {
+  "route": "/services/security-and-elv-systems",
+  "kind": "service",
+  "title": "Security & ELV System",
+  "blocks": 27
+ },
+ {
+  "route": "/services/smoke-management-systems",
+  "kind": "service",
+  "title": "Smoke Management Systems",
+  "blocks": 41
+ },
+ {
+  "route": "/services/sprinkler-system",
+  "kind": "service",
+  "title": "Fire sprinkler system",
+  "blocks": 38
+ },
+ {
+  "route": "/services/staircase-pressurization-fan",
+  "kind": "service",
+  "title": "Staircase Pressurization Fan",
+  "blocks": 18
+ },
+ {
+  "route": "/services/structured-cabling",
+  "kind": "service",
+  "title": "Structured Cabling",
+  "blocks": 13
+ },
+ {
+  "route": "/services/time-attendance-system",
+  "kind": "service",
+  "title": "Time Attendance System",
+  "blocks": 12
+ },
+ {
+  "route": "/services/vesda-system",
+  "kind": "service",
+  "title": "VESDA System Supply, Installation & Maintenance in the UAE",
+  "blocks": 16
+ },
+ {
+  "route": "/services/video-intercom-system",
+  "kind": "service",
+  "title": "Video Intercom System",
+  "blocks": 20
+ },
+ {
+  "route": "/services/wet-riser-system",
+  "kind": "service",
+  "title": "Wet Riser System Installation, Maintenance & Compliance in the UAE",
+  "blocks": 13
+ }
+]

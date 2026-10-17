@@ -1,0 +1,90 @@
+{
+ "route": "/services/central-battery-system",
+ "kind": "service",
+ "metaTitle": "Central Battery System UAE | Emergency Power | Firestone",
+ "metaDescription": "Central battery system design, installation and maintenance for emergency lighting across the UAE. Civil defence approved contractor.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Central Battery System Installation & Maintenance in the UAE"
+  },
+  {
+   "t": "img",
+   "alt": "Close-up of a central battery system with multiple connected industrial batteries in a metal rack."
+  },
+  {
+   "t": "img",
+   "alt": "Room with central battery system control panel, battery charger, and a rack of large batteries labeled 'Battery Area'."
+  },
+  {
+   "t": "p",
+   "text": "A central battery system provides backup power to emergency lighting throughout a building from a single, centrally located source, rather than relying on individual batteries in every fitting. Firestone Fire and Security Systems designs, installs, and maintains central battery systems across commercial, residential, and industrial buildings in the UAE, integrated with emergency lighting and fire alarm systems."
+  },
+  {
+   "t": "h",
+   "text": "Central Battery System Installation"
+  },
+  {
+   "t": "p",
+   "text": "Installation covers sizing the battery bank and charger for the building's total emergency lighting load, positioning the central unit, and wiring out to every connected fitting and exit sign. The system is calculated to maintain the required light output and backup duration across the full network, not just the fittings nearest the battery unit."
+  },
+  {
+   "t": "h",
+   "text": "Central Battery System Maintenanc"
+  },
+  {
+   "t": "p",
+   "text": "Routine maintenance includes testing the battery's ability to hold charge and support the full connected lighting load, checking charger function, and confirming every fitting on the network still receives power correctly during a simulated mains failure. Central battery systems are typically tested from the control panel itself, which is one of the main advantages over maintaining self-contained fittings individually across a building."
+  },
+  {
+   "t": "h",
+   "text": "How a Central Battery System Works"
+  },
+  {
+   "t": "p",
+   "text": "A central battery system consists of a battery bank and charger housed in a dedicated unit, wired out to emergency light fittings and exit signs across the building. During normal operation, the battery stays charged and the lights run from mains power. If mains power fails, the central battery automatically takes over, keeping every connected fitting illuminated for the duration the system is designed to support, typically long enough to allow full evacuation. Because every fitting draws from one monitored source, the system can report faults, test itself, and be maintained from a single control point rather than checking each light individually."
+  },
+  {
+   "t": "h",
+   "text": "Central Battery vs Self-Contained Emergency Lighting"
+  },
+  {
+   "t": "p",
+   "text": "A central battery system feeds multiple emergency light fittings from one shared power source, simplifying testing and fault monitoring since the whole system can be checked from a single panel. Self-contained emergency lighting instead has an individual battery in every fitting, which avoids the need for dedicated central wiring but means each fitting has to be tested and its battery replaced separately over its service life. Larger buildings, or those wanting centralised monitoring and easier long-term maintenance, typically favour a central battery system over a self-contained approach."
+  },
+  {
+   "t": "h",
+   "text": "Signs Your Central Battery System Needs Attention"
+  },
+  {
+   "t": "p",
+   "text": "Frequent fault alarms, reduced backup duration, battery swelling or leakage, corroded terminals, charger problems, overheating, unusual odours, or emergency lights failing during tests are all signs that your <strong>Central Battery System (CBS)</strong> may need professional inspection. Regular testing and maintenance help identify battery and system faults early, ensuring emergency lighting and exit signs remain reliable during power failures."
+  },
+  {
+   "t": "img",
+   "alt": "Central battery system cabinet connected with multiple boxes powering various emergency lighting fixtures."
+  },
+  {
+   "t": "faq",
+   "items": [
+    {
+     "q": "What is a central battery system?",
+     "a": "A central battery system provides backup power to emergency lighting throughout a building from a single, centrally located battery bank and charger, automatically taking over if mains power fails."
+    },
+    {
+     "q": "What is the difference between a central battery system and self-contained emergency lighting?",
+     "a": "A central battery system feeds multiple fittings from one shared power source, simplifying testing and monitoring from a single panel, while self-contained emergency lighting has an individual battery in every fitting, which needs to be tested and replaced separately."
+    },
+    {
+     "q": "What size of building needs a central battery system?",
+     "a": "Central battery systems are typically specified for buildings with a large number of emergency light fittings, such as commercial towers, hotels, hospitals, and malls, where centralised monitoring offers a clear advantage over managing individual self-contained units."
+    },
+    {
+     "q": "How is a central battery system tested?",
+     "a": "A central battery system is tested from its control panel, checking the battery's ability to hold charge and support the full connected lighting load during a simulated mains failure, rather than testing each fitting separately."
+    }
+   ]
+  }
+ ],
+ "title": "Central Battery System Installation & Maintenance in the UAE"
+}

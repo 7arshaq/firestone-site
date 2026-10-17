@@ -1,0 +1,58 @@
+{
+ "route": "/services/time-attendance-system",
+ "kind": "service",
+ "metaTitle": "Time Attendance System UAE | Biometric Attendance Machines installation and maintenance",
+ "metaDescription": "Time attendance systems and biometric attendance machines installation, maintenance and supply in UAE for accurate tracking",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Time Attendance System"
+  },
+  {
+   "t": "p",
+   "text": "Manual sign-in sheets and buddy-punching (one employee clocking in for another) cost businesses more in lost hours than most facility managers realize, and both problems disappear the moment attendance is tied to something that can't be handed to someone else — a fingerprint, a face, or a card. A time attendance system automates staff clock-in and clock-out, giving HR and payroll accurate records without anyone manually tracking hours.We supply and install time attendance systems and biometric attendance machines across Abu Dhabi, Dubai, Sharjah, and Al Ain, specifying the right device and configuration for each business's staff size and site layout."
+  },
+  {
+   "t": "link",
+   "href": "tel:+971506761638",
+   "text": "Call now"
+  },
+  {
+   "t": "h",
+   "text": "Installation & Maintenance"
+  },
+  {
+   "t": "p",
+   "text": "Installation starts with confirming device placement based on staff flow — mounted where people naturally pass on their way in or out, not tucked somewhere that adds a detour to every clock-in. We run any required cabling or network connection to the device, mount it securely, and configure the connection to your attendance software or payroll system before enrolling a single employee. Employee enrollment is done on-site as part of the same visit — capturing fingerprints or face data for each staff member and confirming the device reads correctly — and before handover we test the full flow end to end: a real clock-in, the timestamp landing correctly in the software, and the data syncing to payroll, so the system is working on day one rather than technically installed but unverified.A time attendance device that stops reading fingerprints reliably, or a system that quietly stops syncing to payroll software, tends to go unnoticed until a pay cycle comes up short or someone's hours are missing entirely. We provide ongoing maintenance for the systems we install, checking device function, software connectivity, and data sync to catch issues before they show up as a payroll discrepancy. If a device does go down — a scanner fails, a network connection drops, a firmware update needs pushing — we handle the fix directly rather than leaving a business without attendance tracking until it's convenient to address, and for businesses that want this covered on a scheduled basis, we can include time attendance as part of the same maintenance arrangement as any access control or CCTV systems already installed."
+  },
+  {
+   "t": "h",
+   "text": "How Time Attendance Systems Work"
+  },
+  {
+   "t": "p",
+   "text": "A time attendance machine reads a credential — typically a fingerprint, face scan, or card — when an employee clocks in or out, then logs that timestamp against their employee record. The data is usually pulled into attendance or payroll software, either automatically over a network connection or exported periodically, so HR gets accurate hours without manually reviewing a sign-in book or spreadsheet."
+  },
+  {
+   "t": "h",
+   "text": "Installation & Setup"
+  },
+  {
+   "t": "p",
+   "text": "Installation covers mounting the device at the entry point, connecting it to your network or attendance software, and enrolling employee credentials — fingerprints, face data, or cards — before the system goes live. We configure the software integration so attendance data flows into whatever payroll or HR system your business already uses, rather than leaving it as a standalone log that still needs manual transfer."
+  },
+  {
+   "t": "h",
+   "text": "Choosing the Right Time Attendance System"
+  },
+  {
+   "t": "p",
+   "text": "ot every business needs the same setup, and the right system depends on staff size, how many entry points need coverage, and how the data needs to reach payroll. A small office with a dozen staff and one entrance has very different requirements from a warehouse running shift work across multiple access points, and specifying the same device for both usually means either overpaying for capacity that isn't needed or installing something that can't actually keep up.Device choice matters too — fingerprint readers are the most common and cost-effective option, but they slow down at high-traffic entry points where dozens of staff are clocking in within the same few minutes, since each person has to individually place a finger on the scanner. Facial recognition devices handle that volume faster since they can identify someone as they walk up, without a physical touch step, which is why we specify them more often for larger facilities or shift-change bottlenecks rather than as a default for every project.We assess staff numbers, entry point layout, and shift patterns before recommending a device, rather than proposing the same standard machine regardless of how a business actually operates day to day."
+  },
+  {
+   "t": "p",
+   "text": "Everything you need to know about time attendance systems"
+  }
+ ],
+ "title": "Time Attendance System"
+}

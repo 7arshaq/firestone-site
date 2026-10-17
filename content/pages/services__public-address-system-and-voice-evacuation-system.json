@@ -1,0 +1,98 @@
+{
+ "route": "/services/public-address-system-and-voice-evacuation-system",
+ "kind": "service",
+ "metaTitle": "Public Address & Voice Evacuation System Installation in the UAE",
+ "metaDescription": "Public address and voice evacuation system design, installation and maintenance across the UAE. Civil defence approved contractor for life safety communication.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Public Address & Voice Evacuation System Installation in the UAE"
+  },
+  {
+   "t": "img",
+   "alt": "Technician installing public address and fire alarm control panel in the UAE"
+  },
+  {
+   "t": "img",
+   "alt": "Voice evacuation system control panels mounted on a wall"
+  },
+  {
+   "t": "img",
+   "alt": "Public address speakers and control panel installed in an industrial facility"
+  },
+  {
+   "t": "p",
+   "text": "A public address system gives building occupants clear, spoken instructions during a fire or emergency, guiding evacuation in a way that alarm sounders alone can't. Firestone Fire and Security Systems designs, installs, and maintains public address and voice evacuation systems across commercial, residential, and industrial buildings in the UAE, integrated with fire alarm and life safety systems."
+  },
+  {
+   "t": "h",
+   "text": "Our services"
+  },
+  {
+   "t": "h",
+   "text": "Public Address System Installation"
+  },
+  {
+   "t": "p",
+   "text": "Installation covers speaker layout and coverage design based on the building's size and acoustics, amplifier and control panel setup, and integration with the fire alarm system to trigger the correct evacuation message automatically. Systems are tested for audibility and intelligibility across every zone before handover, since a message that can't be clearly understood doesn't meet its purpose."
+  },
+  {
+   "t": "h",
+   "text": "Public Address System Maintenance"
+  },
+  {
+   "t": "p",
+   "text": "Routine maintenance includes testing amplifier and backup power function, checking speaker output and coverage, and confirming the system correctly triggers the right evacuation message when the fire alarm activates. Any fault in a life safety voice evacuation system needs to be identified and resolved quickly, which is why these systems are usually kept on a scheduled AMC rather than tested only when an issue is suspected."
+  },
+  {
+   "t": "h",
+   "text": "How a Public Address & Voice Evacuation System Works"
+  },
+  {
+   "t": "p",
+   "text": "A voice evacuation system connects to the building's fire alarm panel and, once triggered, broadcasts pre-recorded or live spoken messages through speakers positioned across the building. Unlike a standard alarm sounder, which only signals that something is wrong, a voice message can direct occupants to specific exits, calm panic, or instruct staff in one area to evacuate while another area stays in place, known as phased evacuation. This makes voice evacuation particularly valuable in large, complex, or high-occupancy buildings where a single alarm tone doesn't give people enough information to respond correctly."
+  },
+  {
+   "t": "h",
+   "text": "Public Address vs Voice Evacuation"
+  },
+  {
+   "t": "p",
+   "text": "A public address system and a voice evacuation system are closely related, but not identical. A general public address system can be used for day-to-day announcements as well as emergencies, while a voice evacuation system is specifically engineered and certified for life safety use, with backup power, fault monitoring, and integration requirements that a standard PA system doesn't need to meet. Many buildings install a combined system that handles both general announcements and certified emergency voice evacuation through the same speaker network."
+  },
+  {
+   "t": "h",
+   "text": "Where Public Address & Voice Evacuation Systems Are Required"
+  },
+  {
+   "t": "p",
+   "text": "Voice evacuation is typically required in buildings where a standard alarm bell alone wouldn't give occupants enough guidance to evacuate safely, including high-rise buildings, shopping malls, airports, hospitals, hotels, and other large or high-occupancy structures where civil defence assesses that phased or directed evacuation is necessary."
+  },
+  {
+   "t": "h",
+   "text": "Public Address & Voice Evacuation System — FAQ"
+  },
+  {
+   "t": "faq",
+   "items": [
+    {
+     "q": "What is a public address and voice evacuation system?",
+     "a": "A public address and voice evacuation system broadcasts spoken messages through speakers positioned across a building, giving occupants clear evacuation instructions during a fire or emergency, in addition to or instead of a standard alarm sounder."
+    },
+    {
+     "q": "What is the difference between a public address system and a voice evacuation system?",
+     "a": "A public address system can be used for general day-to-day announcements as well as emergencies, while a voice evacuation system is specifically engineered and certified for life safety use, with backup power and fault monitoring that a standard PA system doesn't require."
+    },
+    {
+     "q": "When is a voice evacuation system required in the UAE?",
+     "a": "Voice evacuation is typically required in high-rise buildings, malls, airports, hospitals, hotels, and other large or high-occupancy buildings, assessed by civil defence during design approval based on whether phased or directed evacuation is necessary."
+    },
+    {
+     "q": "Can a public address system integrate with an existing fire alarm system?",
+     "a": "Yes, a public address and voice evacuation system is designed to connect directly to the building's fire alarm panel, automatically triggering the correct evacuation message when the alarm activates."
+    }
+   ]
+  }
+ ],
+ "title": "Public Address & Voice Evacuation System Installation in the UAE"
+}

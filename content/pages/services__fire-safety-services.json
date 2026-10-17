@@ -1,0 +1,79 @@
+{
+ "route": "/services/fire-safety-services",
+ "kind": "service",
+ "metaTitle": "Fire Safety Services UAE | AMC, Risk Assessment & Training",
+ "metaDescription": "End-to-end fire safety services in the UAE: AMC, fire risk assessments, safety training and civil defence compliance for buildings of every type.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Fire safety services"
+  },
+  {
+   "t": "link",
+   "href": "tel:+971506761638",
+   "text": "Call Now"
+  },
+  {
+   "t": "p",
+   "text": "Equipment alone doesn't keep a building safe — it needs to be tested, maintained, and backed by people who know what to do in an emergency. Our fire safety services cover the full lifecycle: routine maintenance contracts, risk assessments, staff training, and the compliance paperwork civil defence authorities require, so your facility stays inspection-ready year-round."
+  },
+  {
+   "t": "h",
+   "text": "What We Cover"
+  },
+  {
+   "t": "card",
+   "href": "/services/annual-maintenance-contract-abu-dhabi",
+   "title": "Fire Annual Maintenance Contract (AMC)",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/fire-risk-assessment",
+   "title": "Fire Risk Assessment",
+   "alt": ""
+  },
+  {
+   "t": "link",
+   "href": "/services/civil-defense-compliance",
+   "text": "Civil Defence Drawing Approval"
+  },
+  {
+   "t": "card",
+   "href": "/services/fire-risk-assessment",
+   "title": "Fire safety audit",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/civil-defense-compliance",
+   "title": "Third party inspection support",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/civil-defense-compliance",
+   "title": "Fire System Testing & Commissioning",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/fire-risk-assessment",
+   "title": "Fire safety training",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/civil-defense-compliance",
+   "title": "Emergency Lighting Testing",
+   "alt": ""
+  },
+  {
+   "t": "card",
+   "href": "/services/emergency-evacuation-plan",
+   "title": "Evacuation plan services",
+   "alt": ""
+  }
+ ],
+ "title": "Fire safety services"
+}

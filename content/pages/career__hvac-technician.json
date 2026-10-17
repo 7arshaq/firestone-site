@@ -1,0 +1,89 @@
+{
+ "route": "/career/hvac-technician",
+ "kind": "job",
+ "metaTitle": "HVAC Technician | Careers at Firestone UAE",
+ "metaDescription": "Apply for the HVAC Technician role at Firestone Fire and Security Systems, a civil defence approved fire protection contractor in the UAE.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "HVAC Technician"
+  },
+  {
+   "t": "p",
+   "text": "UAE"
+  },
+  {
+   "t": "p",
+   "text": "Full Time"
+  },
+  {
+   "t": "link",
+   "href": "#career-form",
+   "text": "Apply Now"
+  },
+  {
+   "t": "h",
+   "text": "📝 <strong>Job Description</strong>"
+  },
+  {
+   "t": "p",
+   "text": "We are seeking a skilled <strong>HVAC Technician</strong> to install, maintain, and repair heating, ventilation, and air conditioning systems in commercial, residential, and industrial facilities. The ideal candidate will have strong technical knowledge of HVAC systems, troubleshooting ability, and a commitment to safety and quality standards."
+  },
+  {
+   "t": "h",
+   "text": "🔧 <strong>Key Responsibilities</strong>"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "Install, inspect, and service HVAC systems, including ductwork, chillers, AHUs, FCUs, and exhaust systems.",
+    "Perform preventive and corrective maintenance of HVAC equipment.",
+    "Diagnose and troubleshoot faults in HVAC systems and controls.",
+    "Repair or replace faulty parts and ensure system reliability.",
+    "Ensure proper ventilation and indoor air quality in compliance with safety standards.",
+    "Read and interpret technical drawings, wiring diagrams, and equipment manuals.",
+    "Maintain accurate service logs, maintenance reports, and inspection records.",
+    "Coordinate with engineers, supervisors, and other trades during project execution."
+   ]
+  },
+  {
+   "t": "h",
+   "text": "✅ <strong>Requirements</strong>"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "Proven experience as an HVAC Technician.",
+    "Strong knowledge of HVAC systems, refrigerants, and controls.",
+    "Ability to work independently and manage multiple tasks.",
+    "Good communication and problem-solving skills.",
+    "Physically fit and willing to work on-site, including at heights."
+   ]
+  },
+  {
+   "t": "h",
+   "text": "🎯 <strong>Preferred Qualifications</strong>"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "Civil Defense-approved HVAC Technician (preferred, not mandatory).",
+    "Knowledge of integrated systems (BMS, fire & safety, ventilation).",
+    "Valid safety training certifications (e.g., Electrical Safety, Work at Heights)."
+   ]
+  },
+  {
+   "t": "h",
+   "text": "🕒 <strong>Working Conditions</strong>"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "Site-based role across multiple project locations.",
+    "May involve night shifts, emergency service calls, and weekend work.",
+    "PPE and tools will be provided by the company."
+   ]
+  }
+ ],
+ "title": "HVAC Technician"
+}

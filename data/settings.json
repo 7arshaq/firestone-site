@@ -1,0 +1,121 @@
+{
+  "company": {
+    "name": "Firestone Fire & Security Systems LLC",
+    "short": "Firestone",
+    "since": 2007,
+    "tagline": "Protecting lives, securing spaces.",
+    "primaryPhone": "+971 50 676 1638",
+    "quotePhone": "0523258941",
+    "whatsapp": "971506761638",
+    "email": "sales@firestonefs.com",
+    "googleReviewUrl": "https://g.page/r/CVEy21AAYQ4SEBM/review",
+    "rating": 4.7,
+    "reviewCount": "51+"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/FIRESTONEFSAUH",
+    "instagram": "https://www.instagram.com/firestonefs/",
+    "linkedin": "https://www.linkedin.com/company/fire-stone-fire-safety-equipment-installation/"
+  },
+  "offices": [
+    {
+      "id": "abu-dhabi",
+      "city": "Abu Dhabi",
+      "label": "Head office",
+      "address": "#216, Al Fahim Building, Musaffah M4, Abu Dhabi, UAE",
+      "phones": [
+        "02 444 1638",
+        "052 325 8941"
+      ],
+      "email": "sales@firestonefs.com",
+      "lat": 24.3622,
+      "lng": 54.4931
+    },
+    {
+      "id": "dubai",
+      "city": "Dubai",
+      "label": "Branch",
+      "address": "WH 6A, RAS Building, Umm Ramool, Dubai, UAE",
+      "phones": [
+        "04 388 1698",
+        "050 898 1638"
+      ],
+      "email": "salesdxb@firestonefs.com",
+      "lat": 25.2318,
+      "lng": 55.369
+    },
+    {
+      "id": "sharjah",
+      "city": "Sharjah",
+      "label": "Branch",
+      "address": "Al Nayeli 16, Industrial Area, Sharjah, UAE",
+      "phones": [
+        "06 577 8311",
+        "050 900 3876",
+        "052 342 2833"
+      ],
+      "email": "salesshj@firestonefs.com",
+      "lat": 25.3045,
+      "lng": 55.4275
+    },
+    {
+      "id": "al-ain",
+      "city": "Al Ain",
+      "label": "Branch",
+      "address": "Office No. 29, Al Lujayn 4 St, Industrial Area, Al Ain, Abu Dhabi, UAE",
+      "phones": [
+        "03 736 6534",
+        "052 325 8941"
+      ],
+      "email": "sales@firestonefs.com",
+      "lat": 24.208,
+      "lng": 55.7335
+    }
+  ],
+  "forms": {
+    "webhookUrl": "",
+    "notifyEmail": "sales@firestonefs.com"
+  },
+  "analytics": {
+    "gtm": "GTM-5BCMHS9"
+  },
+  "about": {
+    "collage": [
+      {
+        "full": "/img/about/team-1.webp",
+        "duo": "/img/about/team-1-duo.webp",
+        "caption": ""
+      },
+      {
+        "full": "/img/about/team-5.webp",
+        "duo": "/img/about/team-5-duo.webp",
+        "caption": ""
+      },
+      {
+        "full": "/img/about/team-3.webp",
+        "duo": "/img/about/team-3-duo.webp",
+        "caption": ""
+      },
+      {
+        "full": "/img/about/team-4.webp",
+        "duo": "/img/about/team-4-duo.webp",
+        "caption": ""
+      },
+      {
+        "full": "/img/about/team-6.webp",
+        "duo": "/img/about/team-6-duo.webp",
+        "caption": ""
+      },
+      {
+        "full": "/img/about/team-2.webp",
+        "duo": "/img/about/team-2-duo.webp",
+        "caption": ""
+      },
+      {
+        "full": "/img/about/team-7.webp",
+        "duo": "/img/about/team-7-duo.webp",
+        "caption": ""
+      }
+    ]
+  }
+}

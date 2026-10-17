@@ -1,0 +1,79 @@
+{
+ "route": "/services/fire-damper",
+ "kind": "service",
+ "metaTitle": "Fire Dampers UAE | Installation & Maintenance",
+ "metaDescription": "Firestone supplies, installs and maintains fire dampers for HVAC and ductwork in the UAE, compliant with UL 555 and civil defence requirements.",
+ "blocks": [
+  {
+   "t": "h",
+   "text": "Fire Dampers"
+  },
+  {
+   "t": "card",
+   "href": "tel:+971506761638",
+   "title": "Call Now",
+   "alt": ""
+  },
+  {
+   "t": "p",
+   "text": "Ductwork runs straight through fire compartment walls in most buildings, which means without something stopping it, fire and smoke can travel through the HVAC system just as easily as through an open door. A fire damper sits inside that ductwork and closes automatically when it detects heat, sealing the duct off before fire can spread from one compartment to the next.We supply, install, and maintain fire dampers across Abu Dhabi, Dubai, Sharjah, and Al Ain, sourcing from recognized manufacturers and specifying the correct type and rating for each project rather than defaulting to whatever's easiest to source."
+  },
+  {
+   "t": "h",
+   "text": "Our services"
+  },
+  {
+   "t": "h",
+   "text": "Installation"
+  },
+  {
+   "t": "p",
+   "text": "Fire damper installation has to account for the duct penetration through the fire-rated wall or floor, not just the damper itself — an incorrectly sealed surrounding penetration can undermine the fire rating even if the damper is correctly specified. Our technicians install to the manufacturer's certified detail, confirming the fusible link or actuator is correctly set and the damper operates as intended before signing off."
+  },
+  {
+   "t": "h",
+   "text": "Testing & Maintenance"
+  },
+  {
+   "t": "h",
+   "text": "How Fire Dampers Work"
+  },
+  {
+   "t": "p",
+   "text": "Most fire dampers are held open by a fusible link that melts at a set temperature — typically around 165°F for standard applications — causing the damper's blades to close and seal the duct. Higher-temperature-rated links are used in spaces that naturally run hotter, so the damper doesn't trigger unnecessarily during normal operation but still closes reliably when an actual fire occurs.Some fire dampers are motorized rather than fusible-link operated, closing on a signal from the fire alarm system rather than waiting for heat to reach the damper directly — this gives faster response in a ducted system where heat might take time to travel to the damper's location."
+  },
+  {
+   "t": "h",
+   "text": "Types of Fire Dampers We Supply"
+  },
+  {
+   "t": "p",
+   "text": "Curtain Blade fire damper"
+  },
+  {
+   "t": "p",
+   "text": "multi-blade fire damper"
+  },
+  {
+   "t": "p",
+   "text": "motorized fire dampers"
+  },
+  {
+   "t": "p",
+   "text": "We supply curtain blade, multi-blade, and motorized fire dampers, along with combination fire and smoke dampers for applications that need to control both fire and smoke movement through a single unit. Static fire dampers are used where the HVAC system shuts down automatically in a fire event, while dynamic fire dampers are rated to operate correctly even while air is still moving through the duct, which matters in systems designed to keep running during an emergency."
+  },
+  {
+   "t": "h",
+   "text": "Standards & Compliance"
+  },
+  {
+   "t": "p",
+   "text": "Fire dampers used across the UAE are typically specified to UL 555 for fire performance, with rated closure durations of up to three hours depending on the application, and to NFPA 90A and SMACNA for ductwork and installation standards. We supply dampers that meet these standards with documentation to match, and can confirm which rating and standard applies to a specific project based on the building's fire strategy."
+  },
+  {
+   "t": "p",
+   "text": "Everything you need to know about fire dampers"
+  }
+ ],
+ "title": "Fire Dampers"
+}
