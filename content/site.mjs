@@ -10,14 +10,15 @@ export const STATS = [
 
 export const APPROVALS = ['ADCD', 'DCD', 'SCD', 'DOE', 'ADMCC', 'AACD', 'SIRA'];
 
+// client logos: transparent WebP at 2× their display height (128 px); w × h lets the page reserve their space
 export const CLIENTS = [
-  { file: 'vps-healthcare.png', name: 'VPS Healthcare' },
-  { file: 'ministry-of-finance.png', name: 'UAE Ministry of Finance' },
-  { file: 'rabdan-academy.png', name: 'Rabdan Academy' },
-  { file: 'adveti.png', name: 'Abu Dhabi Vocational Education and Training Institute (ADVETI)' },
-  { file: 'lulu.png', name: 'LuLu Group' },
-  { file: 'medeor.png', name: 'Medeor Hospital' },
-  { file: 'llh-hospital.png', name: 'LLH Hospital' },
+  { file: 'vps-healthcare.webp', w: 210, h: 128, name: 'VPS Healthcare' },
+  { file: 'ministry-of-finance.webp', w: 389, h: 128, name: 'UAE Ministry of Finance' },
+  { file: 'rabdan-academy.webp', w: 137, h: 128, name: 'Rabdan Academy' },
+  { file: 'adveti.webp', w: 98, h: 128, name: 'Abu Dhabi Vocational Education and Training Institute (ADVETI)' },
+  { file: 'lulu.webp', w: 392, h: 128, name: 'LuLu Group' },
+  { file: 'medeor.webp', w: 219, h: 128, name: 'Medeor Hospital' },
+  { file: 'llh-hospital.webp', w: 281, h: 128, name: 'LLH Hospital' },
 ];
 
 export const JOURNEY = [

@@ -64,8 +64,11 @@ function mapSection(settings, { title = 'Four offices. One team.', intro = 'Head
 function statsRow(dark = false) {
   return `<div class="stats">${S.STATS.map((s, i) => `<div class="stat" data-reveal style="--d:${i * 0.08}s"><b><span data-count="${s.n}"${s.raw ? ' data-raw="1"' : ''}>${s.raw ? s.n : s.n.toLocaleString('en-US')}</span>${s.suffix ? `<sup>${s.suffix}</sup>` : ''}</b><span class="mono ${dark ? '' : 'muted'}">${s.label}</span></div>`).join('')}</div>`;
 }
+// logo strip: two identical halves built into the page, so the loop is seamless from the first frame;
+// every logo has its size reserved, so the strip never changes width while it moves
 function marquee() {
-  return `<div class="marquee" aria-label="Trusted by leading organizations"><div class="marquee__track" data-marquee>${S.CLIENTS.map((c) => `<img src="/img/clients/${c.file}" alt="${esc(c.name)} logo" loading="lazy">`).join('')}</div></div>`;
+  const set = (copy) => `<div class="marquee__set"${copy ? ' aria-hidden="true"' : ''}>${S.CLIENTS.map((c) => `<img src="/img/clients/${c.file}" width="${c.w}" height="${c.h}" alt="${copy ? '' : `${esc(c.name)} logo`}" decoding="async">`).join('')}</div>`;
+  return `<div class="marquee" role="group" aria-label="Trusted by leading organizations"><div class="marquee__track">${set(false)}${set(true)}</div></div>`;
 }
 const approvals = () => `<div class="approvals" data-reveal>${S.APPROVALS.map((a, i) => `<span class="approval" style="--rot:${[-2, 1.5, -1, 2, -1.5, 1, -2][i]}deg">${a}</span>`).join('')}</div>`;
 

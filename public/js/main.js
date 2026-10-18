@@ -284,8 +284,6 @@ $$('[data-filter-group]').forEach((grp) => {
 // ---------------------------------------------------------------- FAQ: one open at a time per group
 $$('.faq').forEach((g) => $$('details', g).forEach((d) => d.addEventListener('toggle', () => { if (d.open) $$('details', g).forEach((o) => o !== d && (o.open = false)); })));
 
-// ---------------------------------------------------------------- marquee duplication
-$$('[data-marquee]').forEach((t) => { t.innerHTML += t.innerHTML; $$('img', t).slice(t.children.length / 2).forEach((i) => i.setAttribute('aria-hidden', 'true')); });
 
 // ---------------------------------------------------------------- footer year
 $$('[data-year]').forEach((el) => (el.textContent = new Date().getFullYear()));
