@@ -22,6 +22,8 @@ function gradient() {
 const cache = {};
 // paper: white albedo; mid: light grey; ink: near black; green: brand green
 export function mat(kind = 'paper', opts = {}) {
+  // toon and basic materials have no flat-shading switch (three.js warns and ignores it), so drop it
+  if ('flatShading' in opts) { const { flatShading, ...rest } = opts; opts = rest; }
   const key = kind + JSON.stringify(opts);
   if (cache[key]) return cache[key];
   let m;

@@ -5,6 +5,7 @@
 //                                                  (GitHub Pages): no admin, forms fall back to WhatsApp
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { page as shell, SITE_URL } from './layout.mjs';
 import * as P from './pages.mjs';
@@ -201,6 +202,29 @@ function rebase(OUT, base) {
       s = fs.readFileSync(f, 'utf8').replace(/"(start_url|src)": "\//g, `"$1": "${base}/`);
     } else continue;
     fs.writeFileSync(f, s);
+  }
+  // static hosts cache CSS and JS for a while (GitHub Pages: 10 minutes) while new pages go live at once, so
+  // right after an update a visitor could get the new page with the old stylesheet. Every CSS/JS/data URL gets a
+  // version taken from the assets' content: any change means fresh URLs, and an unchanged build keeps them.
+  const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const assets = ['css', 'js', 'vendor', 'data'].flatMap((d) => (fs.existsSync(path.join(OUT, d)) ? files(path.join(OUT, d)) : [])).sort();
+  const hash = crypto.createHash('sha1');
+  assets.forEach((f) => hash.update(path.relative(OUT, f)).update(fs.readFileSync(f)));
+  hash.update(fs.readFileSync(path.join(OUT, 'search-index.json')));
+  const v = hash.digest('hex').slice(0, 8);
+  const B = esc(base);
+  const inPage = new RegExp(`((?:href|src)=")(${B}/(?:css|js|vendor)/[^"?#]+\\.(?:css|js))"`, 'g');
+  const inJson = new RegExp(`"(${B}/vendor/[^"?#]+\\.js)"`, 'g');
+  const relImport = /(from\s*|import\(\s*)(['"])(\.\/[\w.-]+\.js)\2/g;
+  const absRef = new RegExp(`(['"])(${B}/(?:vendor|data)/[^'"?#]+|${B}/search-index\\.json)\\1`, 'g');
+  for (const f of files(OUT)) {
+    if (f.endsWith('.html')) {
+      const s = fs.readFileSync(f, 'utf8');
+      fs.writeFileSync(f, s.replace(inPage, `$1$2?v=${v}"`).replace(inJson, `"$1?v=${v}"`));
+    } else if (f.startsWith(ownJs) && f.endsWith('.js')) {
+      const s = fs.readFileSync(f, 'utf8');
+      fs.writeFileSync(f, s.replace(relImport, `$1$2$3?v=${v}$2`).replace(absRef, `$1$2?v=${v}$1`));
+    }
   }
   fs.writeFileSync(path.join(OUT, '.nojekyll'), '');
 }

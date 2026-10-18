@@ -249,10 +249,13 @@ function drawingTexture() {
 // Pipe and cable runs are merged into one mesh per floor and material. Every vertex carries the moment
 // (0..1) the run reaches it, and the shader hides whatever hasn't been reached yet — so a floor's services
 // grow along their length from a single uniform, with nothing rebuilt, re-uploaded or made see-through.
-// red = fire alarm, blue = fire-fighting water (pipes a deep blue, the spray a lighter one)
-const FIRE_RED = '#E0453A', PIPE_BLUE = '#2C72D9', WATER_BLUE = '#5AAAF5';
+// fire-fighting pipes are red like real sprinkler pipework (a deeper red, and thicker than the alarm cables);
+// the water is blue: the flow running through the pipes during testing, and the spray from the heads
+const FIRE_RED = '#E0453A', PIPE_RED = '#B8261E', WATER_BLUE = '#5AAAF5';
 // During testing a soft band (uPulse, along the same timeline) travels through the run in uPulseColor:
-// water flowing through the pipes, a signal running along the alarm loop.
+// water flowing through the pipes, a signal running along the alarm loop. The band fades out smoothly on both
+// sides (a little longer behind it, like a trail), and it is mixed in before the output colour conversion so
+// its colour matches exactly what it is (the water is the spray's own blue).
 function growing(m, pulseColor = '#ffffff') {
   const u = { uGrow: { value: 0 }, uPulse: { value: 0 }, uPulseAmt: { value: 0 }, uPulseColor: { value: new THREE.Color(pulseColor) } };
   m.userData.grow = u;
@@ -262,7 +265,7 @@ function growing(m, pulseColor = '#ffffff') {
     sh.fragmentShader = 'uniform float uGrow, uPulse, uPulseAmt;\nuniform vec3 uPulseColor;\nvarying float vT;\n' + sh.fragmentShader
       // nothing shows before the run starts (pieces placed at time 0, like the control panel, included)
       .replace('void main() {', 'void main() {\n  if (uGrow <= 0.0 || vT > uGrow) discard;')
-      .replace('#include <dithering_fragment>', 'float band = uPulseAmt * (1.0 - smoothstep(0.0, 0.07, abs(fract(vT - uPulse + 0.5) - 0.5)));\n  gl_FragColor.rgb = mix(gl_FragColor.rgb, uPulseColor, band);\n#include <dithering_fragment>');
+      .replace('#include <colorspace_fragment>', 'float s = fract(vT - uPulse + 0.5) - 0.5;\n  float sig = s > 0.0 ? 0.034 : 0.06;\n  float band = uPulseAmt * exp(-(s * s) / (sig * sig));\n  gl_FragColor.rgb = mix(gl_FragColor.rgb, uPulseColor, band);\n#include <colorspace_fragment>');
   };
   m.customProgramCacheKey = () => 'grow-' + m.type;
   return m;
@@ -330,7 +333,7 @@ function building() {
     s.add(box(0.06, 0.02, 0.04, 'mid', xo - w * 0.32, 0.022, 0.08), box(0.06, 0.02, 0.04, 'mid', xo + w * 0.3, 0.022, -0.09));
 
     const R = riserAt(i), below = i === 6 ? riserAt(5) : R;
-    // ---- fire fighting (blue pipes): riser → feed → main along the right side → three branch lines with heads
+    // ---- fire fighting (red pipes): riser → feed → main along the right side → three branch lines with heads
     const yC = 0.094, mainX = xo + w / 2 - 0.03, endX = xo - w / 2 + 0.035;
     const pipe = [];
     const riserPts = i === 6
@@ -356,7 +359,7 @@ function building() {
         if (i === 3 || i === 5) heads.push({ s: i, x: hx, y: yC - 0.012, z: pz });
       }
     }
-    const pipes = grownMesh(pipe, new THREE.MeshBasicMaterial({ color: PIPE_BLUE }), '#D4E9FF');
+    const pipes = grownMesh(pipe, new THREE.MeshBasicMaterial({ color: PIPE_RED }), WATER_BLUE);
 
     // ---- fire alarm (red cables): riser → loop along the ceiling to both detectors; call point on the facade
     const yA = 0.1013, cable = [], devices = [];
