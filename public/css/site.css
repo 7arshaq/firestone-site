@@ -912,3 +912,9 @@ img[data-model].rendered { opacity: 1; }
   }
   .topfade.is-off { opacity: 0; }
 }
+
+/* journey labels for the alarm loop and the final approval */
+.journey__tag--red { background: #E0453A; }
+.journey__tag--red::after { background: #E0453A; }
+.journey__tag--green { background: var(--green); }
+.journey__tag--green::after { background: var(--green); }

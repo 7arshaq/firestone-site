@@ -104,11 +104,13 @@ export function home({ settings }) {
       <div>${arrowLink(esc(j.cta), j.href)}</div>
     </article>`).join('')}
     <span class="journey__tag" data-tag="grid">Sprinkler grid · NFPA 13</span>
-    <span class="journey__tag" data-tag="riser">Wet riser</span>
+    <span class="journey__tag" data-tag="riser">Wet riser · floor by floor</span>
+    <span class="journey__tag journey__tag--red" data-tag="wire">Fire alarm loop</span>
     <span class="journey__tag" data-tag="detect">Addressable detection</span>
     <span class="journey__tag" data-tag="spray">Heads activate one by one</span>
     <span class="journey__tag" data-tag="q">Quarterly PPM visit</span>
     <span class="journey__tag" data-tag="beacon">24/7 response</span>
+    <span class="journey__tag journey__tag--green" data-tag="cert">Civil Defence approved · handed over</span>
     <div class="journey__progress" aria-hidden="true">${S.JOURNEY.map((j) => `<b><i></i></b>`).join('')}<span style="margin-left:4px">Drawing → Handover</span></div>
     <p class="journey__hint" aria-hidden="true">Scroll — one project, from shop drawing to handover.</p>
     </div>

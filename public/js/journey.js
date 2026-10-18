@@ -4,6 +4,7 @@
 // Everything that appears fades and eases in; nothing pops.
 import { THREE, mat, ink, shadows, rig, renderer, canvasTex, fontsReady, COLORS, outline, fadable } from './fs3d.js';
 import { bake } from './bake.js';
+import { mergeGeometries } from '/vendor/BufferGeometryUtils.js';
 import { extinguisher } from './models.js';
 
 const V = (x, y, z) => new THREE.Vector3(x, y, z);
@@ -231,11 +232,79 @@ function drawingTexture() {
   };
 }
 
+// ---------------------------------------------------------------- services that draw themselves in
+// Pipe and cable runs are merged into one mesh per floor and material. Every vertex carries the moment
+// (0..1) the run reaches it, and the shader hides whatever hasn't been reached yet — so a floor's services
+// grow along their length from a single uniform, with nothing rebuilt, re-uploaded or made see-through.
+// red = fire alarm, blue = fire-fighting water (pipes a deep blue, the spray a lighter one)
+const FIRE_RED = '#E0453A', PIPE_BLUE = '#2C72D9', WATER_BLUE = '#5AAAF5';
+// During testing a soft band (uPulse, along the same timeline) travels through the run in uPulseColor:
+// water flowing through the pipes, a signal running along the alarm loop.
+function growing(m, pulseColor = '#ffffff') {
+  const u = { uGrow: { value: 0 }, uPulse: { value: 0 }, uPulseAmt: { value: 0 }, uPulseColor: { value: new THREE.Color(pulseColor) } };
+  m.userData.grow = u;
+  m.onBeforeCompile = (sh) => {
+    Object.assign(sh.uniforms, u);
+    sh.vertexShader = 'attribute float aT;\nvarying float vT;\n' + sh.vertexShader.replace('#include <begin_vertex>', '#include <begin_vertex>\n  vT = aT;');
+    sh.fragmentShader = 'uniform float uGrow, uPulse, uPulseAmt;\nuniform vec3 uPulseColor;\nvarying float vT;\n' + sh.fragmentShader
+      .replace('void main() {', 'void main() {\n  if (vT > uGrow) discard;')
+      .replace('#include <dithering_fragment>', 'float band = uPulseAmt * (1.0 - smoothstep(0.0, 0.07, abs(fract(vT - uPulse + 0.5) - 0.5)));\n  gl_FragColor.rgb = mix(gl_FragColor.rgb, uPulseColor, band);\n#include <dithering_fragment>');
+  };
+  m.customProgramCacheKey = () => 'grow-' + m.type;
+  return m;
+}
+const _up = new THREE.Vector3(0, 1, 0), _q = new THREE.Quaternion(), _m = new THREE.Matrix4(), _s = new THREE.Vector3(1, 1, 1);
+// a straight run from a to b: the arrival time goes from ta at a to tb at b
+function runPiece(a, b, r, ta, tb, radial = 8) {
+  const A = V(...a), B = V(...b), len = A.distanceTo(B);
+  const g = new THREE.CylinderGeometry(r, r, len, radial, 1, true);
+  const pos = g.attributes.position, t = new Float32Array(pos.count);
+  for (let i = 0; i < pos.count; i++) t[i] = ta + (tb - ta) * (pos.getY(i) / len + 0.5);
+  g.setAttribute('aT', new THREE.BufferAttribute(t, 1));
+  _q.setFromUnitVectors(_up, B.clone().sub(A).normalize());
+  g.applyMatrix4(_m.compose(A.clone().add(B).multiplyScalar(0.5), _q, _s));
+  return g;
+}
+// anything that simply appears when the run reaches it (fittings, heads, detectors, panels)
+function atPiece(g, [x, y, z], t, rot) {
+  g.setAttribute('aT', new THREE.BufferAttribute(new Float32Array(g.attributes.position.count).fill(t), 1));
+  if (rot) g.rotateX(rot);
+  g.translate(x, y, z);
+  return g;
+}
+// a polyline run: points with times are spread by length, joints get a fitting
+function run(pts, r, t0, t1, out, fit = 0) {
+  pts = pts.filter((p, i) => i === 0 || V(...p).distanceTo(V(...pts[i - 1])) > 1e-6);
+  const lens = pts.slice(1).map((p, i) => V(...p).distanceTo(V(...pts[i])));
+  const total = lens.reduce((a, b) => a + b, 0);
+  let acc = 0;
+  const times = [t0];
+  lens.forEach((l, i) => {
+    const ta = t0 + (t1 - t0) * (acc / total);
+    acc += l;
+    const tb = t0 + (t1 - t0) * (acc / total);
+    times.push(tb);
+    out.push(runPiece(pts[i], pts[i + 1], r, ta, tb));
+    if (fit && i < lens.length - 1) out.push(atPiece(new THREE.SphereGeometry(fit, 10, 8), pts[i + 1], tb));
+  });
+  return times;
+}
+function grownMesh(parts, material, pulseColor) {
+  const g = mergeGeometries(parts, false);
+  parts.forEach((p) => p.dispose());
+  const m = new THREE.Mesh(g, growing(material, pulseColor));
+  m.userData.noInk = true; m.userData.keep = true; m.frustumCulled = false;
+  return m;
+}
+
 // ---------------------------------------------------------------- building that grows out of the drawing
 function building() {
   const b = new THREE.Group();
   const W = 0.5, D = 0.34, SH = 0.105, N = 8;
-  const storeys = [], fades = [], gridFades = [], detFades = [], rings = [], grids = [], detGroups = [];
+  const storeys = [], fades = [], rings = [], wet = [], alarm = [], heads = [];
+  // risers climb the front-right corner: the water riser on the right face, the alarm riser on the front face;
+  // both step in where the top two floors set back
+  const riserAt = (i) => (i > 5 ? { wx: 0.19, wz: 0.11, ax: 0.12, az: 0.165 } : { wx: 0.28, wz: 0.14, ax: 0.2, az: 0.19 });
   for (let i = 0; i < N; i++) {
     const s = new THREE.Group();
     const w = i > 5 ? W * 0.8 : W, d = i > 5 ? D * 0.85 : D, xo = i > 5 ? -0.04 : 0;
@@ -245,21 +314,63 @@ function building() {
     s.add(box(0.008, fh, d, 'paper', xo + w / 2, fy, 0), box(0.008, fh, d, 'paper', xo - w / 2, fy, 0));
     s.add(box(0.006, 0.05, d * 0.6, 'mid', xo - w * 0.15, 0.037, -d * 0.2), box(w * 0.45, 0.05, 0.006, 'mid', xo + w * 0.2, 0.037, 0.02));
     s.add(box(0.06, 0.02, 0.04, 'mid', xo - w * 0.32, 0.022, 0.08), box(0.06, 0.02, 0.04, 'mid', xo + w * 0.3, 0.022, -0.09));
-    const grid = new THREE.Group(); grid.userData.ownFade = true;
+
+    const R = riserAt(i), below = i === 6 ? riserAt(5) : R;
+    // ---- fire fighting (blue pipes): riser → feed → main along the right side → three branch lines with heads
+    const yC = 0.094, mainX = xo + w / 2 - 0.03, endX = xo - w / 2 + 0.035;
+    const pipe = [];
+    const riserPts = i === 6
+      ? [[below.wx, 0.004, below.wz], [R.wx, 0.004, below.wz], [R.wx, 0.004, R.wz], [R.wx, SH, R.wz]]
+      : [[R.wx, 0, R.wz], [R.wx, SH, R.wz]];
+    run(riserPts, 0.0055, 0, 0.26, pipe, 0.0075);
+    const tTee = 0.26 * (i === 6 ? 0.55 + 0.45 * (yC / SH) : yC / SH);
+    pipe.push(atPiece(new THREE.SphereGeometry(0.0075, 10, 8), [R.wx, yC, R.wz], tTee));
+    const zA = Math.min(R.wz, d / 2 - 0.03), zB = -d / 2 + 0.03;
+    run([[R.wx, yC, R.wz], [mainX, yC, R.wz], [mainX, yC, zA]], 0.0045, tTee, tTee + 0.07, pipe, 0.0062);
+    const tMain = tTee + 0.07;
+    run([[mainX, yC, zA], [mainX, yC, zB]], 0.0045, tMain, tMain + 0.24, pipe);
     for (let k = 0; k < 3; k++) {
       const pz = -d / 2 + d * (k + 0.5) / 3;
-      const p = cyl(0.0035, 0.0035, w * 0.9, 'green', 8, xo, 0.094, pz); p.rotation.z = Math.PI / 2; grid.add(p);
-      for (let m = 0; m < 4; m++) { const h = new THREE.Mesh(new THREE.SphereGeometry(0.006, 10, 8), mat('glow')); h.position.set(xo - w * 0.38 + m * w * 0.25, 0.088, pz); h.userData.noInk = true; grid.add(h); }
+      const tj = tMain + 0.24 * ((zA - pz) / (zA - zB));
+      pipe.push(atPiece(new THREE.SphereGeometry(0.0062, 10, 8), [mainX, yC, pz], tj));
+      run([[mainX, yC, pz], [endX, yC, pz]], 0.0034, tj, tj + 0.36, pipe);
+      for (let m = 0; m < 4; m++) {
+        const hx = xo - w * 0.38 + m * w * 0.25;
+        const th = tj + 0.36 * ((mainX - hx) / (mainX - endX));
+        pipe.push(atPiece(new THREE.CylinderGeometry(0.0016, 0.0016, 0.007, 6), [hx, yC - 0.005, pz], th));
+        pipe.push(atPiece(new THREE.SphereGeometry(0.0052, 10, 8), [hx, yC - 0.0095, pz], th));
+        if (i === 3 || i === 5) heads.push({ s: i, x: hx, y: yC - 0.012, z: pz });
+      }
     }
-    const main = cyl(0.005, 0.005, d * 0.95, 'green', 8, xo - w * 0.44, 0.094, 0); main.rotation.x = Math.PI / 2; grid.add(main);
-    s.add(grid); grids.push(grid);
-    const dets = new THREE.Group(); dets.userData.ownFade = true;
-    [[xo + w * 0.25, -d * 0.2], [xo - w * 0.3, d * 0.15]].forEach(([x, z]) => {
-      dets.add(cyl(0.012, 0.012, 0.006, 'paper', 20, x, 0.097, z));
-      const r = new THREE.Mesh(new THREE.TorusGeometry(0.02, 0.0025, 8, 40), new THREE.MeshBasicMaterial({ color: COLORS.green, transparent: true, opacity: 0, depthWrite: false }));
+    const pipes = grownMesh(pipe, new THREE.MeshBasicMaterial({ color: PIPE_BLUE }), '#D4E9FF');
+
+    // ---- fire alarm (red cables): riser → loop along the ceiling to both detectors; call point on the facade
+    const yA = 0.1013, cable = [], devices = [];
+    const alarmPts = i === 6
+      ? [[below.ax, 0.002, below.az], [R.ax, 0.002, below.az], [R.ax, 0.002, R.az], [R.ax, SH, R.az]]
+      : [[R.ax, 0, R.az], [R.ax, SH, R.az]];
+    run(alarmPts, 0.0021, 0, 0.24, cable);
+    const det1 = [xo + w * 0.25, -d * 0.2], det2 = [xo - w * 0.3, d * 0.15];
+    const loop = [[R.ax, yA, R.az], [R.ax, yA, det1[1]], [det1[0], yA, det1[1]], [det2[0], yA, det1[1]], [det2[0], yA, det2[1]]];
+    const times = run(loop, 0.0019, 0.22, 0.9, cable);
+    // call point + sounder on the facade beside the riser (the ground floor also gets the control panel)
+    // (front wall's outer face is at d/2 + 0.004)
+    cable.push(atPiece(new THREE.BoxGeometry(0.018, 0.018, 0.006), [R.ax - 0.03, 0.05, d / 2 + 0.007], 0.12));
+    cable.push(atPiece(new THREE.CylinderGeometry(0.007, 0.007, 0.005, 16), [R.ax + 0.028, 0.062, d / 2 + 0.0065], 0.14, Math.PI / 2));
+    if (i === 0) cable.push(atPiece(new THREE.BoxGeometry(0.05, 0.06, 0.012), [R.ax - 0.075, 0.046, d / 2 + 0.01], 0));
+    const cables = grownMesh(cable, new THREE.MeshBasicMaterial({ color: FIRE_RED }), '#FFD3CC');
+    [[det1, times[2]], [det2, times[4]]].forEach(([[x, z], t]) => {
+      devices.push(atPiece(new THREE.CylinderGeometry(0.012, 0.012, 0.006, 20), [x, 0.097, z], t));
+      devices.push(atPiece(new THREE.CylinderGeometry(0.0045, 0.0045, 0.002, 12), [x, 0.0935, z], t));
+      const r = new THREE.Mesh(new THREE.TorusGeometry(0.02, 0.0025, 8, 40), new THREE.MeshBasicMaterial({ color: FIRE_RED, transparent: true, opacity: 0, depthWrite: false }));
       r.rotation.x = Math.PI / 2; r.position.set(x, 0.094, z); r.userData.noInk = true; s.add(r); rings.push(r);
     });
-    s.add(dets); detGroups.push(dets);
+    const dets = grownMesh(devices, new THREE.MeshToonMaterial({ color: '#ffffff', gradientMap: mat('paper').gradientMap }));
+    // the services sit outside the floor's own fade and never cast shadows (a shadow can't follow the growth)
+    const svc = new THREE.Group(); svc.userData.ownFade = true; svc.userData.noCast = true; svc.userData.keep = true;
+    svc.add(pipes, cables, dets); s.add(svc);
+    wet.push(pipes.material.userData.grow);
+    alarm.push(cables.material.userData.grow, dets.material.userData.grow);
     storeys.push(s); b.add(s);
   }
   const roof = new THREE.Group();
@@ -267,17 +378,65 @@ function building() {
   const beacon = new THREE.Mesh(new THREE.SphereGeometry(0.016, 20, 12), mat('glow')); beacon.position.set(0.12, 0.05, 0.08); beacon.userData.noInk = true;
   roof.add(cyl(0.002, 0.002, 0.04, 'ink', 6, 0.12, 0.025, 0.08), beacon);
   b.add(roof);
-  const riser = new THREE.Group(); riser.add(cyl(0.009, 0.009, 1, 'green', 12, 0, 0.5, 0)); riser.position.set(W / 2 + 0.03, 0, D / 2 - 0.03); b.add(riser);
-  const ND = 160;
-  const dropMat = new THREE.MeshBasicMaterial({ color: COLORS.green, transparent: true, opacity: 0, depthWrite: false });
-  const drops = new THREE.InstancedMesh(new THREE.SphereGeometry(0.0035, 6, 4), dropMat, ND);
-  drops.userData.noInk = true; b.add(drops);
-  const seeds = [...Array(ND)].map(() => ({ a: Math.random() * Math.PI * 2, s: 0.4 + Math.random(), o: Math.random(), h: Math.floor(Math.random() * 4) }));
+  // test spray: blue water from the real heads on floors 3 and 5
+  const ND = 220;
+  const dropMat = new THREE.MeshBasicMaterial({ color: WATER_BLUE, transparent: true, opacity: 0, depthWrite: false });
+  const drops = new THREE.InstancedMesh(new THREE.SphereGeometry(0.0042, 6, 4), dropMat, ND);
+  drops.userData.noInk = true; drops.frustumCulled = false; b.add(drops);
+  const sprayHeads = heads.filter((h) => h.x > -0.1 && h.x < 0.1 && h.z > -0.05);
+  const seeds = [...Array(ND)].map(() => ({ a: Math.random() * Math.PI * 2, s: 0.4 + Math.random(), o: Math.random(), h: Math.floor(Math.random() * sprayHeads.length) }));
   const orbit = new THREE.Group();
   const ring = new THREE.Mesh(new THREE.TorusGeometry(0.46, 0.0035, 8, 160), mat('glow')); ring.rotation.x = Math.PI / 2; ring.userData.noInk = true; orbit.add(ring);
   const sats = [0, 1, 2, 3].map((i) => { const s = new THREE.Mesh(new THREE.SphereGeometry(0.018, 20, 12), mat('glow')); s.userData.noInk = true; s.userData.a = (i / 4) * Math.PI * 2; orbit.add(s); return s; });
   b.add(orbit);
-  return { group: b, storeys, fades, gridFades, detFades, grids, detGroups, rings, roof, beacon, riser, drops, dropMat, seeds, orbit, sats, SH, N, W, D };
+  return { group: b, storeys, fades, wet, alarm, rings, roof, beacon, drops, dropMat, seeds, sprayHeads, orbit, sats, SH, N, W, D, riserAt };
+}
+
+// ---------------------------------------------------------------- the finale: a Civil Defence approval seal
+function approvalSeal() {
+  const g = new THREE.Group(); g.userData.noCast = true;
+  const R = 0.22;
+  const face = canvasTex(512, 512, (c, w) => {
+    const cx = w / 2, cy = w / 2;
+    // scalloped rosette edge
+    c.fillStyle = COLORS.green; c.beginPath();
+    for (let a = 0; a <= Math.PI * 2 + 0.001; a += Math.PI / 180) { const rr = 246 - 9 * (0.5 + 0.5 * Math.cos(a * 28)); c.lineTo(cx + Math.cos(a) * rr, cy + Math.sin(a) * rr); }
+    c.fill();
+    c.fillStyle = COLORS.paper; c.beginPath(); c.arc(cx, cy, 206, 0, Math.PI * 2); c.fill();
+    c.strokeStyle = COLORS.green; c.lineWidth = 5; c.beginPath(); c.arc(cx, cy, 192, 0, Math.PI * 2); c.stroke();
+    c.lineWidth = 2; c.beginPath(); c.arc(cx, cy, 140, 0, Math.PI * 2); c.stroke();
+    // lettering around the ring
+    const arc = (text, radius, mid, dir) => {
+      c.save(); c.translate(cx, cy);
+      const span = text.length * 0.115; let a = mid - (dir * span) / 2;
+      for (const ch of text) { c.save(); c.rotate(a); c.translate(0, -dir * radius); c.fillText(ch, 0, 0); c.restore(); a += dir * 0.115; }
+      c.restore();
+    };
+    c.fillStyle = COLORS.ink; c.font = `600 30px ${MONO}`; c.textAlign = 'center'; c.textBaseline = 'middle';
+    arc('CIVIL DEFENCE', 166, 0, 1);
+    arc('APPROVED · 2026', 166, 0, -1);
+    c.fillStyle = COLORS.green; c.beginPath(); c.arc(cx - 168, cy, 7, 0, Math.PI * 2); c.arc(cx + 168, cy, 7, 0, Math.PI * 2); c.fill();
+    // the tick
+    c.strokeStyle = COLORS.green; c.lineWidth = 34; c.lineCap = 'round'; c.lineJoin = 'round';
+    c.beginPath(); c.moveTo(cx - 62, cy + 4); c.lineTo(cx - 16, cy + 50); c.lineTo(cx + 70, cy - 52); c.stroke();
+  });
+  const front = new THREE.Mesh(new THREE.CircleGeometry(R, 72), new THREE.MeshBasicMaterial({ map: face, alphaTest: 0.5 }));
+  front.position.z = 0.0075;
+  const back = new THREE.Mesh(new THREE.CylinderGeometry(R * 0.93, R * 0.93, 0.012, 72), new THREE.MeshBasicMaterial({ color: '#1E7A36' }));
+  back.rotation.x = Math.PI / 2;
+  const coin = new THREE.Group(); coin.add(back, front);
+  // the stamp's burst: a ring and short rays that flash outwards as it lands
+  const burstMat = new THREE.MeshBasicMaterial({ color: COLORS.green, transparent: true, opacity: 0, depthWrite: false });
+  const rays = [];
+  for (let i = 0; i < 14; i++) { const ray = new THREE.PlaneGeometry(0.008, 0.05); ray.translate(0, R + 0.06, 0); ray.rotateZ((i / 14) * Math.PI * 2); rays.push(ray); }
+  const burst = new THREE.Group();
+  const ringMesh = new THREE.Mesh(new THREE.RingGeometry(R + 0.012, R + 0.024, 72), burstMat);
+  const rayMesh = new THREE.Mesh(mergeGeometries(rays), burstMat);
+  burst.add(ringMesh, rayMesh); burst.position.z = -0.002;
+  g.add(burst, coin);
+  [front, back, ringMesh, rayMesh].forEach((m) => { m.userData.noInk = true; m.frustumCulled = false; });
+  g.visible = false;
+  return { group: g, coin, burst, burstMat, R };
 }
 
 // ---------------------------------------------------------------- room
@@ -402,25 +561,22 @@ export async function mountJourney(section) {
   const rm = room(drawing);
   const eng = engineer(); eng.position.set(-1.28, 0, -0.98); eng.rotation.y = 0.12;
   const bld = building(); bld.group.position.set(rm.desk.x, rm.desk.y + 0.003, rm.desk.z - 0.02); bld.group.rotation.y = 0.06;
-  scene.add(rm.group, eng, bld.group);
+  const seal = approvalSeal();
+  scene.add(rm.group, eng, bld.group, seal.group);
   ink(scene); outline(scene); shadows(scene);
   bld.group.traverse((o) => { if (o.isMesh && !o.userData.isHull) o.castShadow = true; });
   scene.traverse((o) => { if (o.userData.noCast) o.traverse((m) => { if (m.isMesh) m.castShadow = false; }); });
   // the room and the engineer's still parts become a handful of merged meshes
   bake(rm.group); bake(eng);
-  // each floor (and its pipes / detectors) becomes a few merged meshes too
-  bld.storeys.forEach((s, i) => {
-    bld.grids[i].userData.keep = true; bld.detGroups[i].userData.keep = true;
-    bake(s); bake(bld.grids[i]); bake(bld.detGroups[i]);
-  });
+  // each floor becomes a few merged meshes too (its pipes and wiring are already merged, and stay separate)
+  bld.storeys.forEach((s) => bake(s));
   bake(bld.roof);
   // fades are set up after inking so the outlines fade with their shapes
-  bld.storeys.forEach((s, i) => {
-    bld.fades.push(fadable(s));
-    bld.gridFades.push(fadable(bld.grids[i]));
-    bld.detFades.push(fadable(bld.detGroups[i]));
-  });
-  const roofFade = fadable(bld.roof), riserFade = fadable(bld.riser), orbitFade = fadable(bld.orbit);
+  bld.storeys.forEach((s) => bld.fades.push(fadable(s)));
+  const roofFade = fadable(bld.roof), orbitFade = fadable(bld.orbit);
+  const easeOutBack = (x) => 1 + 2.70158 * Math.pow(x - 1, 3) + 1.70158 * Math.pow(x - 1, 2);
+  const easeOut = (x) => 1 - Math.pow(1 - x, 3);
+  const sealAt = new THREE.Vector3();
   const { sun } = rig(scene, { dir: [-4.6, 8, 3.9], extent: 5.2, size: 2048, target: V(-0.5, 0.9, -0.9) });
   sun.shadow.bias = -0.0005; sun.shadow.normalBias = 0.02; sun.shadow.radius = 2.5;
   const cam = new THREE.PerspectiveCamera(40, 1, 0.05, 120);
@@ -436,7 +592,7 @@ export async function mountJourney(section) {
   new ResizeObserver(resize).observe(frameEl);
 
   let target = 0, p = 0, visible = true, t0 = performance.now(), last = t0;
-  const tmp = new THREE.Vector3();
+  const tmp = new THREE.Vector3(), tmp2 = new THREE.Vector3();
   const m4 = new THREE.Matrix4(), q = new THREE.Quaternion(), sc = new THREE.Vector3(), pos = new THREE.Vector3();
   const styleCache = new WeakMap();
   const setStyle = (el, prop, val) => { let c = styleCache.get(el); if (!c) styleCache.set(el, (c = {})); if (c[prop] !== val) { c[prop] = val; el.style[prop] = val; } };
@@ -470,28 +626,31 @@ export async function mountJourney(section) {
       bld.fades[i](k);
       s.scale.set(1, 0.35 + 0.65 * k, 1);
       s.position.y = i * bld.SH + (1 - k) * 0.06 + ex * i * 0.085;
-      // installed systems fade in after the storey exists
-      bld.gridFades[i](smooth(range(p, 0.38 + i * 0.008, 0.45 + i * 0.008)) * k);
-      bld.detFades[i](smooth(range(p, 0.41 + i * 0.008, 0.48 + i * 0.008)) * k);
     });
     const topY = (N - 1) * bld.SH + ex * (N - 1) * 0.085 + bld.SH;
     const rk = smooth(range(g, 0.9, 1));
     roofFade(rk); bld.roof.position.y = topY + (1 - rk) * 0.05;
-    const rg = smooth(range(p, 0.29, 0.47));
-    riserFade(rg * (1 - smooth(range(ex, 0, 0.25))));
-    bld.riser.scale.y = Math.max(0.001, rg * (N * bld.SH + 0.02));
 
-    // testing: detectors pulse, heads spray (fading in and out of the phase)
+    // installation, floor by floor once each floor stands: the fire-fighting pipes grow up the riser and out
+    // along the ceiling to the heads, then the red alarm loop runs out to the detectors
+    // testing: detectors pulse, water runs through the pipes and the heads spray, signals run along the loop
     const test = smooth(range(p, 0.54, 0.58)) * (1 - smooth(range(p, 0.74, 0.78)));
+    for (let i = 0; i < N; i++) {
+      const w = bld.wet[i], c = bld.alarm[2 * i], d = bld.alarm[2 * i + 1];
+      w.uGrow.value = range(p, 0.3 + i * 0.02, 0.37 + i * 0.02);
+      c.uGrow.value = d.uGrow.value = range(p, 0.32 + i * 0.02, 0.39 + i * 0.02);
+      w.uPulseAmt.value = c.uPulseAmt.value = test;
+      w.uPulse.value = (t * 0.55 + i * 0.07) % 1;
+      c.uPulse.value = (t * 0.8 + i * 0.11) % 1;
+    }
     bld.rings.forEach((rgn, i) => { const k = (t * 0.9 + i * 0.13) % 1; rgn.scale.setScalar(1 + k * 2.4); rgn.material.opacity = (1 - k) * 0.9 * test; });
     bld.dropMat.opacity = test; bld.drops.visible = test > 0.01;
     if (test > 0.01) {
-      const heads = [[-0.15, 3], [0.1, 3], [-0.15, 5], [0.12, 5]];
       bld.seeds.forEach((s, i) => {
-        const [hx, si] = heads[s.h];
-        const base = bld.storeys[si].position.y + 0.088;
+        const h = bld.sprayHeads[s.h];
+        const base = bld.storeys[h.s].position.y + h.y;
         const k = (t * 1.1 + s.o) % 1, rr = k * 0.05 * s.s;
-        pos.set(hx + Math.cos(s.a) * rr, base - k * 0.085, (s.h % 2 ? 0.06 : -0.06) + Math.sin(s.a) * rr);
+        pos.set(h.x + Math.cos(s.a) * rr, base - k * 0.07, h.z + Math.sin(s.a) * rr);
         sc.setScalar(test * (1 - k * 0.4));
         m4.compose(pos, q, sc); bld.drops.setMatrixAt(i, m4);
       });
@@ -505,6 +664,23 @@ export async function mountJourney(section) {
     bld.orbit.scale.setScalar(0.7 + amc * 0.3);
     bld.sats.forEach((s) => { const a = s.userData.a + t * 0.35; s.position.set(Math.cos(a) * 0.46, 0, Math.sin(a) * 0.46); });
     bld.beacon.scale.setScalar(1 + amc * Math.max(0, Math.sin(t * 5)) * 0.9);
+
+    // finale: the Civil Defence approval seal drops in above the building, spins to face the camera and
+    // lands with a burst
+    const st = range(p, 0.875, 0.945);
+    seal.group.visible = st > 0;
+    if (st > 0) {
+      sealAt.set(0.03, topY + 0.42, 0.06); bld.group.localToWorld(sealAt);
+      sealAt.y += (1 - easeOut(st)) * 0.45;
+      seal.group.position.copy(sealAt);
+      seal.group.quaternion.copy(cam.quaternion);
+      seal.group.scale.setScalar(Math.max(0.001, easeOutBack(st)));
+      seal.coin.rotation.y = (1 - easeOut(st)) * Math.PI * 3;
+      const bt = range(p, 0.935, 0.99);
+      seal.burst.scale.setScalar(1 + easeOut(bt) * 0.9);
+      seal.burstMat.opacity = Math.sin(Math.PI * bt) * 0.85;
+      seal.burst.visible = bt > 0 && bt < 1;
+    }
 
     // DOM panels slide and fade in, contents stagger; the 3D view shifts away from them
     const wins = [[0.1, 0.3], [0.32, 0.52], [0.54, 0.74], [0.76, 0.97]];
@@ -527,13 +703,16 @@ export async function mountJourney(section) {
     if (hint) setStyle(hint, 'opacity', (1 - smooth(range(p, 0.02, 0.08))).toFixed(2));
 
     const wp = (x, y, z) => bld.group.localToWorld(V(x, y, z));
-    setTag('grid', wp(-0.2, bld.storeys[4].position.y + 0.09, 0.17), p > 0.43 && p < 0.52 && !mobile);
-    setTag('riser', wp(0.28, 0.6, 0.14), p > 0.44 && p < 0.52 && !mobile);
-    setTag('detect', wp(0.12, bld.storeys[6].position.y + 0.1, -0.06), p > 0.58 && p < 0.72);
-    setTag('spray', wp(-0.15, bld.storeys[3].position.y + 0.05, -0.06), p > 0.6 && p < 0.72 && !mobile);
+    const R2 = bld.riserAt(2), R5 = bld.riserAt(5);
+    setTag('riser', wp(R2.wx, bld.storeys[2].position.y + 0.06, R2.wz), p > 0.41 && p < 0.47 && !mobile);
+    setTag('grid', wp(-0.065, bld.storeys[4].position.y + 0.094, 0.113), p > 0.44 && p < 0.5 && !mobile);
+    setTag('wire', wp(R5.ax, bld.storeys[5].position.y + 0.06, R5.az), p > 0.47 && p < 0.53 && !mobile);
+    setTag('detect', wp(0.06, bld.storeys[6].position.y + 0.1, -0.058), p > 0.58 && p < 0.72);
+    setTag('spray', wp(0.06, bld.storeys[3].position.y + 0.06, 0.113), p > 0.6 && p < 0.72 && !mobile);
     const a0 = bld.sats[0].userData.a + t * 0.35;
-    setTag('q', wp(Math.cos(a0) * 0.46, bld.orbit.position.y, Math.sin(a0) * 0.46), p > 0.83 && p < 0.96);
-    setTag('beacon', wp(0.12, topY + 0.06, 0.08), p > 0.85 && p < 0.96 && !mobile);
+    setTag('q', wp(Math.cos(a0) * 0.46, bld.orbit.position.y, Math.sin(a0) * 0.46), p > 0.82 && p < 0.9);
+    setTag('beacon', wp(0.12, topY + 0.06, 0.08), p > 0.84 && p < 0.9 && !mobile);
+    if (st > 0) { tmp2.copy(seal.group.position); tmp2.y += seal.R + 0.05; setTag('cert', tmp2, p > 0.945); } else setTag('cert', seal.group.position, false);
   }
 
   function readScroll() {
@@ -583,7 +762,12 @@ export async function mountJourney(section) {
   // states are only created on a real draw, and objects outside the opening view were never drawn, so the
   // first scroll used to hitch on every new floor. Culling is off while warming, and the draws are split
   // into small batches with pauses between them so the page stays responsive.
-  const allFades = (k) => { bld.fades.forEach((f) => f(k)); bld.gridFades.forEach((f) => f(k)); bld.detFades.forEach((f) => f(k)); roofFade(k); riserFade(k); orbitFade(k); bld.drops.visible = k > 0; bld.dropMat.opacity = k; };
+  const allFades = (k) => {
+    bld.fades.forEach((f) => f(k)); roofFade(k); orbitFade(k);
+    [...bld.wet, ...bld.alarm].forEach((u) => { u.uGrow.value = k; u.uPulseAmt.value = k; });
+    bld.drops.visible = k > 0; bld.dropMat.opacity = k;
+    seal.group.visible = seal.burst.visible = k > 0; seal.burstMat.opacity = k; seal.group.position.copy(bld.group.position);
+  };
   const pause = () => new Promise((res) => setTimeout(res, 0));
   const leaves = []; scene.traverse((o) => { if (o.isMesh || o.isLine || o.isLineSegments || o.isPoints) leaves.push(o); });
   const ownVis = leaves.map((o) => o.visible), ownCull = leaves.map((o) => o.frustumCulled);
