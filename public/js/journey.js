@@ -104,6 +104,19 @@ function engineer() {
 // timing map (R = when a pixel appears, G = how long it takes). A tiny shader blends bare -> finished per pixel
 // as progress passes each mark's time, so lines still draw themselves along their length and marks still fade
 // in, but scrolling never repaints a canvas or re-uploads a texture.
+// where the approval stamp lands on the sheet (drawing units, 1400 × 960), and the drawing progress at contact
+const STAMP = { x: 1215, y: 470, rot: -0.18, scale: 0.9, k: 0.8 };
+// a rubber stamp that lives on the desk beside the sheet (built upright, pad at y = 0)
+function rubberStamp() {
+  const g = new THREE.Group();
+  const pad = box(0.21, 0.01, 0.085, 'green', 0, 0.005, 0);
+  const base = box(0.225, 0.03, 0.1, 'paper', 0, 0.025, 0);
+  const neck = S(cyl(0.017, 0.022, 0.07, 'ink', 24, 0, 0.075, 0));
+  const knob = blob(0.042, 'green', [0, 0.128, 0], [1, 0.82, 1]);
+  g.add(pad, base, neck, knob);
+  return g;
+}
+
 function drawingTexture() {
   const small = matchMedia('(max-width: 960px)').matches;
   const W = small ? 1400 : 1800, H = small ? 960 : 1234, K = W / 1400;
@@ -192,9 +205,9 @@ function drawingTexture() {
     ctx.font = `400 36px ${HAND}`; style(COLORS.green, 4, 0.62, 0.18); text('2 ways out ✓', ox + 425, oy + ph + 112, 0.62, 0.18);
     const cloud = []; for (let a = 0; a <= Math.PI * 2 + 0.01; a += Math.PI / 24) { const r = 110 + Math.sin(a * 9) * 9; cloud.push([ox + 560 + Math.cos(a) * r * 1.5, oy + 115 + Math.sin(a) * r * 0.7]); }
     grow(cloud, COLORS.green, 4, 0.62, 0.8);
-    // approval stamp
-    ctx.save(); ctx.translate(1180, 220); ctx.rotate(-0.18);
-    if (time) { style(COLORS.green, 0, 0.82, 0.14); ctx.fillRect(-160, -70, 320, 140); }
+    // approval stamp: in the free strip right of the plan, printed the instant the rubber stamp touches the sheet
+    ctx.save(); ctx.translate(STAMP.x, STAMP.y); ctx.rotate(STAMP.rot); ctx.scale(STAMP.scale, STAMP.scale);
+    if (time) { style(COLORS.green, 0, STAMP.k, 0.012); ctx.fillRect(-160, -70, 320, 140); }
     else {
       ctx.strokeStyle = COLORS.green; ctx.fillStyle = COLORS.green; ctx.lineWidth = 7; ctx.strokeRect(-150, -60, 300, 120); ctx.lineWidth = 3; ctx.strokeRect(-138, -48, 276, 96);
       ctx.font = `700 40px ${SANS}`; ctx.textAlign = 'center'; ctx.fillText('APPROVED', 0, 8); ctx.font = `500 18px ${MONO}`; ctx.fillText('CIVIL DEFENCE · 2026', 0, 36);
@@ -247,7 +260,8 @@ function growing(m, pulseColor = '#ffffff') {
     Object.assign(sh.uniforms, u);
     sh.vertexShader = 'attribute float aT;\nvarying float vT;\n' + sh.vertexShader.replace('#include <begin_vertex>', '#include <begin_vertex>\n  vT = aT;');
     sh.fragmentShader = 'uniform float uGrow, uPulse, uPulseAmt;\nuniform vec3 uPulseColor;\nvarying float vT;\n' + sh.fragmentShader
-      .replace('void main() {', 'void main() {\n  if (vT > uGrow) discard;')
+      // nothing shows before the run starts (pieces placed at time 0, like the control panel, included)
+      .replace('void main() {', 'void main() {\n  if (uGrow <= 0.0 || vT > uGrow) discard;')
       .replace('#include <dithering_fragment>', 'float band = uPulseAmt * (1.0 - smoothstep(0.0, 0.07, abs(fract(vT - uPulse + 0.5) - 0.5)));\n  gl_FragColor.rgb = mix(gl_FragColor.rgb, uPulseColor, band);\n#include <dithering_fragment>');
   };
   m.customProgramCacheKey = () => 'grow-' + m.type;
@@ -510,7 +524,15 @@ function room(drawing) {
   [[0, 0.75, 0, 0.3], [0.12, 1.05, 0.05, 0.24], [-0.1, 1.25, -0.04, 0.2], [0.05, 1.45, 0.06, 0.16], [-0.14, 0.95, 0.08, 0.17]].forEach(([x, y, z, s]) => plant.add(blob(s, 'mid', [x, y, z], [1, 0.9, 1], 0.007)));
   plant.add(tube([[0, 0.42, 0], [0.03, 0.9, 0], [0.02, 1.4, 0]], 0.02, 'ink'));
   plant.position.set(3.4, 0, -1.9); r.add(plant);
-  return { group: r, desk: { x: -0.7, y: top, z: -1.84 } };
+  // the rubber stamp rides on the sheet's own frame (x across the drawing, y up the drawing, z off the paper)
+  // so it lands exactly on the printed mark; it rests on the desk just right of the sheet
+  const stampSlot = new THREE.Group(); stampSlot.userData.keep = true;
+  const stampTool = rubberStamp(); stampTool.rotation.x = Math.PI / 2; stampSlot.add(stampTool);
+  sheet.add(stampSlot);
+  r.updateMatrixWorld(true);
+  const stampRest = sheet.worldToLocal(V(-0.02, top, -1.93));
+  const stampAt = V((STAMP.x / 1400 - 0.5) * 1.12, (0.5 - STAMP.y / 960) * 0.77, 0);
+  return { group: r, desk: { x: -0.7, y: top, z: -1.84 }, stamp: { slot: stampSlot, tool: stampTool, rest: stampRest, at: stampAt, restYaw: 0.55, yaw: -STAMP.rot } };
 }
 
 // ---------------------------------------------------------------- camera path
@@ -592,7 +614,7 @@ export async function mountJourney(section) {
   new ResizeObserver(resize).observe(frameEl);
 
   let target = 0, p = 0, visible = true, t0 = performance.now(), last = t0;
-  const tmp = new THREE.Vector3(), tmp2 = new THREE.Vector3();
+  const tmp = new THREE.Vector3(), tmp2 = new THREE.Vector3(), camRight = new THREE.Vector3();
   const m4 = new THREE.Matrix4(), q = new THREE.Quaternion(), sc = new THREE.Vector3(), pos = new THREE.Vector3();
   const styleCache = new WeakMap();
   const setStyle = (el, prop, val) => { let c = styleCache.get(el); if (!c) styleCache.set(el, (c = {})); if (c[prop] !== val) { c[prop] = val; el.style[prop] = val; } };
@@ -611,11 +633,40 @@ export async function mountJourney(section) {
   function apply(p, t) {
     const c = camAt(p);
     cam.position.copy(c.pos); cam.fov = c.fov + (cam.aspect < 1 ? 14 : 0);
-    if (cam.aspect < 1) cam.position.lerp(c.look, -0.25);
+    if (cam.aspect < 1) {
+      // portrait: the exploded tower is taller than the space above the panel, so aim higher and step back
+      const exP = ease(range(p, 0.52, 0.6)) * (1 - ease(range(p, 0.72, 0.8)));
+      c.look.y += 0.32 * exP;
+      cam.position.lerp(c.look, -0.25 - 0.18 * exP);
+    }
     cam.lookAt(c.look);
+    // portrait screens show less of the sheet's width: glide sideways while the notes and the approval stamp
+    // happen at its right-hand side, then glide back as the building rises
+    if (cam.aspect < 1) {
+      const k = smooth(range(p, 0.19, 0.23)) * (1 - smooth(range(p, 0.29, 0.33)));
+      if (k > 0) cam.position.addScaledVector(camRight.set(1, 0, 0).applyQuaternion(cam.quaternion), 0.2 * k);
+    }
 
     drawing.update(range(p, 0.08, 0.3));
     eng.userData.tick(t);
+
+    // the rubber stamp: lifts off the desk, glides over, presses APPROVED onto the sheet (the mark prints at
+    // contact, p = 0.256, which is drawing progress STAMP.k), then goes back to its spot
+    {
+      const sp = rm.stamp, HOVER = 0.1, mix = (a, b, k) => a + (b - a) * k;
+      const lift = smooth(range(p, 0.222, 0.23)), go = ease(range(p, 0.23, 0.246)), down = range(p, 0.246, 0.256);
+      const press = range(p, 0.256, 0.264), up = smooth(range(p, 0.264, 0.272)), home = ease(range(p, 0.272, 0.286)), land = smooth(range(p, 0.286, 0.294));
+      const out = p < 0.264, over = out ? go : 1 - home;
+      let z;
+      if (p < 0.246) z = mix(sp.rest.z, HOVER, lift);
+      else if (p < 0.256) z = HOVER * (1 - down * down);
+      else if (p < 0.264) z = 0;
+      else if (p < 0.286) z = HOVER * up;
+      else z = mix(HOVER, sp.rest.z, land);
+      sp.slot.position.set(mix(sp.rest.x, sp.at.x, over), mix(sp.rest.y, sp.at.y, over), z);
+      sp.slot.rotation.set(0, (out ? -1 : 1) * 0.2 * Math.sin(Math.PI * (out ? go : home)), mix(sp.restYaw, sp.yaw, over));
+      sp.tool.scale.set(1, 1 - 0.08 * Math.sin(Math.PI * press), 1);
+    }
 
     // building rises storey by storey, each fading and settling into place
     const g = range(p, 0.27, 0.46);
@@ -742,7 +793,7 @@ export async function mountJourney(section) {
       if (moving || frameN % 2 === 0) {
         apply(p, (now - t0) / 1000);
         // shadows are redrawn when the scene changes, and a few times a second for idle motion
-        const inBuild = (x) => x > 0.25 && x < 0.82;
+        const inBuild = (x) => x > 0.215 && x < 0.82; // the stamp's move, the building and its testing
         if (Math.abs(p - shadowP) > 0.0008 && (inBuild(p) || inBuild(shadowP))) { r.shadowMap.needsUpdate = true; shadowP = p; }
         r.render(scene, cam);
       }

@@ -796,7 +796,7 @@ img[data-model].rendered { opacity: 1; }
 @media (max-width: 960px) {
   .nav__links, .nav__search { display: none; }
   .nav__burger { display: inline-grid; }
-  .nav { left: 10px; right: 10px; top: 10px; transform: none; justify-content: flex-start; padding: 5px; gap: 6px; }
+  .nav { left: 10px; right: 10px; top: 10px; transform: none; justify-content: flex-start; padding: 5px; gap: 6px; max-width: none; }
   .nav__brand { border-right: 0; margin-right: auto; padding-right: 4px; }
   .nav__quote { padding: 9px 12px 9px 10px; }
   .mega { display: none; }
@@ -918,3 +918,8 @@ img[data-model].rendered { opacity: 1; }
 .journey__tag--red::after { background: #E0453A; }
 .journey__tag--green { background: var(--green); }
 .journey__tag--green::after { background: var(--green); }
+
+/* phones: when "Prefer chatting?" and its button can't share a line, the button takes the full width */
+@media (max-width: 520px) {
+  .modal__alt .btn { flex: 1 1 100%; justify-content: center; }
+}
