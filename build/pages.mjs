@@ -319,7 +319,7 @@ ${kids.length ? `<section class="section section--tight section--paper2"><div cl
   <nav class="toc" aria-label="On this page">
     <span class="mono">On this page</span>
     ${toc.map((t) => `<a href="#${t.id}">${esc(t.text)}</a>`).join('')}
-    <div class="toc__cta"><p>Need a site assessment for ${esc((LABEL[slug] || hero.title).toLowerCase())}?</p>${btn('Get a quote', { quote: slug })}${waBtn('Ask on WhatsApp', { cls: 'btn--sm', text: 'Hello Firestone, I have a question about ' + (LABEL[slug] || hero.title) })}</div>
+    <div class="toc__cta"><p>Need a site assessment for ${esc((LABEL[slug] || hero.title).toLowerCase())}?</p>${btn('Get a quote', { quote: slug })}${waBtn('Ask on WhatsApp', { text: 'Hello Firestone, I have a question about ' + (LABEL[slug] || hero.title) })}</div>
   </nav>
   <div class="doc__body">${html}</div>
 </div></section>
@@ -543,7 +543,7 @@ export function post({ page, p, posts }) {
 </div></section>
 <section><div class="wrap">${p.cover ? `<div class="post-cover"><img src="${esc(p.cover)}" alt=""></div>` : p.model ? `<div class="vignette vignette--wide" data-vignette="${p.model}" aria-hidden="true"><span class="vignette__scale">FIG. 1</span></div>` : `<div class="post-cover post-cover--type">${postArt(p)}</div>`}</div></section>
 <section class="section" style="padding-top:clamp(48px,6vw,88px)"><div class="wrap doc">
-  <nav class="toc" aria-label="In this article"><span class="mono">In this article</span>${toc.map((t) => `<a href="#${t.id}">${esc(t.text)}</a>`).join('')}<div class="toc__cta"><p>Talk to an engineer about your building.</p>${btn('Get a quote', { quote: '' })}${waBtn('Ask on WhatsApp', { cls: 'btn--sm' })}</div></nav>
+  <nav class="toc" aria-label="In this article"><span class="mono">In this article</span>${toc.map((t) => `<a href="#${t.id}">${esc(t.text)}</a>`).join('')}<div class="toc__cta"><p>Talk to an engineer about your building.</p>${btn('Get a quote', { quote: '' })}${waBtn('Ask on WhatsApp')}</div></nav>
   <article class="doc__body article">${html}</article>
 </div></section>
 <section class="section section--tight section--paper2"><div class="wrap">

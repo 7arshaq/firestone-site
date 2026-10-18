@@ -147,7 +147,7 @@ body.on-dark .corner { opacity: 0; pointer-events: none; }
   transition: background .25s, color .25s, border-color .25s, box-shadow .4s var(--ease), translate .35s var(--ease);
 }
 .btn > * { position: relative; z-index: 1; }
-.btn svg { width: 17px; height: 17px; flex: none; }
+.btn svg { width: 16px; height: 16px; flex: none; } /* same size as the green square, so every button is the same height */
 .btn:active { translate: 0 1px; }
 .btn { --sqc: var(--green); }
 .btn .sq { width: 16px; height: 16px; background: var(--sqc); border-radius: 4px; flex: none; position: relative; }
@@ -466,9 +466,10 @@ body.on-dark .corner { opacity: 0; pointer-events: none; }
 .doc { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: clamp(32px, 6vw, 96px); align-items: start; }
 .toc { position: sticky; top: 96px; display: flex; flex-direction: column; gap: 2px; max-height: calc(100vh - 120px); overflow: auto; padding-right: 8px; }
 .toc .mono { color: var(--mute); margin-bottom: 10px; }
-.toc a { display: block; padding: 7px 0 7px 14px; font-size: 13.5px; line-height: 1.35; text-decoration: none; color: var(--mute); border-left: 1.5px solid var(--line); transition: color .2s, border-color .2s; }
-.toc a:hover { color: var(--ink); }
-.toc a.active { color: var(--ink); border-color: var(--green); }
+/* contents links only (direct children): buttons in the card below keep their own look */
+.toc > a { display: block; padding: 7px 0 7px 14px; font-size: 13.5px; line-height: 1.35; text-decoration: none; color: var(--mute); border-left: 1.5px solid var(--line); transition: color .2s, border-color .2s; }
+.toc > a:hover { color: var(--ink); }
+.toc > a.active { color: var(--ink); border-color: var(--green); }
 .toc__cta { margin-top: 22px; padding: 16px; border: 1px solid var(--line-2); border-radius: var(--r); background: var(--paper); display: grid; gap: 10px; }
 .toc__cta p { margin: 0; font-size: 13.5px; color: var(--ink-2); }
 .doc__body { min-width: 0; }
@@ -891,8 +892,8 @@ img[data-model].rendered { opacity: 1; }
 }
 
 /* ---- v4: button groups always align and never touch ---- */
-.btn { vertical-align: middle; line-height: 1.2; }
-.btn__label { display: inline-block; line-height: 1.2; }
+.btn { vertical-align: middle; line-height: 16px; } /* text line = icon height: buttons with and without an icon match */
+.btn__label { display: inline-block; line-height: 16px; }
 .modal__tools { display: flex; align-items: center; gap: 14px; }
 .modal__alt { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; margin: 0; color: var(--ink-2); font-size: 14.5px; }
 .done-card__acts { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 6px; }
@@ -931,3 +932,6 @@ img[data-model].rendered { opacity: 1; }
 @media (max-width: 520px) {
   .modal__alt .btn { flex: 1 1 100%; justify-content: center; }
 }
+
+/* full-width buttons centre their content exactly (the inline ones keep the optical left inset) */
+.toc__cta .btn, .sheet__foot .btn, .sheet__pair .btn { padding-left: 15px; padding-right: 15px; }
